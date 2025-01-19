@@ -404,12 +404,12 @@ extra_javascript:
 # Validation at build time
 # Validation is set to maximum strictness (recommended for most sites)
 #
-## validation:
-##   absolute_links: warn
-##   ## absolute_links: relative_to_docs
-##   anchors: warn
-##   omitted_files: warn
-##   unrecognized_links: warn
+validation:
+  # absolute_links: warn
+  absolute_links: relative_to_docs
+  anchors: warn
+  omitted_files: warn
+  unrecognized_links: warn
 
 #
 # Documentation layout
