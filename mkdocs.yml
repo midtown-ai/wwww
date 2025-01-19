@@ -20,7 +20,7 @@ remote_name: origin
 ## edit_uri: https://github.com/midtown-ai/www/edit/main/docs/
 
 # Footer
-## copyright: Copyright &copy; 2024 - 2025 <a href="https://www.midtown.ai/" rel="noopener" target="_blank">Midtown AI, Inc.</a>
+copyright: Copyright &copy; 2024 - 2025 <a href="https://www.midtown.ai/" rel="noopener" target="_blank">Midtown AI, Inc.</a>
 
 #
 # Directories
@@ -254,9 +254,9 @@ plugins:
   #
   # Built-in plugins
   #
-  ## - blog:                     # enable blog on website, posts are in 
-  ##    enabled: !ENV [BLOG_PLUGIN_ENABLED, true]
-  ##    blog_dir: blog          # - where the content of the blog is located
+  - blog:                     # enable blog on website, posts are in 
+     enabled: !ENV [BLOG_PLUGIN_ENABLED, true]
+     blog_dir: blog          # - where the content of the blog is located
   # - group                   # enable/disable plugins in groups
   # - info                    # used to report bugs using zip files
   # - meta                    # set frontmatter for files in a directory /!\ 
@@ -296,8 +296,8 @@ plugins:
   # @ https://github.com/fralau/mkdocs-mermaid2-plugin
   # pip install mkdocs-mermaid2-plugin
   # /!\ With material theme, use pymdownx.superfences
-  ## - mermaid2:
-  ##     enabled: !ENV [MERMAID2_PLUGIN_ENABLED, true]
+  - mermaid2:
+      enabled: !ENV [MERMAID2_PLUGIN_ENABLED, true]
   # Support for embedded PDFs
   # @ https://github.com/ThomasTNO/mkdocs-pdf
   # pip install mkdocs-pdf
