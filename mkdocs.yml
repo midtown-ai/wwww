@@ -17,7 +17,7 @@ remote_name: origin
 # repo_name: midtown-ai/www   # banner link to documentation source
 # repo_url: "https://github.com/midtown-ai/www" # complete url for documentation source
 # edit_uri: edit/main/docs/   # used for page view/edit /!\ prepended with repo_url if provided
-## edit_uri: https://github.com/midtown-ai/www/edit/main/docs/
+edit_uri: https://github.com/midtown-ai/wwww/edit/main/docs/
 
 # Footer
 copyright: Copyright &copy; 2024 - 2025 <a href="https://www.midtown.ai/" rel="noopener" target="_blank">Midtown AI, Inc.</a>
@@ -33,18 +33,20 @@ site_dir: site                # directory where the output HTML and other files 
 
 #
 # Hooks
-# or local plugins!
+#
+# are plugins equivalent in source code!
 # /!\ If priorities are not explicitly set, their order is important!
 #
-## hooks:
+hooks:
   # - hooks/create_zip_archive.py
-  ## - hooks/embed_pdf_file.py
+  - hooks/embed_pdf_file.py
   ## - hooks/embed_youtube_video.py
   # - hooks/mkdocs_advanced_example.py       # log when URL are using non-HTTPS links
   # - hooks/mkdocs_simple_example.py
   # - hooks/share_on_social_media.py
   # - hooks/shortcode.py
   # - hooks/translations.py
+
 
 theme:
   language: en                # default language is english
@@ -62,8 +64,8 @@ theme:
   #
   features:
     - announce.dismiss        # show cross-button to dismiss announcement
-  # - content.action.edit     # add button to edit source page on github /!\ requires edit_uri
-  # - content.action.view     # add button to view source of page on github /!\ requires edit_uri
+    # - content.action.edit     # add button to edit source page on github /!\ requires edit_uri
+    - content.action.view     # add button to view source of page on github /!\ requires edit_uri
     - content.code.annotate   # offer a way to attach arbitrary content to specific sections of code blocks
     - content.code.copy       # code blocks have a button to allow user to copy code to clipboard
     - content.code.select     # code blocks have a button to allow for the selection of line ranges by user
@@ -96,9 +98,9 @@ theme:
   #
   # Fonts
   #
-  # font:
-  #   text: Roboto
-  #   code: Roboto Mono
+  font:
+    text: Roboto
+    code: Roboto Mono
   #
   # Icon
   #
@@ -333,15 +335,6 @@ plugins:
       ##  as_update: date.updated    # - ... as update date
 
 #
-# Hooks
-#
-# are plugins equivalent in source code
-#
-# hooks:
-#   - material/overrides/hooks/shortcodes.py
-#   - material/overrides/hooks/translations.py
-
-#
 # Extra Object
 #
 # is a python dictionary passed to to the templates
@@ -463,7 +456,7 @@ nav:
     - Images: tests/images.md
     - Tables: tests/tables.md
     - Widgets: tests/widgets.md
-    - PDF Hook: tests/pdf_hook.md
+    - PDF Docs: tests/pdf_docs.md
     - YouTube Hook: tests/youtube_hook.md
 
 #
