@@ -1,3 +1,6 @@
+SITE_NAME?= www2.midtown.ai
+
+
 # MKDOCS_ENVIRONMENT+= BLOG_PLUGIN_ENABLED=False
 MKDOCS_ENVIRONMENT+= MERMAID2_PLUGIN_ENABLED=False
 MKDOCS_ENVIRONMENT+= MINIFY_PLUGIN_ENABLED=False
@@ -45,5 +48,4 @@ install_deps:
 	pip install -r requirements.txt
 
 dig_site:
-	dig +short www2.midtown.ai.
-
+	dig $(SITE_NAME) +nostats +nocomments +nocmd
