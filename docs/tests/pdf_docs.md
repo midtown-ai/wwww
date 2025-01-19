@@ -5,7 +5,7 @@
 
  {% pdf "https://arxiv.org/pdf/2411.14251v1" %}
 
-### Object
+### HTML Object
 
 <object data="https://arxiv.org/pdf/2411.14251v1" type="application/pdf" width="100%" height="600px">
     <p>Your browser does not support PDFs. Please download the PDF: 
