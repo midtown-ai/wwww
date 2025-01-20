@@ -1,18 +1,24 @@
-SITE_NAME?= www2.midtown.ai
+SITE_NAME?= wwww.midtown.ai
 
-
+#
+# Individual plugins are enabled by default
+# To enable one, just comment out the environment variable
+#
 # MKDOCS_ENVIRONMENT+= BLOG_PLUGIN_ENABLED=False
-MKDOCS_ENVIRONMENT+= MERMAID2_PLUGIN_ENABLED=False
-MKDOCS_ENVIRONMENT+= MINIFY_PLUGIN_ENABLED=False
+MKDOCS_ENVIRONMENT+= MERMAID2_PLUGIN_ENABLED=False# Always enabled?
+# MKDOCS_ENVIRONMENT+= MINIFY_PLUGIN_ENABLED=False
 MKDOCS_ENVIRONMENT+= RSS_PLUGIN_ENABLED=False
 MKDOCS_ENVIRONMENT+= PDF_HOOK_DEBUG=False
 MKDOCS_ENVIRONMENT+= PDF_HOOK_ENABLED=False
 MKDOCS_ENVIRONMENT+= YOUTUBE_HOOK_DEBUG=False
 MKDOCS_ENVIRONMENT+= YOUTUBE_HOOK_ENABLED=False
+
 MKDOCS_ENVIRONMENT+= PYTHONPATH=.
 MKDOCS_BIN?= mkdocs
 MKDOCS?= $(MKDOCS_ENVIRONMENT) $(MKDOCS_BIN) $(__MKDOCS_OPTIONS)
 
+# Dirty reload accelerate development by processing only the currently browsed page
+# <!> This prevents the blog pages to update to show newly created blog posts!
 __DIRTYRELOAD?= --dirtyreload
 
 # Run the builtin development server.

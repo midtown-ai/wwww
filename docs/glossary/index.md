@@ -4,7 +4,7 @@ hide:
 # previous_page: a.md
 # next_page: b.md
 ---
-# Welcome to Glossary
+# AI Glossary
 
 <div class="grid cards" markdown>
 -   :fontawesome-solid-graduation-cap: __Architecture__

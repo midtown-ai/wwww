@@ -887,6 +887,7 @@ Desired Output --> |     Training     | --> Model
  {% pdf "https://arxiv.org/pdf/2302.07730.pdf" %}
 
  More at:
+
   * paper - 
     * transformer catalog - [https://arxiv.org/abs/2302.07730](https://arxiv.org/abs/2302.07730)
   * code explanation - [https://nlp.seas.harvard.edu/annotated-transformer/](https://nlp.seas.harvard.edu/annotated-transformer/)

@@ -31,23 +31,12 @@ watch:                        # other directories to watch
   - overrides
 site_dir: site                # directory where the output HTML and other files are created
 
-#
-# Hooks
-#
-# are plugins equivalent in source code!
-# /!\ If priorities are not explicitly set, their order is important!
-#
-hooks:
-  # - hooks/create_zip_archive.py
-  - hooks/embed_pdf_file.py
-  - hooks/embed_youtube_video.py
-  # - hooks/mkdocs_advanced_example.py       # log when URL are using non-HTTPS links
-  # - hooks/mkdocs_simple_example.py
-  # - hooks/share_on_social_media.py
-  # - hooks/shortcode.py
-  # - hooks/translations.py
 
-
+# ---
+# Theme
+#
+# Look and feel of the site
+#
 theme:
   language: en                # default language is english
   name: material              # pip install mkdocs-material
@@ -178,7 +167,7 @@ theme:
         name: Switch to light mode
 
 
-#
+# ---
 # Markdown Extensions
 #
 # are extensions to the standard Markdown syntax
@@ -246,7 +235,86 @@ markdown_extensions:
       # title: On this page     # - title of the table-of-contents
       # toc_depth: 3          # hide level 4-6+ from table-of-contents
 
+
+# ---
+# Documentation layout
 #
+# Everything in the navigation is built by default
+#
+nav:
+  - Home: index.md
+  - Blog:
+    - blog/index.md
+  # - Projects:
+  #   - projects/index.md
+  #   - DeepRacer: projects/deepracer/index.md
+  #   - Pytorch: projects/pytorch/index.md
+  - Glossary:
+    - glossary/index.md
+    - 0-9: glossary/0-9.md
+    - A: glossary/a.md
+    - B: glossary/b.md
+    - C: glossary/c.md
+    - D: glossary/d.md
+    - E: glossary/e.md
+    - F: glossary/f.md
+    - G: glossary/g.md
+    - H: glossary/h.md
+    - I: glossary/i.md
+    - J: glossary/j.md
+    - K: glossary/k.md
+    - L: glossary/l.md
+    - M: glossary/m.md
+    - N: glossary/n.md
+    - O: glossary/o.md
+    - P: glossary/p.md
+    - Q: glossary/q.md
+    - R: glossary/r.md
+    - S: glossary/s.md
+    - T: glossary/t.md
+    - U: glossary/u.md
+    - V: glossary/v.md
+    - W: glossary/w.md
+    - X: glossary/x.md
+    - Y: glossary/y.md
+    - Z: glossary/z.md
+  - About: about.md
+  - Tests:
+    - tests/index.md
+    - Basics: tests/basics.md
+    - Blocks: tests/blocks.md
+    - CSS: tests/css.md
+    - Custom Fences: tests/custom_fences.md
+    - Images: tests/images.md
+    - Tables: tests/tables.md
+    - Widgets: tests/widgets.md
+    - PDF Docs: tests/pdf_docs.md
+    - YouTube Videos: tests/youtube_videos.md
+
+#
+# What is NOT in the navigation that should NOT be built?
+#
+# not_in_nav:
+
+
+# ---
+# Hooks
+#
+# are plugins equivalent in source code!
+# /!\ If priorities are not explicitly set, their order is important!
+#
+hooks:
+  # - hooks/create_zip_archive.py
+  - hooks/embed_pdf_file.py
+  - hooks/embed_youtube_video.py
+  # - hooks/mkdocs_advanced_example.py       # log when URL are using non-HTTPS links
+  # - hooks/mkdocs_simple_example.py
+  # - hooks/share_on_social_media.py
+  # - hooks/shortcode.py
+  # - hooks/translations.py
+
+
+# ---
 # Plugins
 #
 # are builtin python scripts or distributed in module
@@ -257,8 +325,67 @@ plugins:
   # Built-in plugins
   #
   - blog:                     # enable blog on website, posts are in 
-     enabled: !ENV [BLOG_PLUGIN_ENABLED, true]
-     blog_dir: blog          # - where the content of the blog is located
+      enabled: !ENV [BLOG_PLUGIN_ENABLED, true]
+      archive: true           # - enable archive pages
+      archive_date_format: yyyy # - date format for archive page titles 
+      archive_name: Archive   # - title of archive section in blog navigation
+      # archive_pagination: true # - (SO) enable pagination on archive pages
+      # archive_pagination_per_page: 12 # - (SO) number of posts per archive page
+      archive_toc: true       # - table of contents display post titles on archive pages
+      archive_url_date_format: yyyy # - date for archive URLs
+      archive_url_format: "archive/{date}" # - archive page URL for all posts with {date}
+      authors: true           # - enable post authors
+      authors_file: "{blog}/.authors.yml" # - file where author information is stored
+      categories: true        # - enable category pages
+      categories_allowed:     # - check post categories against a predefined list
+        - Algorithms
+        - Architectures
+        - Cloud
+        - Companies
+        - Entertainment
+        - Frameworks
+        - Hardware
+        - No Code
+        - People
+        - Platforms
+        - Products
+        - Robots
+        - Software
+      categories_name: Categories # - category section added to navigation
+      # categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
+      #   kwds:
+      #     case: lower
+      # categories_slugify_separator: - # - separator for the category slugification!
+      categories_toc: false   # - table of contents displays post titles on category pages
+      categories_url_format: "category/{slug}" # - URL format used to generate category pages
+      blog_dir: blog          # - where the content of the blog is located
+      blog_toc: true          # - display post titles in views
+      draft: false            # - don't render draft when site is built
+      draft_if_future_date: false # - posts with future dates are NOT considered as draft
+      draft_on_serve: true    # - show drafts when 'mkdocs serve' is run
+      pagination: true        # - enable pagination in blog home page
+      pagination_format: "~2~" # - navigation widget format for pagination
+      pagination_if_single_page: true # - disable pagination if only a few posts
+      pagination_keep_content: false # - ???
+      pagination_per_page: 5  # - number of post in rendered page
+      pagination_url_format: "page/{page}" # - URL format for paginated views
+      post_date_format: long  # - date format is "January 31, 2024"
+      post_dir: "{blog}/posts" # - where files of blog posts should be saved
+      post_excerpt: required  # - posts without excerpt separators raise an error
+      post_excerpt_max_authors: 2 # - number of authors rendered in post excerpts
+      post_excerpt_max_categories: 2 # - number of categories displayed in post excerpts
+      post_excerpt_separator: <!-- end-of-excerpt --> # - content before this separator is part of the excerpt
+      post_readtime: true     # - automatically compute the reading time of a post
+      post_readtime_words_per_minute: 300 # - parameter used to compute readtime
+      post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      # post_slugify_separator: - # - a slug is formatted as 'this-is-my-title'
+      post_url_date_format: yyyy/MM/dd # - date in URLs ~ 2024/01/31
+      # post_url_format: "{date}/{slug}" # - blog/2024/01/31/<slug>
+      post_url_format: "{slug}" # - blog/<slug>
+      # post_url_format: "{categories}/{slug}" # - blog/<cat-1>/<cat-2>/<slug>
+      post_url_max_categories: 2 # - number of categories in post URLs
   # - group                   # enable/disable plugins in groups
   # - info                    # used to report bugs using zip files
   # - meta                    # set frontmatter for files in a directory /!\ 
@@ -300,25 +427,24 @@ plugins:
   # /!\ With material theme, use pymdownx.superfences
   - mermaid2:
       enabled: !ENV [MERMAID2_PLUGIN_ENABLED, true]
-  # Support for embedded PDFs
+  # Support for embedded PDFs (replaced by PDF hook)
   # @ https://github.com/ThomasTNO/mkdocs-pdf
   # pip install mkdocs-pdf
-  ##- mkdocs-pdf
-
-  # Support for embedded videos
+  # - mkdocs-pdf
+  # Support for embedded videos (replaced by youtube hook)
   # @ https://github.com/soulless-viewer/mkdocs-video
   # pip install mkdocs-video
-  ##- mkdocs-video:
-  ##    is_video: False           # Use <video/> instead of <iframe/>
+  # - mkdocs-video:
+  #     is_video: False           # Use <video/> instead of <iframe/>
 
   # Compress downloaded files to minimize latency
   # @ https://github.com/byrnereese/mkdocs-minify-plugin
   # pip install mkdocs-minify-plugin
   - minify:
       enabled: !ENV [MINIFY_PLUGIN_ENABLED, true]
-      # minify_css: false       # Minify content of CSS files
+      minify_css: true          # Minify content of CSS files
       minify_html: true         # Minify content of generated HTML files
-      # minify_js: false        # Minify content of JS files
+      minify_js: false          # Minify content of JS files
 
   # Add an RSS feed to allow users to subscribe to the blog and get notified on new posts
   # @ https://guts.github.io/mkdocs-rss-plugin/#quickstart
@@ -403,63 +529,3 @@ validation:
   anchors: warn
   omitted_files: warn
   unrecognized_links: warn
-
-#
-# Documentation layout
-#
-# Everything in the navigation is built by default
-#
-nav:
-  - Home: index.md
-  - Blog:
-    - blog/index.md
-  # - Projects:
-  #   - projects/index.md
-  #   - DeepRacer: projects/deepracer/index.md
-  #   - Pytorch: projects/pytorch/index.md
-  - Glossary:
-    - glossary/index.md
-    - 0-9: glossary/0-9.md
-    - A: glossary/a.md
-    - B: glossary/b.md
-    - C: glossary/c.md
-    - D: glossary/d.md
-    - E: glossary/e.md
-    - F: glossary/f.md
-    - G: glossary/g.md
-    - H: glossary/h.md
-    - I: glossary/i.md
-    - J: glossary/j.md
-    - K: glossary/k.md
-    - L: glossary/l.md
-    - M: glossary/m.md
-    - N: glossary/n.md
-    - O: glossary/o.md
-    - P: glossary/p.md
-    - Q: glossary/q.md
-    - R: glossary/r.md
-    - S: glossary/s.md
-    - T: glossary/t.md
-    - U: glossary/u.md
-    - V: glossary/v.md
-    - W: glossary/w.md
-    - X: glossary/x.md
-    - Y: glossary/y.md
-    - Z: glossary/z.md
-  - About: about.md
-  - Tests:
-    - tests/index.md
-    - Basics: tests/basics.md
-    - Blocks: tests/blocks.md
-    - CSS: tests/css.md
-    - Custom Fences: tests/custom_fences.md
-    - Images: tests/images.md
-    - Tables: tests/tables.md
-    - Widgets: tests/widgets.md
-    - PDF Docs: tests/pdf_docs.md
-    - YouTube Videos: tests/youtube_videos.md
-
-#
-# What is NOT in the navigation that should NOT be built?
-#
-# not_in_nav:
