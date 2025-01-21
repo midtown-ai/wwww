@@ -8,8 +8,6 @@
 [Hanson Robotics]: h.md#hanson-robotics-company
 [Harvard University]: h.md#harvard-university
 [Hebbian Learning]: h.md#hebbian-learning
-[Her Movie]: h.md#her-movie
-[Her]: h.md#her-movie
 [Heuristic]: h.md#heuristic
 [Heuristics]: h.md#heuristic
 [Hidden Layer]: h.md#hidden-layer

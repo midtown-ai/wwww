@@ -741,18 +741,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
   * [https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/](https://www.geeksforgeeks.org/lasso-vs-ridge-vs-elastic-net-ml/)
 
-
-## Bicentennial Man Movie
-
- Bicentennial Man is a 1999 American science fiction comedy-drama film starring Robin Williams, ... the plot explores issues of humanity, slavery, prejudice, maturity, intellectual freedom, conformity, sex, love, mortality, and eternal life. 
-
- {% youtube "https://www.youtube.com/watch?v=vqCMpm-zgaI" %}
-
- {%youtube "https://www.youtube.com/watch?v=VRjoW9g7zKg" %}
-
- More at:
-
-  * [https://en.wikipedia.org/wiki/Bicentennial_Man_(film)](https://en.wikipedia.org/wiki/Bicentennial_Man_(film))
+ See also [B], ...
 
 
 ## Bidirectional Encoder Representation from Transformer (BERT) Model Family

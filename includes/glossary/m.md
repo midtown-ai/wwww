@@ -1,7 +1,5 @@
 [M]: m.md
 
-[M3GAN Movie]: m.md#m3gan-movie
-[M3GAN]: m.md#m3gan-movie
 [Machine Learning (ML)]: m.md#machine-learning-ml
 [ML]: m.md#machine-learning-ml
 [Machine Learning Framework]: m.md#machine-learning-framework
@@ -85,8 +83,6 @@
 [Metaheuristic]: m.md#metaheuristic
 [Metaverse]: m.md#metaverse
 [METEOR Score]: m.md#meteor-score
-[Metropolis Movie]: m.md#metropolis-movie
-[Metropolis]: m.md#metropolis-movie
 [Microsoft Common Object In Context Caption Dataset]: m.md#microsoft-common-object-in-context-caption-dataset
 [Microsoft COCO Caption Dataset]: m.md#microsoft-coco-caption-dataset
 [Microsoft Company]: m.md#microsoft-company
@@ -103,8 +99,6 @@
 [Mini-Batch Gradient Descent]: m.md#mini-batch-gradient-descent-algorithm
 [Minimax Algorithm]: m.md#minimax-algorithm
 [Minimax]: m.md#minimax-algorithm
-[Minority Report Movie]: m.md#minority-report-movie
-[Minority Report]: m.md#minority-report-movie
 [Mira Murati Person]: m.md#mira-murati-person
 [Mira Murati]: m.md#mira-murati-person
 [Mistral AI Company]: m.md#mistral-ai-company

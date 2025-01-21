@@ -75,8 +75,6 @@
 [For Stress-Testing Machine Theory Of Mind (FANToM) Benchmark]: f.md#for-stress-testing-machine-theory-of-mind-fantom-benchmark
 [FANToM Benchmark]: f.md#for-stress-testing-machine-theory-of-mind-fantom-benchmark
 [FANToM]: f.md#for-stress-testing-machine-theory-of-mind-fantom-benchmark
-[Forbidden Planet Movie]: f.md#forbidden-planet-movie
-[Forbidden Planet]: f.md#forbidden-planet-movie
 [Forest Of Stumps]: f.md#forest-of-stumps
 [Formal Reasoning]: f.md#formal-reasoning
 [Foundational Model]: f.md#foundational-model

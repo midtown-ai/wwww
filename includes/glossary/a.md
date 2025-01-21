@@ -85,8 +85,6 @@
 [AI Agents]: a.md#ai-agent
 [AI Alignment]: a.md#ai-alignment
 [AI Alliance]: a.md#ai-alliance
-[AI Artificial Intelligence Movie]: a.md#ai-artificial-intelligence-movie
-[AI Artificial Intelligence]: a.md#ai-artificial-intelligence-movie
 [AI Assitant]: a.md#ai-assistant
 [AI Assitants]: a.md#ai-assistant
 [AI Avatar]: a.md#ai-avatar

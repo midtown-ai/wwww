@@ -927,19 +927,6 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  See also [S], ...
 
 
-## Short Circuit Movie
-
- Short Circuit is a 1986 American science fiction comedy film directed by John Badham and written by S. S. Wilson and Brent Maddock. The film's plot centers upon an experimental military robot that is struck by lightning and gains a human-like intelligence, prompting it to escape its facility to learn more about the world.
-
- {% youtube "https://www.youtube.com/watch?v=savkuEQKz8Q" %}
-
- More at:
-
-  * https://en.wikipedia.org/wiki/Short_Circuit_(1986_film)
-
- See also [S], [AI Movie]
-
-
 ## Siamese Network
 
  A convolutional encoder that looks at similarities. Ex: Compare 2 images of a lion with nothing else.

@@ -118,21 +118,6 @@ A 2x2 matrix can have 0, 1, or 2 eigenvectors!
  See also [E], ...
 
 
-## Electric Dreams Movie
-
- Electric Dreams is a 1984 science fiction romantic comedy film directed by Steve Barron (in his feature film directorial debut) and written by Rusty Lemorande. The film is set in San Francisco and depicts a love triangle among a man, a woman, and a personal computer. It stars Lenny Von Dohlen, Virginia Madsen, Maxwell Caulfield, and the voice of Bud Cort.
-
- {% youtube "https://www.youtube.com/watch?v=-aH39gQu-X8" %}
-
- {% youtube "https://www.youtube.com/watch?v=JhjyTE0f6tY" %}
-
- More at:
-
-  * [https://en.wikipedia.org/wiki/Electric_Dreams_(film)](https://en.wikipedia.org/wiki/Electric_Dreams_(film))
-
- See also [E], [AI Movie]
-
-
 ## Elevenlabs AI Company
 
  An AI startup that lets anyone clone a target’s voice in a matter of seconds.
@@ -1159,20 +1144,6 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
     * paper - [https://www.openread.academy/en/paper/reading?corpusId=504814170](https://www.openread.academy/en/paper/reading?corpusId=504814170)
 
  See also [E], ...
-
-
-## Ex Machina Movie
-
- Ex Machina is a 2014 science fiction film written and directed by Alex Garland in his directorial debut. 
- In the film, programmer Caleb Smith (Gleeson) is invited by his CEO (Isaac) to administer the Turing test to an intelligent humanoid robot (Vikander).
-
- {% youtube "https://www.youtube.com/watch?v=EoQuVnKhxaM" %}
-
- More at:
-
-  * [https://en.wikipedia.org/wiki/Ex_Machina_(film)](https://en.wikipedia.org/wiki/Ex_Machina_(film)) 
-
- See also [E], [AI Movie]
 
 
 ## Example

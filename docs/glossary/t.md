@@ -259,21 +259,6 @@ print(embeddings.shape)  #(4,128)
  See also [T], ...
 
 
-## Terminator Movie
-
- The Terminator is a 1984 American science fiction action film directed by James Cameron. It stars Arnold Schwarzenegger as the Terminator, a cyborg assassin sent back in time from 2029 to 1984 to kill Sarah Connor (Linda Hamilton), whose unborn son will one day save mankind from extinction by Skynet, a hostile artificial intelligence in a post-apocalyptic future.
-
- {% youtube "https://www.youtube.com/watch?v=k64P4l2Wmeg" %}
-
- {% youtube "https://www.youtube.com/watch?v=piPIckK_R0o" %}
-
- More at:
-
-  * [https://en.wikipedia.org/wiki/The_Terminator](https://en.wikipedia.org/wiki/The_Terminator)
-
- See also [T], [AI Movie]
-
-
 ## Term Frequency (TF)
 
  ~ measures how frequently a term occurs in a document.
@@ -471,32 +456,6 @@ info = response.choices[0].message.content
   * paper - [https://arxiv.org/abs/2208.01618v1](https://arxiv.org/abs/2208.01618v1)
 
  See also [T], ...
-
-
-## The Imitation Game Movie
-
- The Imitation Game is a 2014 American thriller film. The film's title quotes the name of the game cryptanalyst Alan Turing proposed for answering the question "Can machines think?", in his 1950 seminal paper "Computing Machinery and Intelligence". 
-
-  {% youtube "https://www.youtube.com/watch?v=nuPZUUED5uk" %}
-
- More at:
-
-  * [https://en.wikipedia.org/wiki/The_Imitation_Game](https://en.wikipedia.org/wiki/The_Imitation_Game)
-
- See also [T], [AI Movie], [Alan Turing Person]
-
-
-## The Matrix Movie
-
- The Matrix is a 1999 science fiction action film written and directed by the Wachowskis. It is the first installment in the Matrix film series, starring Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving, and Joe Pantoliano, and depicts a dystopian future in which humanity is unknowingly trapped inside the Matrix, a simulated reality that intelligent machines have created to distract humans while using their bodies as an energy source.
-
- {% youtube "https://www.youtube.com/watch?v=nUEQNVV3Gfs" %}
-
- More at:
-
-  * [https://en.wikipedia.org/wiki/The_Matrix](https://en.wikipedia.org/wiki/The_Matrix)
-
- See also [M], [AI Movie], [Metaverse]
 
 
 ## Theano
@@ -801,19 +760,6 @@ Desired Output --> |     Training     | --> Model
  In practice, RL algorithms often sample multiple trajectories from the environment to gather a diverse set of experiences and improve the estimation and learning process. These trajectories provide the necessary data for updating policies, estimating state-action values, or training value function approximators.
 
  ![](img/t/trajectory.png ){: width="100%"}
-
- See also [T], ...
-
-
-## Transcendence Movie
-
- Dr. Will Caster is a scientist who researches the nature of sapience, including artificial intelligence. He and his team work to create a sentient computer; he predicts that such a computer will create a technological singularity, or in his words "Transcendence".
-
- {% youtube "https://www.youtube.com/watch?v=VCTen3-B8GU" %}
-
- More at:
-
-  * wikipedia - [https://en.wikipedia.org/wiki/Transcendence_(2014_film)](https://en.wikipedia.org/wiki/Transcendence_(2014_film))
 
  See also [T], ...
 

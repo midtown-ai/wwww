@@ -925,22 +925,6 @@ if __name__ == '__main__':
  See also [F], ...
 
 
-
-## Forbidden Planet Movie
-
- Forbidden Planet is a 1956 American science fiction film from Metro-Goldwyn-Mayer.
-
- Forbidden Planet pioneered several aspects of science fiction cinema. It was the first science fiction film to depict humans traveling in a faster-than-light starship of their own creation. It was also the first to be set entirely on another planet in interstellar space, far away from Earth. The Robby the Robot character is one of the first film robots that was more than just a mechanical "tin can" on legs; Robby displays a distinct personality and is an integral supporting character in the film.
-
- {% youtube "https://www.youtube.com/watch?v=Gu-peHw2w6I" %}
-
- More at:
-
-  * [https://en.wikipedia.org/wiki/Forbidden_Planet](https://en.wikipedia.org/wiki/Forbidden_Planet) 
-
- See also [F], [AI Movie]
-
-
 ## Forest Of Stumps
 
  See also [F], [AdaBoost], [Decision Stump], [Gini Impurity Index], [Random Forest], [Weighted Gini Impurity Index]

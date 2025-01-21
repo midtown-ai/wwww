@@ -53,8 +53,6 @@
 [Bias Benchmark For Question Answering (BBQ)]: b.md#bias-benchmark-for-question-answering-bbq
 [BBQ Benchmark]: b.md#bias-benchmark-for-question-answering-bbq
 [BBQ]: b.md#bias-benchmark-for-question-answering-bbq
-[Bicentennial Man Movie]: b.md#bicentennial-man-movie
-[Bicentennial Man]: b.md#bicentennial-man-movie
 [Bidirectional Encoder Representation from Transformer (BERT) Model Family]: b.md#bidirectional-encoder-representation-from-transformer-bert-model-family
 [Bidirectional Encoder Representation from Transformer (BERT)]: b.md#bidirectional-encoder-representation-from-transformer-bert-model-family
 [BERT Model Family]: b.md#bidirectional-encoder-representation-from-transformer-bert-model-family

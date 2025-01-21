@@ -1,18 +1,5 @@
 # M
 
-## M3GAN Movie
-
- M3GAN (pronounced "Megan") is a 2022 American science fiction horror film directed by Gerard Johnstone, written by Akela Cooper from a story by Cooper and James Wan (who also produced with Jason Blum), and starring Allison Williams and Violet McGraw, with Amie Donald physically portraying M3GAN and Jenna Davis voicing the character. Its plot follows the eponymous artificially intelligent doll who develops self-awareness and becomes hostile toward anyone who comes between her and her human companion.
-
- {% youtube "https://www.youtube.com/watch?v=BRb4U99OU80" %}
-
- More at:
-
-  * [https://en.wikipedia.org/wiki/M3GAN](https://en.wikipedia.org/wiki/M3GAN)
-
- See also [M], [AI Movie]
-
-
 ## Machine Learning (ML)
 
  Part of AI, AI with first a learning phase! A subset of [Artificial Intelligence (AI)]. `Field of study that gives computers the ability to learn without being explicitly programmed` 1 or more layers of data, includes but not limited to neural networks. Unsupervised, supervised (classification + regression) , reinforcement. `Data --> Model --> Prediction`.
@@ -948,27 +935,12 @@ def mse_loss(y_pred, y_true):
 
   * [https://www.npr.org/2021/10/28/1050280500/what-metaverse-is-and-how-it-will-work](https://www.npr.org/2021/10/28/1050280500/what-metaverse-is-and-how-it-will-work)
 
- See also [M], [The Matrix Movie], [Virtual Reality]
+ See also [M], [Virtual Reality]
 
 
 ## METEOR Score
 
  See also [M], [MSFT COCO Caption Dataset]
-
-
-## Metropolis Movie
-
- Metropolis is a 1927 German expressionist science-fiction film directed by Fritz Lang.
-
- {% youtube "https://www.youtube.com/watch?v=rXpKwH2oJkM" %}
-
- {% youtube  "https://www.youtube.com/watch?v=PgBitJRkANw" %}
-
- More at:
-
-  * [https://en.wikipedia.org/wiki/Metropolis_(1927_film)](https://en.wikipedia.org/wiki/Metropolis_(1927_film))
-
- See also [M], [AI Movie]
 
 
 ## Microsoft Common Object In Context Caption (COCO) Dataset
@@ -1085,19 +1057,6 @@ def mse_loss(y_pred, y_true):
 
  * [One-Step Lookahead]
  * [N-Step Lookahead]
-
- See also [M], ...
-
-
-## Minority Report Movie
-
- Minority Report is a 2002 American science fiction action film[6] directed by Steven Spielberg, loosely based on the 1956 novella "The Minority Report" by Philip K. Dick. The film takes place in Washington, D.C., and Northern Virginia in the year 2054, where Precrime, a specialized police department, apprehends criminals by use of foreknowledge provided by three psychics called "precogs". 
- 
- {% youtube "https://www.youtube.com/watch?v=3JNsNp2DVSE" %}
-
- More at:
-
-  * wikipedia - [https://en.wikipedia.org/wiki/Minority_Report_(film)](https://en.wikipedia.org/wiki/Minority_Report_(film))
 
  See also [M], ...
 

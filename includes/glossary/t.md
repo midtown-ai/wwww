@@ -34,8 +34,6 @@
 [TF-IDF]: t.md#term-frequency-inverse-document-frequency-tf-idf-retrieval-model
 [Term Frequency Matrix (TFM)]: t.md#term-frequency-matrix-tfm
 [TFM]: t.md#term-frequency-matrix-tfm
-[Terminator Movie]: t.md#terminator-movie
-[Terminator]: t.md#terminator-movie
 [Test Set]: t.md#test-set
 [Text Embedding]: t.md#text-embedding
 [Text Generation]: t.md#text-generation
@@ -50,10 +48,6 @@
 [Text-To-Text Transfer Transformer Model]: t.md#text-to-text-transfer-transformer-t5-model
 [T5 Model]: t.md#text-to-text-transfer-transformer-t5-model
 [Textual Inversion]: t.md#textual-inversion
-[The Imitation Game Movie]: t.md#the-imitation-game-movie
-[The Imitation Game]: t.md#the-imitation-game-movie
-[The Matrix Movie]: t.md#the-matrix-movie
-[The Matrix]: t.md#the-matrix-movie
 [Theano]: t.md#theano
 [Theory Of Mind (TOM)]: t.md#theory-of-mind-tom
 [Theory Of Mind]: t.md#theory-of-mind-tom
@@ -77,8 +71,6 @@
 [Training Loss]: t.md#training-loss
 [Training Set]: t.md#training-set
 [Trajectory]: t.md#trajectory
-[Transcendence Movie]: t.md#transcendence-movie
-[Transcendence]: t.md#transcendence-movie
 [Transfer Learning]: t.md#transfer-learning
 [Transform Function (TF)]: t.md#transform-function-tf
 [TF]: t.md#transform-function

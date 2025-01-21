@@ -88,19 +88,6 @@
  See also [H], 
 
 
-## Her Movie
-
- Her (stylized in lowercase) is a 2013 American science-fiction romantic drama film written, directed, and co-produced by Spike Jonze. It marks Jonze's solo screenwriting debut. The film follows Theodore Twombly (Joaquin Phoenix), a man who develops a relationship with Samantha (Scarlett Johansson), an artificially intelligent virtual assistant personified through a female voice. The film also stars Amy Adams, Rooney Mara, Olivia Wilde, and Chris Pratt.
-
- {% youtube "https://www.youtube.com/watch?v=dJTU48_yghs" %}
-
- More at:
-
-  * [https://en.wikipedia.org/wiki/Her_(film)](https://en.wikipedia.org/wiki/Her_(film))
-
- See also [H], [AI Movie]
- 
-
 ## Heuristic
 
  A heuristic is a mental shortcut that allows an individual to make a decision, pass judgment, or solve a problem quickly and with minimal mental effort. While heuristics can reduce the burden of decision-making and free up limited cognitive resources, they can also be costly when they lead individuals to miss critical information or act on unjust [biases][Bias].

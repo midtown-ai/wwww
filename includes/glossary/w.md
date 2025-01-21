@@ -1,9 +1,5 @@
 [W]: w.md
 
-[Wall-E Movie]: w.md#wall-e-movie
-[Wall-E]: w.md#wall-e-movie
-[WarGames Movie]: w.md#wargames-movie
-[WarGames]: w.md#wargames-movie
 [Wave2Letter Model]: w.md#wav2letter-model
 [Wave2Letter]: w.md#wav2letter-model
 [Wave2Vec Model]: w.md#wav2vec-model

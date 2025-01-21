@@ -1,19 +1,5 @@
 # I
 
-## I, Robot Movie
-
- I, Robot is a 2004 American science fiction action film directed by Alex Proyas. 
- In 2035, highly intelligent robots fill public service positions throughout the dystopian world, operating under three rules to keep humans safe. Detective Del Spooner (Smith) investigates the alleged suicide of U.S. Robotics founder Alfred Lanning (Cromwell) and believes that a human-like robot called Sonny (Tudyk) murdered him.
-
- {% youtube "https://www.youtube.com/watch?v=s0f3JeDVeEo" %}
-
- More at:
-
-  * [https://en.wikipedia.org/wiki/I,_Robot_(film)](https://en.wikipedia.org/wiki/I,_Robot_(film))
-
- See also [AI Movie]
-
-
 ## IBM Company
 
  See also [I], [Company]

@@ -13,8 +13,6 @@
 [Elastic Weight Consolidation (EWC)]: e.md#elastic-weight-consolidation-ewc
 [Elastic Weight Consolidation]: e.md#elastic-weight-consolidation-ewc
 [EWC]: e.md#elastic-weight-consolidation-ewc
-[Electric Dreams Movie]: e.md#electric-dreams-movie
-[Electric Dreams]: e.md#electric-dreams-movie
 [ElevenLabs AI Company]: e.md#elevenlabs-ai-company
 [ElevenLabs AI]: e.md#elevenlabs-ai-company
 [Eliza Chatbot]: e.md#eliza-chatbot
@@ -115,8 +113,6 @@
 [ESM-2]: e.md#evolutionary-scale-model-esm-family
 [ESM-3 Model]: e.md#evolutionary-scale-model-esm-family
 [ESM-3]: e.md#evolutionary-scale-model-esm-family
-[Ex Machina Movie]: e.md#ex-machina-movie
-[Ex Machina]: e.md#ex-machina-movie
 [Example]: e.md#example
 [Example-Based Machine Translation (EBMT)]: e.md#example-based-machine-translation-ebmt
 [Example-Based Machine Translation]: e.md#example-based-machine-translation-ebmt

@@ -1,7 +1,5 @@
 [I]: i.md
 
-[I, Robot Movie]: i.md#i-robot-movie
-[I, Robot]: i.md#i-robot-movie
 [IBM Company]: i.md#ibm-company
 [IBM]: i.md#ibm-company
 [IBM Watson]: i.md#ibm-watson

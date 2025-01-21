@@ -96,8 +96,6 @@
 [SHAP Value]: s.md#shapley-additive-explanations-shap-value
 [Shifted Window Attention]: s.md#shifted-window-attention-swa
 [SWA]: s.md#shifted-window-attention-swa
-[Short Circuit Movie]: s.md#short-circuit-movie
-[Short Circuit]: s.md#short-circuit-movie
 [Siamese Network]: s.md#siamese-network
 [SIGGRAPH Conference]: s.md#siggraph-conference
 [SIGGRAPH]: s.md#siggraph-conference
