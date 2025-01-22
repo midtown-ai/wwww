@@ -2,8 +2,8 @@ site_name: Midtown AI
 # site_url: https://www2.midtown.ai/
 site_author: Emmanuel Mayssat
 site_description: >-
-  The best site to learn about Artificial Intelligence
-  5 minutes at a time...
+  The best site to learn about Artificial Intelligence 5 minutes at a time...
+  Let's explore this transforming technology. Let's shape the future of AI together.
 
 #
 # For the 'mkdocs gh-deploy' command
@@ -243,8 +243,13 @@ markdown_extensions:
 #
 nav:
   - Home: index.md
-  - Blog:
-    - blog/index.md
+  - Tracks:
+    - tracks/index.md
+    - Engineering: tracks/engineering.md
+    - Business/Leadership: tracks/business.md
+    - Research: tracks/research.md
+    - Math Circle: tracks/math_circle.md
+    - DeepRacer: tracks/deepracer.md
   # - Projects:
   #   - projects/index.md
   #   - DeepRacer: projects/deepracer/index.md
@@ -278,6 +283,15 @@ nav:
     - X: glossary/x.md
     - Y: glossary/y.md
     - Z: glossary/z.md
+  - Forms:
+    - forms/index.md
+    - Membership: forms/membership.md
+    - Mentorship: forms/mentorship.md
+    - Financial Assistance: forms/financial_assistance.md
+    - Community Service: forms/community_service.md
+    - Donation: forms/donation.md
+  - Blog:
+    - blog/index.md
   - About: about.md
   - Tests:
     - tests/index.md

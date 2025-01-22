@@ -22,3 +22,20 @@
 .font42px {
     font-size: 42px; /* Customize font size */
 }
+
+/*
+ * Position
+ */
+.center-text {
+    text-align: center;
+}
+
+/*
+ * Empty div spacers
+ */
+.spacer20 {
+    height: 20px; /* Adjust as needed */
+}
+.spacer40 {
+    height: 40px; /* Adjust as needed */
+}
