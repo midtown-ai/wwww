@@ -254,10 +254,10 @@ nav:
   - Forms:
     - All Forms: forms/index.md
     - Membership: forms/membership.md
-    - Mentorship: forms/mentorship.md
     - Financial Assistance: forms/financial_assistance.md
     - Community Service: forms/community_service.md
-    - Donation :fontawesome-solid-heart:: https://donate.stripe.com/00gbL46JP50K0YE9AD
+    - Mentorship: forms/mentorship.md
+    - Donation: https://donate.stripe.com/00gbL46JP50K0YE9AD
   - Blog:
     - blog/index.md
   # - Projects:
@@ -458,9 +458,9 @@ plugins:
   # pip install mkdocs-minify-plugin
   - minify:
       enabled: !ENV [MINIFY_PLUGIN_ENABLED, true]
-      minify_css: true          # Minify content of CSS files
-      minify_html: true         # Minify content of generated HTML files
-      minify_js: false          # Minify content of JS files
+      minify_css: true         # Minify content of CSS files
+      minify_html: false       # Minify content of generated HTML files
+      minify_js: true          # Minify content of JS files
 
   # Add an RSS feed to allow users to subscribe to the blog and get notified on new posts
   # @ https://guts.github.io/mkdocs-rss-plugin/#quickstart

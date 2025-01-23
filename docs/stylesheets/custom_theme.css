@@ -49,6 +49,7 @@ img.dark-mode {
     margin-left: 5px;
 }
 
+/*        BEING TESTED! */
 /*
  * Cards
  */
@@ -59,4 +60,10 @@ img.dark-mode {
 .card.no-border:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a light shadow on hover */
 }
-
+/*
+ * Content area
+ */
+.md-grid {
+  /* max-width: initial; */
+  max-width: 1440px; 
+}
