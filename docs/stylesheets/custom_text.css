@@ -29,6 +29,17 @@
 .center-text {
     text-align: center;
 }
+/*
+ * Permalink
+ */
+.without-permalink {
+    pointer-events: none;
+}
+.custom-permalink .headerlink::before {
+    content: "\f0c1"; /* FontAwesome link icon (Unicode) */
+    font-family: "Font Awesome 5 Free"; /* Ensure correct font */
+    font-weight: 900;
+}
 
 /*
  * Empty div spacers

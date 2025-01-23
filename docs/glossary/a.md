@@ -973,32 +973,6 @@ A risk of [AGI]
  See also [A], ...
 
 
-## AI Movie
-
-  * 1927 - [Metropolis]
-  * 1956 - [Forbidden Planet]
-  * 1968 - [2001 Space Odyssey]
-  * 1983 - [WarGames]
-  * 1984 - [Electric Dreams]
-  * 1984 - [Terminator]
-  * 1986 - [Short Circuit]
-  * 1999 - [The Matrix]
-  * 1999 - [Bicentennial Man] - a [social robot] that wants to become human
-  * 2001 - [AI Artificial Intelligence]
-  * 2002 - [Minority Report] - a precrime unit that apprehends criminals before thy commit their crimes
-  * 2004 - [I, Robot]
-  * 2008 - [Wall-E]
-  * 2013 - [Her][Her Movie]
-  * 2014 - [Transcendence]
-  * 2014 - [Ex Machina]
-  * 2022 - [M3GAN]: the eponymous artificially intelligent doll who develops self-awareness and becomes hostile toward anyone who comes between her and her human companion
-
-  Other of interest:
-  * 2014 - [The Imitation Game][The Imitation Game Movie] - Movie based on the biography Alan Turing: The Enigma.
-
- See also [A]
-
-
 ## AI Music
 
  A musical composition made by or with AI-based [audio generation].

@@ -106,7 +106,6 @@
 [AI Job]: a.md#ai-job
 [AI Magazine]: a.md#ai-magazine
 [AI Moratorium]: a.md#ai-moratorium
-[AI Movie]: a.md#ai-movie
 [AI Music]: a.md#ai-music
 [AI Paper]: a.md#ai-paper
 [AI Paraphrasing]: a.md#ai-paraphrasing

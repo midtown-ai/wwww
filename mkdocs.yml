@@ -244,18 +244,28 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Tracks:
-    - tracks/index.md
+    - All Tracks: tracks/index.md
     - Engineering: tracks/engineering.md
     - Business/Leadership: tracks/business.md
     - Research: tracks/research.md
     - Math Circle: tracks/math_circle.md
     - DeepRacer: tracks/deepracer.md
+    - All Tracks: tracks/index.md
+  - Forms:
+    - All Forms: forms/index.md
+    - Membership: forms/membership.md
+    - Mentorship: forms/mentorship.md
+    - Financial Assistance: forms/financial_assistance.md
+    - Community Service: forms/community_service.md
+    - Donation: forms/donation.md
+  - Blog:
+    - blog/index.md
   # - Projects:
   #   - projects/index.md
   #   - DeepRacer: projects/deepracer/index.md
   #   - Pytorch: projects/pytorch/index.md
   - Glossary:
-    - glossary/index.md
+    - Glossary: glossary/index.md
     - 0-9: glossary/0-9.md
     - A: glossary/a.md
     - B: glossary/b.md
@@ -283,18 +293,9 @@ nav:
     - X: glossary/x.md
     - Y: glossary/y.md
     - Z: glossary/z.md
-  - Forms:
-    - forms/index.md
-    - Membership: forms/membership.md
-    - Mentorship: forms/mentorship.md
-    - Financial Assistance: forms/financial_assistance.md
-    - Community Service: forms/community_service.md
-    - Donation: forms/donation.md
-  - Blog:
-    - blog/index.md
   - About: about.md
   - Tests:
-    - tests/index.md
+    - Tests: tests/index.md
     - Basics: tests/basics.md
     - Blocks: tests/blocks.md
     - CSS: tests/css.md
@@ -304,6 +305,7 @@ nav:
     - Widgets: tests/widgets.md
     - PDF Docs: tests/pdf_docs.md
     - YouTube Videos: tests/youtube_videos.md
+    - Google Slides: tests/google_slides.md
 
 #
 # What is NOT in the navigation that should NOT be built?
@@ -492,7 +494,7 @@ extra:
       link: https://x.com/midtown_ai
       name: Follow us on X
     - icon: fontawesome/solid/paper-plane
-      link: mailto:info@midtown.ai
+      link: mailto:ai4all@midtown.ai
       name: Send us an email
     # - icon: fontawesome/brans/mastodon
     #   link: https://fosstodon.org/@midtown_ai
@@ -517,8 +519,8 @@ extra_css:
   - stylesheets/custom_admonitions.css
   - stylesheets/custom_effects.css
   - stylesheets/custom_tables.css
+  - stylesheets/custom_text.css
   - stylesheets/custom_theme.css
-  - stylesheets/icon_styles.css
   # - stylesheets/custom.7c86dd97.min.css      # included in override/main.html Not needed here?
 
 #

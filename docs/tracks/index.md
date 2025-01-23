@@ -6,7 +6,7 @@ hide:
 # previous_page: a.md
 # next_page: b.md
 ---
-# Educational Tracks  {: style="text-align: center;"}
+# Educational Tracks  {: .center-text }
 
  As a non-profit, we provide an environment for middle and high-school students to safely explore AI through math, projects, use-cases, research, events, and competitions. Beyond mere discussion and theoretical learning, students actively engage with AI, gaining hands-on experience and interpersonal skills.
 
@@ -15,7 +15,7 @@ hide:
 <div class="grid cards" markdown>
 -   ![](img/tracks_engineering.png)
 
-    ## [Engineering](engineering.md) {: style="text-align: center;"}
+    ## [Engineering](engineering.md) {: .center-text }
 
     Through coding labs, data projects, and working on end-to-end AI systems, students will gain applied skills to engineer innovative AI solutions and become proficient AI developers.
 
@@ -29,7 +29,7 @@ hide:
 
 -   ![](img/tracks_research.png)
 
-    ## [Research](research.md) {: style="text-align: center;"}
+    ## [Research](research.md) {: .center-text }
 
     Through reading, experiments, presentations, collaborations, and participating in the global research community, students will gain abilities to understand and advance AI research. 
 
@@ -51,7 +51,7 @@ hide:
     * Leveraging computational resources like GPUs, clusters, cloud computing
     * Building a team to explore real-world datasets and join competitions
 
-    [Tell me more](engineering.md)
+    [Tell me more](engineering.md) {: .center-text }
     ///
 
 -   
@@ -69,7 +69,7 @@ hide:
     * Cultivating strategic thinking and leadership skills to complement technical AI expertise
     * Directing AI engineers to maximize their impact
 
-    [Tell me more](business.md)
+    [Tell me more](business.md) {: .center-text }
     ///
 
 -   
@@ -87,14 +87,14 @@ hide:
     * Communicating research ideas clearly in papers, presentations, code
     * Building team projects, replicating papers, or proposing new methods
 
-    [Tell me more](research.md)
+    [Tell me more](research.md) {: .center-text }
     ///
 
 </div>
 
 <div class="grid cards" markdown>
 
--   ## [Math Circle](math_circle.md) {: style="text-align: center;"}
+-   ## [Math Circle](math_circle.md) {: .center-text }
 
     AI involves a lot of problem solving. Moreover AI is rarely done in isolation. By working through math problems and proofs, middle and high-school students will develop skills similar to those required for building and debugging AI systems. Our math circle allows for student collaboration and teamwork - being able to work together on complex math problems translates well to collaborating on AI projects.
 
@@ -116,9 +116,9 @@ hide:
 -   
 
 
-    {% youtube "https://www.youtube.com/watch?v=Q_ky7CP7hZM" width=600 height=500 %}
+    {% youtube "https://www.youtube.com/watch?v=doZ-BmHPges" width=600 height=500 %}
 
--   ## [DeepRacer](deepracer.md) {: style="text-align: center;"}
+-   ## [DeepRacer](deepracer.md) {: .center-text }
 
     AWS DeepRacer allows middle and high-school students to get hands-on with machine learning by building their own autonomous race car models and compete in races using reinforcement learning.
 
@@ -137,8 +137,11 @@ hide:
 
 <div style="margin: 5%; text-align: center;" markdown>
 
-[Become a member](membership.md#){ .md-button .md-button--primary style="margin: 5% 10% 5% 10%; text-align: center; width: 40%;"}
-[Become a mentor](mentorship.md#){ .md-button }
-
 Let's explore this transforming technology. Let's shape the future of AI together.
+
+[Become a member](/forms/membership.md#){ .md-button .md-button--primary style="margin: 5% 10% 5% 10%; text-align: center; width: 40%;"}
+[Become a mentor](/forms/mentorship.md#){ .md-button }
+
+For more information, contact us at [ai4all@midtown.ai](mailto:ai4all@midtown.ai)
+
 </div>

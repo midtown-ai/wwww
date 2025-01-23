@@ -6,7 +6,37 @@
 
 [Subscribe to our newsletter](#){ .md-button }
 
-[Send :fontawesome-solid-paper-plane:](#){ .md-button }## Grid of cards (md_in_html)
+[Send :fontawesome-solid-paper-plane:](#){ .md-button }
+
+## Grid of cards (md_in_html)
+
+### grid-3 (HTML only)
+
+<div class="grid grid-3">
+    <div>
+    Column 1
+    </div>
+    <div>
+    Column 2
+    </div>
+    <div>
+    Column 3
+    </div>
+</div>
+
+```
+<div class="grid grid-3">
+    <div>
+    Column 1
+    </div>
+    <div>
+    Column 2
+    </div>
+    <div>
+    Column 3
+    </div>
+</div>
+```
 
 ### generic grids
 
