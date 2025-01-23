@@ -39,3 +39,24 @@ img.dark-mode {
 [data-md-color-scheme="slate"] img.dark-mode {
     display: block;
 }
+
+/*
+ * External links
+ */
+
+.md-nav__link[href^="http"]::after {
+    content: "↗"; /* Adds an icon for external links */
+    margin-left: 5px;
+}
+
+/*
+ * Cards
+ */
+.card.no-border {
+    border: none; /* Removes the border */
+    box-shadow: none; /* Removes any shadow if applied */
+}
+.card.no-border:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a light shadow on hover */
+}
+

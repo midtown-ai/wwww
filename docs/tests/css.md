@@ -40,6 +40,12 @@
  :fontawesome-solid-arrows-spin: :fontawesome-solid-arrows-spin:{ .spinning-clockwise }
  :fontawesome-solid-spinner: :fontawesome-solid-spinner:{ .spinning-counter-clockwise }
 
+ :fontawesome-solid-heart: :fontawesome-solid-heart:{ .heartbeating } :fontawesome-solid-heart:{ .heartbeating .red }
+
+ :fontawesome-regular-heart: :fontawesome-regular-heart:{ .heartbeating } :fontawesome-regular-heart:{ .heartbeating .red }
+
+ :fontawesome-regular-face-kiss-wink-heart: :fontawesome-regular-face-kiss-wink-heart:{ .heartbeating } :fontawesome-regular-face-kiss-wink-heart:{ .heartbeating .red }
+
  :octicons-heart-fill-24: :octicons-heart-fill-24:{ .heartbeating } :octicons-heart-fill-24:{ .heartbeating .red }
  <div class="heartbeating">Headbeating text!</div>
 

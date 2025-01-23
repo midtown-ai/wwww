@@ -12,6 +12,37 @@
 
 ### grid-3 (HTML only)
 
+<div class="grid grid-3" markdown="1">
+  <div class="card no-border">
+    <h3 class="card__title">Card 1</h3>
+    <p>This is the first card's content.</p>
+  </div>
+  <div class="card no-border">
+    <h3 class="card__title">Card 2</h3>
+    <p>This is the second card's content.</p>
+  </div>
+  <div class="card no-border">
+    <h3 class="card__title">Card 3</h3>
+    <p>This is the third card's content.</p>
+  </div>
+</div>
+
+<div class="grid grid-3" markdown="1">
+  <div class="card">
+    <h3 class="card__title">Card 1</h3>
+    <p>This is the first card's content.</p>
+  </div>
+  <div class="card">
+    <h3 class="card__title">Card 2</h3>
+    <p>This is the second card's content.</p>
+  </div>
+  <div class="card">
+    <h3 class="card__title">Card 3</h3>
+    <p>This is the third card's content.</p>
+  </div>
+</div>
+
+
 <div class="grid grid-3">
     <div>
     Column 1

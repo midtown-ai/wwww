@@ -1,8 +1,8 @@
 site_name: Midtown AI
 # site_url: https://www2.midtown.ai/
 site_author: Emmanuel Mayssat
+# The best site to learn about Artificial Intelligence 5 minutes at a time...
 site_description: >-
-  The best site to learn about Artificial Intelligence 5 minutes at a time...
   Let's explore this transforming technology. Let's shape the future of AI together.
 
 #
@@ -257,7 +257,7 @@ nav:
     - Mentorship: forms/mentorship.md
     - Financial Assistance: forms/financial_assistance.md
     - Community Service: forms/community_service.md
-    - Donation: forms/donation.md
+    - Donation :fontawesome-solid-heart:: https://donate.stripe.com/00gbL46JP50K0YE9AD
   - Blog:
     - blog/index.md
   # - Projects:
