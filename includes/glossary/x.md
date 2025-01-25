@@ -1,4 +1,4 @@
-[X]: x.md
+[X]: /glossary/x.md
 
-[xAI Company]: x.md#xai-company
-[xAI]: x.md#xai-company
+[xAI Company]: /glossary/x.md#xai-company
+[xAI]: /glossary/x.md#xai-company

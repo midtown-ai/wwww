@@ -43,21 +43,23 @@ To increase our impact, our aspiration is to extend our reach further than the P
 
     Research Coach, Phd Chem
 
--   ![](img/advisers/kai_kam.jpeg){: width=50% height=50%}
-
-    [Kai Kam](https://www.linkedin.com/in/kaikam/)
-
-    Engineering Coach, BCS
-
 -   ![](img/advisers/leah_symekher.jpeg){: width=50% height=50%}
 
     [Leah Symekher](https://www.linkedin.com/in/lsymek/)
 
     External Liaison
 
+<!--
+-   ![](img/advisers/kai_kam.jpeg){: width=50% height=50%}
+
+    [Kai Kam](https://www.linkedin.com/in/kaikam/)
+
+    Engineering Coach, BCS
+
 -   ![](img/advisers/headshoot_silhouette.png){: width=50% height=50%}
 
     You?
+-->
 </div>
 
 <div style="margin: 5%; text-align: center;" markdown>

@@ -2,6 +2,7 @@
 draft: true
 # readingtime: 15
 slug: hello-world
+title: Hello World!
 
 authors:
   - emmanuel

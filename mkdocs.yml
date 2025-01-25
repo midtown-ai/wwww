@@ -260,10 +260,22 @@ nav:
     - Donation: https://donate.stripe.com/00gbL46JP50K0YE9AD
   - Blog:
     - blog/index.md
-  # - Projects:
-  #   - projects/index.md
-  #   - DeepRacer: projects/deepracer/index.md
-  #   - Pytorch: projects/pytorch/index.md
+  - Projects:
+    - projects/index.md
+    - DeepRacer:
+      - DeepRacer: projects/deepracer/index.md
+      - Approaching DeepRacer: projects/deepracer/approaching-aws-deepracer.md
+      - DeepRacer on The Spot: projects/deepracer/aws-deepracer-on-the-spot.md
+      - Getting Started with Log Guru: projects/deepracer/getting-started-with-log-guru.md
+      - Track Analysis: projects/deepracer/track-analysis.md
+      - Optimal Action Space: projects/deepracer/optimal-action-space.md
+      - Hyperparameter Tuning: projects/deepracer/hyperparameter-tuning.md
+      - Crafting a Reward Function: projects/deepracer/crafting-a-reward-function.md
+      - Tips For DeepRacer: projects/deepracer/tips-for-deepracer.md
+      - Physical Car: projects/deepracer/physical-car.md
+      - Physical Races and Sin2REal: projects/deepracer/physical-races-and-sim2real.md
+      - DeepRacer Student League: projects/deepracer/deepracer-student-league.md
+    - Pytorch: projects/pytorch/index.md
   - Glossary:
     - Glossary: glossary/index.md
     - 0-9: glossary/0-9.md
@@ -359,14 +371,19 @@ plugins:
         - Cloud
         - Companies
         - Entertainment
+        - Ethics
         - Frameworks
         - Hardware
+        - Market
         - No Code
+        - Paper
         - People
         - Platforms
         - Products
+        - Research
         - Robots
         - Software
+        - Trends
       categories_name: Categories # - category section added to navigation
       # categories_slugify: !!python/object/apply:pymdownx.slugs.slugify
       #   kwds:
@@ -377,11 +394,11 @@ plugins:
       blog_dir: blog          # - where the content of the blog is located
       blog_toc: true          # - display post titles in views
       draft: false            # - don't render draft when site is built
-      draft_if_future_date: false # - posts with future dates are NOT considered as draft
+      draft_if_future_date: true # - posts with future dates are considered as draft
       draft_on_serve: true    # - show drafts when 'mkdocs serve' is run
       pagination: true        # - enable pagination in blog home page
       pagination_format: "~2~" # - navigation widget format for pagination
-      pagination_if_single_page: true # - disable pagination if only a few posts
+      pagination_if_single_page: false # - disable pagination if only a few posts
       pagination_keep_content: false # - ???
       pagination_per_page: 5  # - number of post in rendered page
       pagination_url_format: "page/{page}" # - URL format for paginated views

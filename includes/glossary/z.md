@@ -1,8 +1,8 @@
-[Z]: z.md
+[Z]: /glossary/z.md
 
-[Zero ETL]: z.md#zero-etl
-[Zero Redundancy Optimization (ZeRO)]: z.md#zero-redundancy-optimization-zero
-[ZeRO]: z.md#zero-redundancy-optimization-zero
-[Zero-Shot Learning]: z.md#zero-shot-learning
-[Zero-Shot Prompting]: z.md#zero-shot-prompting
-[Zero-Shot Task Transfer]: z.md#zero-shot-task-transfer
+[Zero ETL]: /glossary/z.md#zero-etl
+[Zero Redundancy Optimization (ZeRO)]: /glossary/z.md#zero-redundancy-optimization-zero
+[ZeRO]: /glossary/z.md#zero-redundancy-optimization-zero
+[Zero-Shot Learning]: /glossary/z.md#zero-shot-learning
+[Zero-Shot Prompting]: /glossary/z.md#zero-shot-prompting
+[Zero-Shot Task Transfer]: /glossary/z.md#zero-shot-task-transfer
