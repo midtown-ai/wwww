@@ -1,15 +1,4 @@
----
-layout: post
-# layout: single
-title:  "Hyper parameter tuning"
-date:   2024-05-07 12:51:28 -0800
-categories: jekyll update
----
-
-{% include links/all.md %}
-
-* toc
-{:toc}
+# Hyper parameter tuning
 
 
 ## Links

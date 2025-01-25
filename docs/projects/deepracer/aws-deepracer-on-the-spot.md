@@ -1,15 +1,4 @@
----
-layout: post
-# layout: single
-title:  "AWS DeepRacer On The Spot"
-date:   2024-05-02 12:51:28 -0800
-categories: jekyll update
----
-
-{% include links/all.md %}
-
-* toc
-{:toc}
+# AWS DeepRacer On The Spot
 
 
 ## Links

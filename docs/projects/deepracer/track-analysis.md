@@ -1,16 +1,4 @@
----
-layout: post
-# layout: single
-title:  "DeepRacer Track Analysis"
-date:   2024-05-05 12:51:28 -0800
-categories: jekyll update
----
-
-{% include links/all.md %}
-
-* toc
-{:toc}
-
+# DeepRacer Track Analysis
 
 ## Links
 

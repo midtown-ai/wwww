@@ -1,15 +1,4 @@
----
-layout: post
-# layout: single
-title:  "Getting started with DeepRacer Log Guru"
-date:   2024-05-03 12:51:28 -0800
-categories: jekyll update
----
-
-{% include links/all.md %}
-
-* toc
-{:toc}
+# Getting started with DeepRacer Log Guru
 
 
 ## Links

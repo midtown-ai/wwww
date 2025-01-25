@@ -1,16 +1,4 @@
----
-layout: post
-# layout: single
-title:  "Crafting a reward function"
-date:   2024-05-09 12:51:28 -0800
-categories: jekyll update
----
-
-{% include links/all.md %}
-
-* toc
-{:toc}
-
+# Crafting a reward function
 
 ## Links
 

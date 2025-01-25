@@ -1,16 +1,4 @@
----
-layout: post
-# layout: single
-title:  "Physical races and Sim2Real Performance Gaps"
-date:   2024-05-16 12:51:28 -0800
-categories: jekyll update
----
-
-{% include links/all.md %}
-
-* toc
-{:toc}
-
+# Physical races and Sim2Real Performance Gaps
 
 ## Links
 

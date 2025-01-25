@@ -1,16 +1,4 @@
----
-layout: post
-# layout: single
-title:  "Physical car"
-date:   2024-05-14 12:51:28 -0800
-categories: jekyll update
----
-
-{% include links/all.md %}
-
-* toc
-{:toc}
-
+# Physical car
 
 ## Links
 

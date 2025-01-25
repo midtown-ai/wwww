@@ -1,15 +1,4 @@
----
-layout: post
-# layout: single
-title:  "Approaching AWS DeepRacer"
-date:   2024-05-01 12:51:28 -0800
-categories: jekyll update
----
-
-{% include links/all.md %}
-
-* toc
-{:toc}
+# Approaching AWS DeepRacer
 
 humanistic AI -- provide linkedin URL and find approach
 

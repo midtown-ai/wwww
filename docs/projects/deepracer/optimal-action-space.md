@@ -1,15 +1,4 @@
----
-layout: post
-# layout: single
-title:  "Optimal action space"
-date:   2024-05-06 12:51:28 -0800
-categories: jekyll update
----
-
-{% include links/all.md %}
-
-* toc
-{:toc}
+# Optimal action space
 
 
 ## Links
