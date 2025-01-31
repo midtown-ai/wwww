@@ -22,7 +22,8 @@
 [Kernel Trick]: /glossary/k.md#kernel-trick
 [Knowledge]: /glossary/k.md#knowledge
 [Knowledge Corpus]: /glossary/k.md#knowledge-corpus
-[Knowledge Distillation]: /glossary/k.md#knowledge-distillation
+[Knowledge Distillation (KD)]: /glossary/k.md#knowledge-distillation-kd
+[KD]: /glossary/k.md#knowledge-distillation-kd
 [Knowledge Graph (KG)]: /glossary/k.md#knowledge-graph-kg
 [Knowledge Graphs (KGs)]: /glossary/k.md#knowledge-graph-kg
 [KG]: /glossary/k.md#knowledge-graph-kg

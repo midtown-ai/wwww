@@ -511,8 +511,8 @@ print(query_result)
  Classification Types:
 
   * [Binary Classifier]
-  * [Multiclass Classifier]
-  * [Multilabel Classifier]
+  * [Multi-class Classifier]
+  * [Multi-label Classifier]
 
  Classification algorithms:
   * Supervised
@@ -534,7 +534,7 @@ print(query_result)
 
  ![](img/c/classification.png ){: width="100%"}
 
- See also [C], [Binary Classification], [Multiclass Classification], [Supervised Learning]
+ See also [C], [Binary Classification], [Multi-class Classification], [Supervised Learning]
 
 
 ## Classification Report
@@ -1268,7 +1268,7 @@ conda env export pytorch > pytorch_env.yml
   * [precision] = true positive / total positive
 ///
 
- ![](img/c/confusion_matrix_multiclass_classifier.png ){: width="100%"}
+ ![](img/c/confusion_matrix_multi_class_classifier.png ){: width="100%"}
 
  More at:
 

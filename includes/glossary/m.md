@@ -200,7 +200,9 @@
 [Multi-Agent Environment]: /glossary/m.md#multi-agent-environment
 [Multi-Agent Reinforcement Learning]: /glossary/m.md#multi-agent-reinforcement-learning
 [Multi-Agent RL]: /glossary/m.md#multi-agent-reinforcement-learning
+[Multi-Class Classification]: /glossary/m.md#multi-class-classification
 [Multi-Head Attention]: /glossary/m.md#multi-head-attention
+[Multi-Label Classification]: /glossary/m.md#multi-label-classification
 [Multi-Task Learning (MTL)]: /glossary/m.md#multi-task-learning-mtl
 [MTL]: /glossary/m.md#multi-task-learning-mtl
 [Multi-Turn Question Set Benchmark (MT-Bench)]: /glossary/m.md#multi-turn-question-set-benchmark-mt-bench
@@ -209,7 +211,6 @@
 [MT-Bench]: /glossary/m.md#multi-turn-question-set-benchmark-mt-bench
 [Multi-Vector Retrieval]: /glossary/m.md#multi-vector-retrieval
 [Multiattribute Objective]: /glossary/m.md#multiattribute-objective
-[Multiclass Classification]: /glossary/m.md#multiclass-classification
 [Multidimensional Scaling (MDS)]: /glossary/m.md#multidimensional-scaling-mds
 [MDS]: /glossary/m.md#multidimensional-scaling-mds
 [Multilayer Perceptron (MLP) Architecture]: /glossary/m.md#multilayer-perceptron-mlp-architecture

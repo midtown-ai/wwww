@@ -77,9 +77,11 @@
 [Sentence Embeddings]: /glossary/s.md#sentence-embedding
 [SentencePiece Tokenizer]: /glossary/s.md#sentencepiece-tokenizer
 [Sentient AI]: /glossary/s.md#sentient-ai
+[Sentient]: /glossary/s.md#sentient-ai
 [Sentiment Analysis]: /glossary/s.md#sentiment-analysis
 [Sequence Model]: /glossary/s.md#sequence-model
 [Sequence To Sequence (Seq2Seq) Model]: /glossary/s.md#sequence-to-sequence-seq2seq-model
+[Sequence To Sequence Model]: /glossary/s.md#sequence-to-sequence-seq2seq-model
 [Seq2Seq Model]: /glossary/s.md#sequence-to-sequence-seq2seq-model
 [Seq2Seq]: /glossary/s.md#sequence-to-sequence-seq2seq-model
 [Sequence To Sequence (Seq2Seq) Transformer]: /glossary/s.md#sequence-to-sequence-seq2seq-transformer
@@ -186,8 +188,11 @@
 [Specificity]: /glossary/s.md#specificity
 [Spectrogram]: /glossary/s.md#spectrogram
 [Speech Recognition]: /glossary/s.md#speech-recognition
-[Speech-To-Text (STT)]: /glossary/s.md#speech-to-text-stt
-[STT]: /glossary/s.md#speech-to-text-stt
+[Speech-To-Text (STT) Model]: /glossary/s.md#speech-to-text-stt-model
+[Speech-To-Text]: /glossary/s.md#speech-to-text-stt-model
+[STT Model]: /glossary/s.md#speech-to-text-stt-model
+[STT Models]: /glossary/s.md#speech-to-text-stt-model
+[STT]: /glossary/s.md#speech-to-text-stt-model
 [Speechx Model]: /glossary/s.md#speechx-model
 [Speechx]: /glossary/s.md#speechx-model
 [Spot Robot]: /glossary/s.md#spot-robot

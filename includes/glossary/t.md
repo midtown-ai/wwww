@@ -43,8 +43,10 @@
 [Text-To-Speech (TTS) Model]: /glossary/t.md#text-to-speech-tts-model
 [Text-To-Speech Model]: /glossary/t.md#text-to-speech-tts-model
 [Text-To-Speech Models]: /glossary/t.md#text-to-speech-tts-model
+[Text-To-Speech]: /glossary/t.md#text-to-speech-tts-model
 [TTS Model]: /glossary/t.md#text-to-speech-tts-model
 [TTS Models]: /glossary/t.md#text-to-speech-tts-model
+[TTS]: /glossary/t.md#text-to-speech-tts-model
 [Text-To-Text Transfer Transformer Model]: /glossary/t.md#text-to-text-transfer-transformer-t5-model
 [T5 Model]: /glossary/t.md#text-to-text-transfer-transformer-t5-model
 [Textual Inversion]: /glossary/t.md#textual-inversion

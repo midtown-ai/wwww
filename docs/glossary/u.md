@@ -225,6 +225,15 @@
     * [Apriori]
   * [Dimensionality Reduction]
 
+ AI algorithm used to find patterns in X variables when there is no particular outcome variable that you want to monitor. This can be useful for tasks such as looking through large amounts of demographic and psychographic data on your customers in order to sort them into clusters or segments.
+
+ One industry use case of this is MetLife’s automatic segmentation of their customers through unsupervised learning.
+
+ Some possible uses for unsupervised learning:
+
+    * Creating look-alike segments based on existing customer data.
+    * Extracting previously unknown clusters of consumers based on their demographic data.
+
  See also [U], [Supervised Learning]
 
 

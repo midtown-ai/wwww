@@ -696,6 +696,8 @@ Recall = % of positively identified
 
 ## Reinforcement Learning (RL)
 
+ ~ feedback loop that comes back to adjust decision variables (action) in order to improve decision-making (policy model) over time.
+
  `Pavlov's dog experiment!` also `How we learn to bike!` Beware: `No training set is provided, training is coming from experience! = learn by try and error`. Continue doing the behavior that led you to the most [reward]. Imagine teaching a program to play chess. It level of playing is only as good as the training data provided. If it learns/analyses the games played by average players, the program will only be average. If it analyses the games of the best player in the work, it will be just as good as them, but not better. `Reinforcement learning is the way to make a computer be better  than human at chess or any other activity` using [rewards] and [punishments]. `Learning through trials and errors` input/sensor --> software agent --> [Action], leads to [supervised feedback] in the form of a [reward].
 
  The [RL agent] continuously learns. There is no final state. Gives a [reward] for each move. Get's better based on past-experience.
@@ -709,6 +711,17 @@ Recall = % of positively identified
  You can use RL when you have little to no historical data about a problem, because it doesn’t need information in advance (unlike traditional machine learning methods). In a RL framework, you learn from the data as you go. Not surprisingly, RL is especially successful with games, especially games of “[perfect information]” like chess and Go. With games, feedback from the [RL agent] and the [environment] comes quickly, allowing the model to learn fast. The downside of RL is that it can take a very long time to train if the problem is complex. Just as IBM’s [Deep Blue] beat the best human chess player in 1997, [AlphaGo], a RL-based algorithm, beat the best Go player in 2016. The current pioneers of RL are the teams at [DeepMind] in the UK. 
 
  On April, 2019, the [OpenAI Five] team was the first AI to beat a world champion team of e-sport Dota 2, a very complex video game that the [OpenAI Five] team chose because there were no RL algorithms that were able to win it at the time. The same AI team that beat Dota 2’s champion human team also developed a robotic hand that can reorient a block. 
+
+ This category of AI algorithms involves a feedback loop that comes back to adjust decision variables in order to improve decision-making over time. One marketing application is establishing a feedback loop between marketing mix actions and KPIs in order to improve upon the marketing mix decisions over time.
+
+ One industry use case of this is Netflix’s “What to watch” queue, which consistently responds to what viewers choose to watch by adjusting their suggestions of other media they might also enjoy.
+
+ Some possible uses for reinforcement learning:
+
+  * Showing different types of ads based on whether consumers click on them or not.
+  * Continuously optimizing promotional offerings based on what consumers have purchased or not in the past.
+  * Continuously optimizing A/B test experiments based on the output of previous experiments.
+  * Providing guidance on what A/B tests to run.
 
  {% youtube "https://www.youtube.com/watch?v=mqma6GpM7vM" %}
 

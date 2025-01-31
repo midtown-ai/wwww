@@ -318,6 +318,8 @@ nav:
     - PDF Docs: tests/pdf_docs.md
     - YouTube Videos: tests/youtube_videos.md
     - Google Slides: tests/google_slides.md
+    - Megaphone Podcasts: tests/megaphone_podcasts.md
+    - Substack Newsletter: tests/substack_newsletter.md
 
 #
 # What is NOT in the navigation that should NOT be built?
@@ -482,12 +484,12 @@ plugins:
   # Add an RSS feed to allow users to subscribe to the blog and get notified on new posts
   # @ https://guts.github.io/mkdocs-rss-plugin/#quickstart
   # pip install mkdocs-rss-plugin
-  ##- rss:
-  ##    enabled: !ENV [RSS_PLUGIN_ENABLED, true]
-  ##    match_path: "blog/posts/.*"  # url to be included in the feed
-  ##    categories:                  # include posts' categories and tags in the feed
-  ##      - categories
-  ##      - tags
+  - rss:
+      enabled: !ENV [RSS_PLUGIN_ENABLED, true]
+      match_path: "blog/posts/.*"  # url to be included in the feed
+      categories:                  # include posts' categories and tags in the feed
+        - categories
+        # - tags
       # comments_path: "#__comments"
       ##    date_from_meta:              # which front matter property to use ...
       ##  as_creation: date.created  # - ... as creation date

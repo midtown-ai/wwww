@@ -182,6 +182,8 @@
 
 ## Data Bias
 
+ * https://prabhakarkrishnamurthy.substack.com/p/understanding-data-bias
+
  See [Dataset Bias]
 
 
@@ -612,6 +614,9 @@
 
 ## Dataset Bias
 
+ * https://prabhakarkrishnamurthy.substack.com/p/understanding-data-bias
+ * https://lms.ecornell.com/courses/1786254/discussion_topics/9923055?module_item_id=32653721
+
  ~ a form of [bias] that is introduced by [datasets] and that can lead to [AI bias]. An error (or errors) in the data a computer system uses that results in inaccurate, misleading, or unfair results.
 
  Dataset bias, also known as data bias, refers to the presence of systematic and unfair inaccuracies or imbalances in a dataset used for machine learning, statistical analysis, or data-driven decision-making. Dataset bias can result in models or algorithms that make inaccurate predictions or exhibit unfair behavior because the training data does not accurately represent the real-world population or scenario they are meant to address.
@@ -637,6 +642,7 @@
 
  More at:
 
+  * https://prabhakarkrishnamurthy.substack.com/p/understanding-data-bias
   * [https://medium.com/@nahmed3536/data-bias-what-all-data-practitioners-should-be-aware-of-115eaeae48c](https://medium.com/@nahmed3536/data-bias-what-all-data-practitioners-should-be-aware-of-115eaeae48c)
   * examples:
     * [https://pair.withgoogle.com/explorables/hidden-bias/](https://pair.withgoogle.com/explorables/hidden-bias/)
@@ -1657,7 +1663,8 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
 
  A smaller, but faster version of the BERT model.
 
- See also [D], [BERT Model]
+ See also [D], [BERT Model], [Distillation]
+
 
 
 ## Distributed Training

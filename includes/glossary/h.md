@@ -39,6 +39,7 @@
 [Hugging Face Hub]: /glossary/h.md#hugging-face-hub
 [Human-Centered AI]: /glossary/h.md#human-centered-ai
 [Human-Centered Design]: /glossary/h.md#human-centered-design
+[Human-In-The-Loop AI]: /glossary/h.md#human-in-the-loop-ai
 [Humane Company]: /glossary/h.md#humane-company
 [Humane]: /glossary/h.md#humane-company
 [Humanoid Robot]: /glossary/h.md#humanoid-robot

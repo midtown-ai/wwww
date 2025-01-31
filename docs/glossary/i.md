@@ -371,6 +371,9 @@ model.summary()
 ## Imputation
 
  A way to deal with missing/incomplete data. Instead of eliminating the data point, insert the average or another value to use the other attributes of the samples.
+ <!> beware if you draw conclusion on imputed data!!
+
+ Imputed data increases uncertainty in the result. The question is how much? 5%, 10%, 50% ?
 
  See also [I], [Data Point]
 

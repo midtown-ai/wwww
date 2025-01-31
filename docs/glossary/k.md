@@ -213,7 +213,9 @@
  See also [K], ...
 
 
-## Knowledge Distillation
+## Knowledge Distillation (KD)
+
+ ~ an [model compression] technique
 
  Knowledge distillation is a machine learning technique where a small “student” model is trained to emulate the behavior of a larger, more complex “teacher” model. The training process effectively transfers knowledge from the teacher to the student model, creating a more compact yet capable model.
 
@@ -223,7 +225,8 @@
   * [emergent ability distillation]
 
  More at:
-  * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
+
+  * DeepSeek vs OpenAI - https://www.cnn.com/2025/01/30/business/openai-deepseek-nightcap/index.html
 
  See also [K], ...
 

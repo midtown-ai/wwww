@@ -428,6 +428,13 @@ def huber_loss(y_pred, y, delta=1.0):
  See also [H], ...
 
 
+## Human-In-The-Loop AI
+
+ AI as augmented intelligence?
+
+ See also [H], ...
+
+
 ## Humane Company
 
  ~ $700 with $25/month subscription

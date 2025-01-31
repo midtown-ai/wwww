@@ -861,7 +861,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
  `Answer a question with Yes or No with a confidence level`. Ex: is this shape a square? The simplest case of classification algorithm. In the case of the support-vector-machine, binary classification can be done with the creation of a hyperplane as a decision boundary in a real, transformed, or latent space.
 
- See also [B], [Binary Cross-Entropy Loss Function], [Classification], [Multiclass Classification], [Support Vector Machine]
+ See also [B], [Binary Cross-Entropy Loss Function], [Classification], [Multi-class Classification], [Support Vector Machine]
 
 
 ## Binary Cross-Entropy (BCE) Loss Function

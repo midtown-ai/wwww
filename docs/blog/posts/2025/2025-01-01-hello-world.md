@@ -55,5 +55,5 @@ This is part of the excerpt
 ...
 This is part is not in the excerpt and can only be read by opening the post
 
-[Back to blog site](../index.md)
+[Back to blog site](../../index.md)
 ...

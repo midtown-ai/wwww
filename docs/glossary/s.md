@@ -564,7 +564,7 @@ If you find any errors in your previous solution, provide the corrected calculat
 
  ~ a form of unsupervised learning, where manually labeled data is not needed. Raw data is instead modified in an automated way to create artificial labels to learn from. An example of SSL is learning to complete text by masking random words in a sentence and trying to predict the missing ones.
 
- ~ automatic generation of labels from the unlabelled input data.` A type of learning that does not need labels to be applied by humans. The training dataset is generated from the data. Examples:
+ ~ automatic generation of labels from the unlabeled input data.` A type of learning that does not need labels to be applied by humans. The training dataset is generated from the data. Examples:
 
    * [Next word prediction] - "she planned to visit the"
    * [Masked Language Modeling] - "Alice chased the ____ rabbit and fell down the ____ into a new world."
@@ -663,7 +663,7 @@ If you find any errors in your previous solution, provide the corrected calculat
 
 ## Semi-Supervised Learning
 
- ~ `dataset not fully labeled --> use similarity to label other data` Supervised learning and unsupervised learning can be thought of as occupying opposite ends of a spectrum. Some types of problem, called semi-supervised learning problems, make use of both supervised and unsupervised data; these problems are located on the spectrum between supervised and unsupervised learning.  Several algorithm can be used like neighbor infection or nearest labeled neighbor. Example A: In a series of picture, you recognize people, let's say 4 of them. If you tag one image, then the tags can be pushed to all the other images. Example B: Classification problem but only on a small subset you have is CORRECTLY labeled. Can you train your model with the rest of the unlabelled data? 
+ ~ `dataset not fully labeled --> use similarity to label other data` Supervised learning and unsupervised learning can be thought of as occupying opposite ends of a spectrum. Some types of problem, called semi-supervised learning problems, make use of both supervised and unsupervised data; these problems are located on the spectrum between supervised and unsupervised learning.  Several algorithm can be used like neighbor infection or nearest labeled neighbor. Example A: In a series of picture, you recognize people, let's say 4 of them. If you tag one image, then the tags can be pushed to all the other images. Example B: Classification problem but only on a small subset you have is CORRECTLY labeled. Can you train your model with the rest of the unlabeled data? 
 
  See also [S], [K-Nearest Neighbors Algorithm], [Self-Supervised Learning], [Supervised Learning], [Unlabelled Data Algorithm], [Unsupervised Learning], [Weak-Supervised Learning]
 
@@ -1178,7 +1178,7 @@ print(f"best score: {gs.best_score_:.3f}, best params: {gs.best_params_}")
 
 ## Snorkel Program
 
- ~ ==Unlabelled data --> a weak supervision labeling function==
+ ~ ==Unlabeled data --> a weak supervision labeling function==
 
  Snorkel is a system for programmatically building and managing training [datasets] without manual labeling. In Snorkel, users can develop large training datasets in hours or days rather than hand-labeling them over weeks or months. Snorkel currently exposes three key programmatic operations: (1) Labeling data, e.g., using heuristic rules or distant supervision techniques (2) Transforming data, e.g., rotating or stretching images to perform data augmentation (3) Slicing data into different critical subsets for monitoring or targeted improvement.
  
@@ -1621,9 +1621,9 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
  See [Automated Speech Recognition]
 
 
-## Speech-To-Text (STT)
+## Speech-To-Text (STT) Model
 
- Speech-to-text models transcribe speech into text! The oppositve of [Text-To-Speech][Text-To-Speech Model]
+ Speech-to-text models transcribe speech into text! The opposite of a [Text-To-Speech (TTS) model]
 
  Models:
 
@@ -2292,7 +2292,7 @@ Completely different from [artificial neural networks][Artificial Neural Network
 
 ## Supervised Learning
 
- ==provide labelled training data== (picture of a dog, with label this is a dog!). Ex:
+ ==provide labeled training data== (picture of a dog, with label this is a dog!). Ex:
 
    * Regression (predicting the price that a house will sell for)
      * Simple [linear regression]
@@ -2301,6 +2301,16 @@ Completely different from [artificial neural networks][Artificial Neural Network
    * Random forest.
  
  Teaches the model by providing a dataset with example inputs and outputs. Human teacher's expertise is used to tell the model which outputs are correct. Input --> Model --> output/prediction. Further grouped into classification and regression. Learn the relationship between the input parameters and the output. For example: route calls to the correct agent-skills (hence recording of calls to be reviewed by supervisor/teacher). REQUIREMENTS: model should already be functioning and easy to observe! If that is not the case, maybe look at unsupervised learning! 
+
+ These AI algorithms are used to analyze a pattern or variables that you have control over (X variables), when you want to figure out either what to do about it, or you have a particular outcome (Y variables) that you want to monitor. In a marketing context, the marketing mix can make up all the X variables that you have control over, and the sales and KPIs are the Y variables the algorithm will monitor.
+
+ Some possible uses for supervised learning in marketing!:
+
+ * Predicting sales based on a historical allocation of media mix spends.
+ * Predicting what type of consumers will purchase a product based on their socioeconomic data.
+ * Predicting how long it would take for a customer to purchase the item, and adjusting the price accordingly.
+ * Predicting CPG (consumer product goods) market share based on historical data.
+ * Predicting CLV (customer lifetime value) based on historical data.
 
  See also [S], [Classification], [Mechanical Turk], [Random Forest], [Regression], [Reinforcement Learning], [Self-Supervised Learning], [Semi-Supervised Learning], [Supervisor], [Unsupervised Learning]
 

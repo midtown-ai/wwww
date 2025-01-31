@@ -13,7 +13,7 @@ No! (but why? because it is a rule-based system?)
 A company receives thousands of calls everyday to route to the right agent. The routing requires several hops and given the number of calls is expensive.
 What is a machine learning solution?
 Predict what are the required agent skills based some input parameters
-==> That's a multiclass classification problem!
+==> That's a multi-class classification problem!
 ```
 
  See also [M], [Artificial Neural Network (ANN)], [Deep Learning], [Machine Learning Framework], [Machine Learning Pipeline], [Prediction]
@@ -1332,7 +1332,7 @@ def mse_loss(y_pred, y_true):
 
 ## Model Compression
 
- [Large language models (LLM)][LLM] have been making waves, demonstrating exceptional performance in many tasks. However, their impressive capabilities come with a significant drawback: high computational costs.
+ [Large language models (LLM)] have been making waves, demonstrating exceptional performance in many tasks. However, their impressive capabilities come with a significant drawback: high computational costs.
 
  Top-tier models such as [LLaMA 2] and [Falcon] can demand dozens, if not hundreds, of gigabytes of [GPU memory]. This not only makes them expensive to run but also presents a formidable challenge in terms of setup. Furthermore, their resource-intensive nature makes it nearly impossible to run them on edge devices without access to robust cloud servers.
 
@@ -1348,8 +1348,9 @@ def mse_loss(y_pred, y_true):
 
  More at:
 
-  * [https://bdtechtalks.com/2023/09/18/what-is-llm-compression/](https://bdtechtalks.com/2023/09/18/what-is-llm-compression/)
   * paper - [https://arxiv.org/abs/2307.02973](https://arxiv.org/abs/2307.02973)
+  * articles:
+    * LLM compression - https://bdtechtalks.com/2023/09/18/what-is-llm-compression/
 
  See also [M], ...
 
@@ -1580,6 +1581,28 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
+## Model Performance Metric
+
+ Examples:
+
+  * [accuracy] or percentage of correct predictions
+  * [sensitivity], [recall], hit rate or [TPR]
+  * [precision]
+  * [F1 score] = weigthed harmonic mean of precision and recall = ( 2 X precision * recall ) / (Precision + recall)
+  * [FPR], [FNR]
+
+  [Hyperparameter Tuning]
+
+ See also [M], ...
+
+
+## Model Predictive Control (MPC) Algorithm
+
+ Used in [Look-Ahead Planning] ?
+
+ See also [M], ...
+
+
 ## Model Release Card
 
  ~ What is released and how for a given model.
@@ -1644,26 +1667,56 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
-## Model Performance Metric
+## Model Risk Management (MRM)
 
- Examples:
+ In 2021, real estate marketplace company Zillow took a USD 304 million inventory write-down and planned to slash a quarter of its workforce following its failed home-buying venture, which was partly caused by the inability of its housing price valuation model to accurately predict home prices.
 
-  * [accuracy] or percentage of correct predictions
-  * [sensitivity], [recall], hit rate or [TPR]
-  * [precision]
-  * [F1 score] = weigthed harmonic mean of precision and recall = ( 2 X precision * recall ) / (Precision + recall)
-  * [FPR], [FNR]
+ Model risk can stem from various causes:
 
-  [Hyperparameter Tuning]
+  * Data 
+    
+    A model’s input data might be erroneous, incomplete, outdated or biased. If outdated data is used for a market model, for instance, then it might project skewed trends regarding market performance or market prices.
 
- See also [M], ...
+    Also, if training data sets for artificial intelligence (AI) models aren’t evaluated for the presence of bias, these AI models can produce results that reflect and perpetuate the intrinsic bias in the data. For example, job applicant screening systems might favor male or younger applicants, while healthcare prediction software might exhibit racial bias when prioritizing patients in need of immediate care.
 
+  * Assumptions and variables
 
-## Model Predictive Control (MPC) Algorithm
+    Assumptions might be flawed or unrealistic. Irrelevant, wrong, missed or omitted variables or incorrect variable calibrations can affect model output.
 
- Used in [Look-Ahead Planning] ?
+    For instance, a pricing model that doesn’t factor in market volatility might produce inaccurate estimates, while product demand forecasting models that fail to consider seasonal purchasing behaviors or current economic conditions, such as shipping delays or decreased spending, might lead to poorly managed inventory levels.
 
- See also [M], ...
+    Meanwhile, a patient care prediction model that puts a greater weight on a variable such as healthcare spending might result in the model discriminating against those who have lower incomes and thus spend less on healthcare but have a greater need to access it.
+
+  * Methodology
+
+    The chosen methodology might have inherent errors, so model developers need to be knowledgeable about the model and aware of its limitations. For example, statistical methods such as regression modeling can have sampling and standard errors.
+
+    This is also where selecting the right model comes in. For instance, even though generative AI is the latest technology, it might not be a strong fit for financial forecasting, where other well-established models can do it for less work and lower cost.
+
+  * Model implementation
+
+    Incomplete or incorrect model development can lead to inaccurate results or model errors. The same is true for programming errors, mistakes in approximations or calculations and other technical errors. Applying any shortcuts or simplifications as a result of model uncertainty and complexity might also affect the outcome.
+
+    For example, tight timelines to deploy a predictive analytics model for sales performance might lead to using real-time data feeds of sales numbers. However, because of this decision, the model might fail frequently or be slow to run. In this case, switching to a daily or weekly data snapshot might improve the model’s speed and stability.
+
+    Rigorous testing can also help detect errors during implementation, such as accidentally using a different date format for an insurance claims assessment model or another unit of measurement for a healthcare diagnostics model, or inadvertently modifying the currency for a pricing model.
+
+  * Interpretation of results
+
+    Misinterpreting the output of a model can lead to misinformed decision-making and taking the wrong course of action. This is where expert analysis is needed, with subject matter experts evaluating the soundness of a model’s results. Explainability and transparency are also crucial in determining how a model arrived at its conclusions.
+
+  * Model usage
+
+    Models might be misused or the wrong model might be applied to a certain scenario. A model’s design and specifications might also be unfit for a particular business case.
+
+    For instance, a model that helps hospitals triage patients faster in a particular state or region might not be suitable for a neighboring state or region due to varying demographics. Meanwhile, models that identify a lung condition in children from their chest scans might not be able to detect the same condition in adults.
+
+  More at:
+    * zillow - https://edition.cnn.com/2021/11/09/tech/zillow-ibuying-home-zestimate/index.html
+    * articles
+      * https://www.ibm.com/think/topics/model-risk-management
+    
+ See also [R], [NIST AI Risk Management Framework], ...
 
 
 ## Model Robustness
@@ -2105,9 +2158,17 @@ def mse_loss(y_pred, y_true):
  See also [M], ...
 
 
-## Multiclass Classification
+## Multi-Class Classification
 
  ML for classification with more than 2 categories. :warning: Categories are mutually exclusive.
+
+ ![](img/m/multi_class_vs_multi_label_classification.png ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=Epx2V3Kd3dE" %}
+
+ More at:
+  * articles
+    * XGBoost - https://towardsdatascience.com/xgboost-for-multi-class-classification-799d96bcd368
 
  See also [M], [Binary Classification], [Classification Task], [Multi-Label Classification]
 

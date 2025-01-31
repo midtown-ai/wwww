@@ -401,7 +401,7 @@ info = response.choices[0].message.content
 
 ## Text-To-Speech (TTS) Model
 
- Turn text into speech. The opposite of [Speech-To-Text]
+ Turn text into speech. The opposite of [Speech-To-Text (STT)]
 
  Models such as
 
@@ -409,6 +409,7 @@ info = response.choices[0].message.content
   * the [WaveNet] by [DeepMind]
 
  More at:
+
   * PDF 2 podcast - [https://github.com/togethercomputer/together-cookbook/blob/main/PDF_to_Podcast.ipynb](https://github.com/togethercomputer/together-cookbook/blob/main/PDF_to_Podcast.ipynb)
 
  See also [T], [Sequence To Sequence Model]
