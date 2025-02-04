@@ -180,7 +180,7 @@
 
  {% youtube "https://www.youtube.com/watch?v=nQ1EuRF5x30" %}
 
- {% pdf "https://arxiv.org/pdf/2404.10667.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2404.10667" %}
 
  More at:
 
@@ -249,7 +249,7 @@
 
  {% youtube "https://www.youtube.com/watch?v=dN0lsF2cvm4" %}
 
- {% pdf "https://arxiv.org/pdf/2401.09350.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2401.09350" %}
 
  More at:
 
@@ -550,7 +550,7 @@ for layer in model.layers:
    print(layer.name, filters.shape)
 ```
 
- {% pdf "https://arxiv.org/pdf/1409.1556.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1409.1556" %}
 
  More at
 
@@ -594,7 +594,10 @@ for layer in model.layers:
 
 ## Vision-Language Pre-Training (VLP)
 
- {% pdf "img/v/vision_language_pretraining_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2202.09061" %}
+
+ More at:
+  * paper - https://arxiv.org/abs/2202.09061
 
  See also [V], [Masked Vision Modeling]
 
@@ -605,13 +608,15 @@ for layer in model.layers:
 
  The Vision Transformer, or ViT, is a model for image classification that employs a Transformer-like architecture over patches of the image. An image is split into fixed-size patches, each of them are then linearly embedded, position embeddings are added, and the resulting sequence of vectors is fed to a standard Transformer encoder. In order to perform classification, the standard approach of adding an extra learnable “classification token” to the sequence is used.
 
- {% pdf "img/v/vision_transformer_paper.pdf" %}
-
  ![](img/v/vision_transformer_architecture.png ){: width="100%"}
+
+ {% pdf "https://arxiv.org/pdf/2010.11929" %}
 
  More at:
 
-  * Scaling Vision Transformers to 22 Billion Parameters (paper) - [https://arxiv.org/abs/2302.05442](https://arxiv.org/abs/2302.05442)
+  * papers
+    * An image is worth 16x16 words - https://arxiv.org/abs/2010.11929
+    * Scaling Vision Transformers to 22 Billion Parameters - [https://arxiv.org/abs/2302.05442](https://arxiv.org/abs/2302.05442)
 
  See also [V], [Feature Extractor], [Tokenizer]
 
@@ -668,7 +673,7 @@ for layer in model.layers:
   * Zero-shot TTS - style transfer from existing recording to text
   * Cross-lingual style transfer - style transfer from existing voice recording with text extracted from another audio recording to a final audio with changed voice
 
- {% pdf "https://dl.fbaipublicfiles.com/voicebox/paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2306.15687" %}
 
  More at:
 
@@ -676,7 +681,7 @@ for layer in model.layers:
     * [https://about.fb.com/news/2023/06/introducing-voicebox-ai-for-speech-generation/](https://about.fb.com/news/2023/06/introducing-voicebox-ai-for-speech-generation/)
     * [https://ai.meta.com/blog/voicebox-generative-ai-model-speech/](https://ai.meta.com/blog/voicebox-generative-ai-model-speech/)
   * site - [https://voicebox.metademolab.com/](https://voicebox.metademolab.com/)
-  *  
+  * paper - https://arxiv.org/abs/2306.15687 
 
 ## VoiceFlow Company
 

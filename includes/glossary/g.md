@@ -158,6 +158,9 @@
 [Groq Company]: /glossary/g.md#groq-company
 [Groq]: /glossary/g.md#groq-company
 [Ground Truth]: /glossary/g.md#ground-truth
+[Group Relative Policy Optimization (GRPO) Algorithm]: /glossary/g.md#group-relative-policy-optimization-grpo-algorithm
+[Group Relative Policy Optimization (GRPO)]: /glossary/g.md#group-relative-policy-optimization-grpo-algorithm
+[GRPO]: /glossary/g.md#group-relative-policy-optimization-grpo-algorithm
 [Grouped-Query Attention (GQA)]: /glossary/g.md#grouped-query-attention-gqa
 [GQA]: /glossary/g.md#grouped-query-attention-gqa
 [Gshard Model]: /glossary/g.md#gshard-model

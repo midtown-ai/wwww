@@ -71,6 +71,9 @@
 [Regulatory Landscape]: /glossary/r.md#regulatory-landscape
 [REINFORCE Algorithm]: /glossary/r.md#reinforce-algorithm
 [REINFORCE]: /glossary/r.md#reinforce-algorithm
+[REINFORCE Leave one Out (RLOO) Algorithm]: /glossary/r.md#reinforce-leave-one-out-rloo-algorithm
+[REINFORCE Leave one Out (RLOO)]: /glossary/r.md#reinforce-leave-one-out-rloo-algorithm
+[RLOO]: /glossary/r.md#reinforce-leave-one-out-rloo-algorithm
 [Reinforcement Fine-Tuning (RFT)]: /glossary/r.md#reinforcement-fine-tuning-rft
 [RFT]: /glossary/r.md#reinforcement-fine-tuning-rft
 [Reinforcement Learning]: /glossary/r.md#reinforcement-learning-rl

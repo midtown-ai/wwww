@@ -684,7 +684,12 @@ Recall = % of positively identified
 
   * pytorch implementation - [https://medium.com/@thechrisyoon/deriving-policy-gradients-and-implementing-reinforce-f887949bd63](https://medium.com/@thechrisyoon/deriving-policy-gradients-and-implementing-reinforce-f887949bd63)
 
- See also [R], ...
+ See also [R], [Policy Gradient Algorithm]
+
+
+## REINFORCE Leave one Out (RLOO) Algorithm
+
+ See also [R], [Policy Gradient Algorithm]
 
 
 ## Reinforcement Fine-Tuning (RFT)

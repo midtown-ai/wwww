@@ -1396,6 +1396,27 @@ Grok is still a very early beta product – the best we could do with 2 months o
  See also [G], ...
 
 
+## Group Relative Policy Optimization (GRPO) Algorithm
+
+ A [policy gradient algorithm] that ...
+
+ ![](img/g/group_relative_policy_optimization.webp ){: width="100%"}
+
+ ![](img/g/group_relative_policy_optimization_vs_ppo.webp ){: width="100%"}
+
+ {% youtube "https://www.youtube.com/watch?v=VUzA1UHWsF4" %}
+
+ {% youtube "https://www.youtube.com/watch?v=bEcE2bVXbJI" %}
+
+ {% youtube "https://www.youtube.com/watch?v=lt5qBi1LtkM" %}
+
+ {% youtube "https://www.youtube.com/watch?v=L6sA6qMDMuY" %}
+
+ {% youtube "https://www.youtube.com/watch?v=0d9t82kn1rU" %}
+
+ See also [G], ...
+
+
 ## Grouped-Query Attention (GQA)
 
  ~ a technique that helps getting faster inferences

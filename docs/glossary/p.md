@@ -678,13 +678,15 @@ That is: π(s) → a
 
  A set of algorithms that update the policy [artificial neural network].
 
- Examples of algorithm:
+ Examples of algorithms:
 
-  * [REINFORCE algorithm]
+  * [REINFORCE]
+  * [REINFORCE Leave One Out (RLOO)]
   * [Advanced Actor-Critic (A2C)]
   * [Asynchronous Advanced Actor-Critic (A3C)]
   * [Deep Deterministic Policy Gradient (DDPG)]
   * [Proximal Policy Optimization (PPO)]
+  * [Group Relative Policy Optimization (GRPO)]
 
 
  {% youtube "https://www.youtube.com/watch?v=YOW8m2YGtRg" %}
@@ -698,6 +700,8 @@ That is: π(s) → a
   * [http://karpathy.github.io/2016/05/31/rl/](http://karpathy.github.io/2016/05/31/rl/)
   * [https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5](https://gist.github.com/karpathy/a4166c7fe253700972fcbc77e4ea32c5)
   * colab - [https://colab.research.google.com/github/DJCordhose/ai/blob/master/notebooks/rl/pg-from-scratch.ipynb](https://colab.research.google.com/github/DJCordhose/ai/blob/master/notebooks/rl/pg-from-scratch.ipynb)
+  * books
+    * https://rlhfbook.com/c/11-policy-gradients.html
 
  See also [P], [Proximal Policy Optimization Algorithm], [Reinforcement Learning]
 
