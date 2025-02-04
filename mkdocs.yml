@@ -429,13 +429,13 @@ plugins:
   # - privacy                 # all external asset URLs are rewritten to point to local copies
   # - projects                # split very large sites into smaller ones for faster rebuild and parallel development
   - search                    # add search bar to header and enable search
-  - social:                   # used to build social card for post on WhatsApp, etc
-      enabled: !ENV [SOCIAL_PLUGIN_ENABLED, true]
-      # concurrency: 1        # (SO) number of CPU cores to use to generate the cards
-      # cache: false          # (SO) bypass the cache and regenerate the enter set of cards
-      cache_dir: !ENV [SOCIAL_CACHE_DIR, .cache/plugins/social]
-      cards: true
-      # log: true             # (SO) log errors when generating social cards
+  # - social:                   # used to build social card for post on WhatsApp, etc
+  #     enabled: !ENV [SOCIAL_PLUGIN_ENABLED, true]
+  #     # concurrency: 1        # (SO) number of CPU cores to use to generate the cards
+  #     # cache: false          # (SO) bypass the cache and regenerate the enter set of cards
+  #     cache_dir: !ENV [SOCIAL_CACHE_DIR, .cache/plugins/social]
+  #     cards: true
+  #     # log: true             # (SO) log errors when generating social cards
       
   # - tags                    # add support for categorization /!\ require tags in front matters of pages
   # - typeset                 # enrich titles and headlines in navigation and table-of-contents
@@ -514,7 +514,7 @@ plugins:
       categories:             # include posts' categories and tags in the feed
         - categories          # will look in page.meta.categories
         # - tags              # will look into page.meta.tags
-      comments_path: "#__comments" # path to comments to add to each item (if using Disqus or Isso)
+  #   comments_path: "#__comments" # path to comments to add to each item (if using Disqus or Isso)
       date_from_meta:         # pudDate field for each item with dates not from git log (default), but from git log with page.meta ...
         as_creation: date.created # - ... as creation date
         as_update: date.updated   # - ... as update date
@@ -529,9 +529,9 @@ plugins:
         rss_created: feed_rss_created.xml
         rss_updated: feed_rss_updated.xml
       image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png # feed illustration image
-      json_feed_enabled: true # enable JSON feed
+      json_feed_enabled: true # enable/disable the JSON feed
       length: 20              # number of items to include in feed
-      match_path: "blog/posts/.*" # url to be included in the feed (filter pages to include in feed)
+      match_path: "blog/posts/.*" # filter pages to be included in feed based on URL matching
       pretty_print: true      # prettified XML
       rss_feed_enabled: true  # enable the RSS feed
       url_parameters:         # Key/value pairs automatically added to URLs
@@ -539,9 +539,9 @@ plugins:
         utm_campaign: "feed-syndication" # identifies what was clicked to bring the user to the site
         utm_medium: "RSS"     # type of link used to connect
         utm_source: "documentation" # source site that sent the traffic
-      use_git: true           # enable/disable extraction of metadata from git log
+  #   use_git: true           # enable/disable extraction of metadata from git log
       use_material_blog: true # enable/disable integration with material blog plugin
-      use_material_social_cards: true # enable/disable integration with material social cards plugin
+  #   use_material_social_cards: true # enable/disable integration with material social cards plugin
 
 #
 # Extra Object
