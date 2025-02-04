@@ -1,9 +1,14 @@
-site_name: Midtown AI
-# site_url: https://www2.midtown.ai/
+#
+# Site
+#
 site_author: Emmanuel Mayssat
-# The best site to learn about Artificial Intelligence 5 minutes at a time...
 site_description: >-
   Let's explore this transforming technology. Let's shape the future of AI together.
+# The best site to learn about Artificial Intelligence 5 minutes at a time...
+
+site_name: Midtown AI
+# site_url: https://www.midtown.ai/
+site_url: https://midtown-ai.github.io/wwww/ # used by the RSS plugin to build item.link
 
 #
 # For the 'mkdocs gh-deploy' command
@@ -38,7 +43,7 @@ site_dir: site                # directory where the output HTML and other files 
 # Look and feel of the site
 #
 theme:
-  language: en                # default language is english
+  language: en                # default language is English
   name: material              # pip install mkdocs-material
   # name: mkdocs              # default theme
   # name: readthedocs
@@ -520,8 +525,8 @@ plugins:
         as_update: date.updated   # - ... as update date
         datetime_format: "%Y-%m-%d %H:%M"
         default_timezone: America/Los_Angeles
-      # feed_description: "Let's explore this transforming technology. Let's shape the future of AI together."
-      feed_title: Midtown_AI blog feed
+      feed_description: "Let's explore this transforming technology. Let's shape the future of AI together."
+      feed_title: Midtown AI (blog feed)
       feed_ttl: 1440          # feed's cache time
       feeds_filenames:        # use to customize output feed URLs
         json_created: feed_json_created.json

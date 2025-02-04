@@ -1,13 +1,19 @@
 authors:
-  emmanuel:
-    name: Isaac's Intelligent Insights
-    description: Creator
-    avatar: https://github.com/emayssat.png
-  florian:
+  d:
     name: Darwin's Data Diaries
-    description: AI user
+  emmanuel:
     avatar: https://github.com/emayssat.png
-  oceanne:
+    description: AI Ethicist
+    name: Emmanuel's Empirical Evidence
+  florian:
+    avatar: https://github.com/emayssat.png
+    description: AI Forensic Scientist
+    name: Florian's Fantastic Findings
+  g:
     name: Grace's Generative Gems
-    description: Creator
+  i:
+    name: Isaac's Intelligent Insights
+  oceanne:
     avatar: https://github.com/emayssat.png
+    description: AI Oncologist
+    name: Oceanne's Outstanding Observations
