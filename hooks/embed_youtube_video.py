@@ -5,7 +5,7 @@ import os
 log = logging.getLogger('mkdocs')
 
 # Debugging configuration
-DEBUG = os.getenv("DEBUG", "False").lower() in ("true", "1", "yes")  # Controlled via environment variable
+DEBUG = os.getenv("YOUTUBE_HOOK_ENABLED", "True").lower() in ("false", "0", "no")  # Controlled via environment variable
 DEBUG_PAGE_URL_FILTER = re.compile(r"tests/youtube_hook/")  # Filter specific pages for debugging
 YOUTUBE_REGEX_STR = r"{%\s*youtube\s+\"(https?://www\.youtube\.com/watch\?v=([\w-]+)(?:&t=(\d+))?.*?)\"\s*(.*?)\s*%}"
 

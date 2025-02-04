@@ -26,8 +26,8 @@ copyright: Copyright &copy; 2024 - 2025 <a href="https://www.midtown.ai/" rel="n
 # Directories
 #
 docs_dir: docs                # directory containing the source markdown files
-watch:                        # other directories to watch
-  - includes
+watch:                        # files and directories other than docs to watch
+#  - includes
   - overrides
 site_dir: site                # directory where the output HTML and other files are created
 
@@ -348,13 +348,13 @@ hooks:
 # Plugins
 #
 # are builtin python scripts or distributed in module
-# include functions that are hooks triggered at particular events (on_build, on_serve, on_templatiing, etc.)
+# include functions that are hooks triggered at particular events (on_build, on_serve, on_templating, etc.)
 #
 plugins:
   #
   # Built-in plugins
   #
-  - blog:                     # enable blog on website, posts are in 
+  - blog:
       enabled: !ENV [BLOG_PLUGIN_ENABLED, true]
       archive: true           # - enable archive pages
       archive_date_format: yyyy # - date format for archive page titles 
@@ -429,16 +429,25 @@ plugins:
   # - privacy                 # all external asset URLs are rewritten to point to local copies
   # - projects                # split very large sites into smaller ones for faster rebuild and parallel development
   - search                    # add search bar to header and enable search
-  # - social                  # used to build social card for post on WhatsApp, etc
+  - social:                   # used to build social card for post on WhatsApp, etc
+      enabled: !ENV [SOCIAL_PLUGIN_ENABLED, true]
+      # concurrency: 1        # (SO) number of CPU cores to use to generate the cards
+      # cache: false          # (SO) bypass the cache and regenerate the enter set of cards
+      cache_dir: !ENV [SOCIAL_CACHE_DIR, .cache/plugins/social]
+      cards: true
+      # log: true             # (SO) log errors when generating social cards
+      
   # - tags                    # add support for categorization /!\ require tags in front matters of pages
   # - typeset                 # enrich titles and headlines in navigation and table-of-contents
   #
   # Internal plugins
+  # ------------------
   #
   # - youtube_embed_plugin:
   #     module: plugins.youtube_embed_plugin
   #
   # External plugins
+  # ------------------
   #
   # check requirements.txt for module installation
   #
@@ -446,11 +455,24 @@ plugins:
   # @ https://github.com/mkdocstrings/autorefs
   # pip install mkdocs-autorefs
   - autorefs
+  # linking GitHub profiles of contributors at the bottom of each page
+  # @ https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
+  # pip install mkdocs-git-committers-plugin-2
+  - git-committers:
+      enabled: !ENV [GITCOMMITTERS_PLUGIN_ENABLED, true]
+      branch: main
+      cache_dir: !ENV [GITCOMMITTERS_CACHE_DIR, .cache/plugins/git-committers/, ]
+      docs_path: docs/
+      repository: midtown-ai/wwww
+      token: !!python/object/apply:os.getenv ["GITCOMMITTERS_APIKEY"] # To avoid github rate limits
   # Support for adding the date of the last update and creation of a doc at the bottom of each page
   # @ https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
   # pip install mkdocs-git-revision-date-localized-plugin
-  # - git-revision-date-localized:
-  #     enable_creation_date: true
+  - git-revision-date-localized:
+      enabled: !ENV [GITREVISIONDATE_PLUGIN_ENABLED, true]
+      enable_creation_date: true
+      fallback_to_build_date: true
+      locale: en
   # Include other files in a markdown file
   # @ https://github.com/mondeja/mkdocs-include-markdown-plugin
   # pip install mkdocs-include-markdown-plugin
@@ -470,30 +492,56 @@ plugins:
   # @ https://github.com/soulless-viewer/mkdocs-video
   # pip install mkdocs-video
   # - mkdocs-video:
-  #     is_video: False           # Use <video/> instead of <iframe/>
+  #     is_video: False         # Use <video/> instead of <iframe/>
 
   # Compress downloaded files to minimize latency
   # @ https://github.com/byrnereese/mkdocs-minify-plugin
   # pip install mkdocs-minify-plugin
   - minify:
       enabled: !ENV [MINIFY_PLUGIN_ENABLED, true]
-      minify_css: true         # Minify content of CSS files
-      minify_html: false       # Minify content of generated HTML files
-      minify_js: true          # Minify content of JS files
+      minify_css: true        # Minify content of CSS files
+      minify_html: false      # Minify content of generated HTML files
+      minify_js: true         # Minify content of JS files
 
   # Add an RSS feed to allow users to subscribe to the blog and get notified on new posts
   # @ https://guts.github.io/mkdocs-rss-plugin/#quickstart
   # pip install mkdocs-rss-plugin
   - rss:
       enabled: !ENV [RSS_PLUGIN_ENABLED, true]
-      match_path: "blog/posts/.*"  # url to be included in the feed
-      categories:                  # include posts' categories and tags in the feed
-        - categories
-        # - tags
-      # comments_path: "#__comments"
-      ##    date_from_meta:              # which front matter property to use ...
-      ##  as_creation: date.created  # - ... as creation date
-      ##  as_update: date.updated    # - ... as update date
+      abstract_chars_count: 160 # item description length
+      abstract_delimiter: <!-- end-of-excerpt --> # mark where the description ends (unless provided in page.meta.rss.feed_description)
+      cache_dir: !ENV [RSS_CACHE_DIR, .cache/plugins/rss]
+      categories:             # include posts' categories and tags in the feed
+        - categories          # will look in page.meta.categories
+        # - tags              # will look into page.meta.tags
+      comments_path: "#__comments" # path to comments to add to each item (if using Disqus or Isso)
+      date_from_meta:         # pudDate field for each item with dates not from git log (default), but from git log with page.meta ...
+        as_creation: date.created # - ... as creation date
+        as_update: date.updated   # - ... as update date
+        datetime_format: "%Y-%m-%d %H:%M"
+        default_timezone: America/Los_Angeles
+      # feed_description: "Let's explore this transforming technology. Let's shape the future of AI together."
+      feed_title: Midtown_AI blog feed
+      feed_ttl: 1440          # feed's cache time
+      feeds_filenames:        # use to customize output feed URLs
+        json_created: feed_json_created.json
+        json_updated: feed_json_updated.json
+        rss_created: feed_rss_created.xml
+        rss_updated: feed_rss_updated.xml
+      image: https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Feed-icon.svg/128px-Feed-icon.svg.png # feed illustration image
+      json_feed_enabled: true # enable JSON feed
+      length: 20              # number of items to include in feed
+      match_path: "blog/posts/.*" # url to be included in the feed (filter pages to include in feed)
+      pretty_print: true      # prettified XML
+      rss_feed_enabled: true  # enable the RSS feed
+      url_parameters:         # Key/value pairs automatically added to URLs
+        # Urchin Tracking Module (UTM) parameters
+        utm_campaign: "feed-syndication" # identifies what was clicked to bring the user to the site
+        utm_medium: "RSS"     # type of link used to connect
+        utm_source: "documentation" # source site that sent the traffic
+      use_git: true           # enable/disable extraction of metadata from git log
+      use_material_blog: true # enable/disable integration with material blog plugin
+      use_material_social_cards: true # enable/disable integration with material social cards plugin
 
 #
 # Extra Object
