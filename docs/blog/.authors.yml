@@ -1,5 +1,7 @@
 authors:
-  d:
+  darwin:
+    avatar: https://github.com/emayssat.png
+    description: AI Detective 
     name: Darwin's Data Diaries
   emmanuel:
     avatar: https://github.com/emayssat.png
@@ -9,9 +11,13 @@ authors:
     avatar: https://github.com/emayssat.png
     description: AI Forensic Scientist
     name: Florian's Fantastic Findings
-  g:
+  grace:
+    avatar: https://github.com/emayssat.png
+    description: AI Genius
     name: Grace's Generative Gems
-  i:
+  isaac:
+    avatar: https://github.com/emayssat.png
+    description: AI Interpreter
     name: Isaac's Intelligent Insights
   oceanne:
     avatar: https://github.com/emayssat.png

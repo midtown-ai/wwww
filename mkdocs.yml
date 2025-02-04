@@ -1,11 +1,14 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
 #
 # Site
 #
-site_author: Emmanuel Mayssat
+site_author: info@midtown.ai (Emmanuel M.)
 site_description: >-
   Let's explore this transforming technology. Let's shape the future of AI together.
 # The best site to learn about Artificial Intelligence 5 minutes at a time...
 
+site_dir: site                # directory where generated HTML files are created and assets are copied
 site_name: Midtown AI
 # site_url: https://www.midtown.ai/
 site_url: https://midtown-ai.github.io/wwww/ # used by the RSS plugin to build item.link
@@ -31,10 +34,13 @@ copyright: Copyright &copy; 2024 - 2025 <a href="https://www.midtown.ai/" rel="n
 # Directories
 #
 docs_dir: docs                # directory containing the source markdown files
+use_directory_urls: true      # <dir>/index.md generates http://.../<dir>/index.html which can also be accessed as http://.../<dir>/
+
+dev_addr: '127.0.0.1:8000'    # address used when running 'mkdocs serve'
+strict: false                 # do not halt processing when a warning is raised
 watch:                        # files and directories other than docs to watch
 #  - includes
   - overrides
-site_dir: site                # directory where the output HTML and other files are created
 
 
 # ---
@@ -327,9 +333,10 @@ nav:
     - Substack Newsletter: tests/substack_newsletter.md
 
 #
-# What is NOT in the navigation that should NOT be built?
+# Remove warnings for the following pages if not in the navigation
 #
-# not_in_nav:
+not_in_nav: |
+  /forms/donation.md
 
 
 # ---
