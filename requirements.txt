@@ -1,3 +1,7 @@
+# Dependencies 
+pillow                      # PIL for social plugin
+cairosvg                    # convert SVG files to PNG, PDF
+
 mkdocs-autorefs
 mkdocs-git-committers-plugin-2
 mkdocs-git-revision-date-localized-plugin
