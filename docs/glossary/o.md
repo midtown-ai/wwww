@@ -584,7 +584,7 @@ The best models will be used the most. Evals are flawed. Instead, compare models
 
  ~ a versatile voice cloning approach that requires only a short audio clip from the reference speaker to replicate their voice and generate speech in multiple languages.
 
- {% pdf "https://arxiv.org/pdf/2312.01479.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2312.01479" %}
 
  More at:
 
@@ -667,7 +667,7 @@ The best models will be used the most. Evals are flawed. Instead, compare models
 
  ![](img/o/optimization_by_prompting.png )
 
- {% pdf "https://arxiv.org/pdf/2309.03409.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2309.03409" %}
 
  More at:
 
@@ -787,7 +787,7 @@ model.compile(loss='categorical_crossentropy', optimizer=opt)
 
  {% youtube "https://www.youtube.com/watch?v=wAAtvBtNUH4" %}
 
- {% pdf "https://arxiv.org/pdf/2311.11045.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2311.11045" %}
 
  More at:
 

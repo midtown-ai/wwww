@@ -220,11 +220,11 @@
 
  {% youtube "https://www.youtube.com/watch?v=DtEq44FTPM4" %}
 
- {% pdf "https://arxiv.org/pdf/1502.03167.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1502.03167" %}
 
- {% pdf "https://arxiv.org/pdf/1805.11604.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1805.11604" %}
 
- {% pdf "https://arxiv.org/pdf/1905.05928.pdf" %} 
+ {% pdf "https://arxiv.org/pdf/1905.05928" %} 
 
  More at:
 
@@ -660,9 +660,9 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
  {% youtube "https://www.youtube.com/watch?v=ydfJ16RWJL8" %}
 
- {% pdf "https://arxiv.org/pdf/2206.04615.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2206.04615" %}
 
- {% pdf "https://arxiv.org/pdf/2210.09261.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2210.09261" %}
 
  More at:
 
@@ -762,7 +762,7 @@ Your belief has shifted towards more red marbles based on the observed data. The
 
  ![](img/b/bert_embeddings.png ){: width=35%}
 
- {% pdf "https://arxiv.org/pdf/1810.04805.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1810.04805" %}
 
  {% youtube "https://www.youtube.com/watch?v=wjZofJX0v4M" %}
 
@@ -936,7 +936,7 @@ binary cross-entropy loss = c = sum(0, 1, Pi * log (1/Qi) = Po * log(1/Qo) + (1-
 
  {% youtube "https://www.youtube.com/watch?v=FxMDrHnKWnk" %}
 
- {% pdf "https://arxiv.org/pdf/2303.17564.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2303.17564" %}
 
  More at:
 

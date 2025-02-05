@@ -284,9 +284,9 @@ A 2x2 matrix can have 0, 1, or 2 eigenvectors!
 
  ![](img/e/emergent_abilities_of_large_language_models_table.png ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2206.07682.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2206.07682" %}
 
- {% pdf "https://arxiv.org/pdf/2304.15004.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2304.15004" %}
 
  {% youtube "https://www.youtube.com/watch?v=bQuVLKn10do" %}
 
@@ -362,7 +362,7 @@ Research on emotion has increased over the past two decades with many fields con
 
  A [benchmark] to measure LLM's [emotional intelligence]
 
- {% pdf "https://arxiv.org/pdf/2312.06281.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2312.06281" %}
 
  More at:
 
@@ -905,7 +905,7 @@ In the context of DeepRacer, an episode refers to a single complete race around 
 
  {% youtube "https://www.youtube.com/watch?v=fc-cHk9yFpg" %}
 
- {% pdf "img/e/ethical_ai_cards.pdf" %}
+ {% pdf "../pdf/e/ethical_ai_cards.pdf" %}
 
  More at:
 
@@ -992,7 +992,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 
  ~ A flagship publication by [Evident Insights]
 
- {% pdf "img/e/evident_ai_index_20231101.pdf" %}
+ {% pdf "../pdf/e/evident_ai_index_20231101.pdf" %}
 
  More at:
 
@@ -1009,7 +1009,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 
  This report covers the developments of in-house AI research teams; the pros and cons of patents; how leading banks are engaging with academia and the open source ecosystem; and addresses long-standing questions about when to 'build' and when to 'buy'.
 
- {% pdf "img/e/evident_ai_innovation_report_20231101.pdf" %}
+ {% pdf "../pdf/e/evident_ai_innovation_report_20231101.pdf" %}
 
  More at:
 
@@ -1026,7 +1026,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 
  This report examines the extent to which AI is positioned at the heart of a bank’s external narrative across mainstream media, press releases, social media, and investor relations. It further assesses where and how senior leadership is amplifying that message.
 
- {% pdf "img/e/evident_ai_leadership_report_20231101.pdf" %}
+ {% pdf "../pdf/e/evident_ai_leadership_report_20231101.pdf" %}
 
  More at:
 
@@ -1043,7 +1043,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 
  It marks the first step towards benchmarking AI outcomes across the sector. Our ambition is to provide a common framework which will enable banks to evaluate and compare their AI outcomes vs peers.
 
- {% pdf "img/e/evident_ai_outcomes_report_20231101.pdf" %}
+ {% pdf "../pdf/e/evident_ai_outcomes_report_20231101.pdf" %}
 
  More at:
 
@@ -1060,7 +1060,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 
  This report examines why talent is central to the coming AI transformation of the banking industry, what banks are doing to develop their talent, and where they stand in the race to recruit and retain the brightest minds working in AI today.
 
- {% pdf "img/e/evident_ai_talent_report_20231101.pdf" %}
+ {% pdf "../pdf/e/evident_ai_talent_report_20231101.pdf" %}
 
  More at:
 
@@ -1196,7 +1196,7 @@ The biggest difference is that Cosine similarity is insensitive to the absolute 
 Shape AI’s potential to transform education by creating resources to support educators deploying AI-enabled educational tools, such as personalized tutoring in schools.
 ```
 
- {% pdf "img/e/executive_order_crs_report.pdf" %}
+ {% pdf "../pdf/e/executive_order_crs_report.pdf" %}
 
  {% youtube "https://www.youtube.com/watch?v=Fj7jNoJo2Ho" %}
 
@@ -1349,7 +1349,7 @@ Shape AI’s potential to transform education by creating resources to support e
 
  As more and more companies embed AI and advanced analytics within a business process and automate decisions, there needs to have transparency into how these models make decisions grows larger and larger. How do we achieve this transparency while harnessing the efficiencies AI brings. This is where the field of Explainable AI (XAI) can help. 
 
- {% pdf "img/e/explainable_ai_whitepaper.pdf" %}
+ {% pdf "../pdf/e/explainable_ai_whitepaper.pdf" %}
 
  More at:
 

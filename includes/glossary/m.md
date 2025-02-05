@@ -24,16 +24,20 @@
 [Markov Chain]: /glossary/m.md#markov-chain
 [Markov Chain Monte Carlo (MCMC) Algorithm]: /glossary/m.md#markov-chain-monte-carlo-mcmc-algorithm
 [Markov Chain Monte Carlo (MCMC)]: /glossary/m.md#markov-chain-monte-carlo-mcmc-algorithm
+[Markov Chain Monte Carlo]: /glossary/m.md#markov-chain-monte-carlo-mcmc-algorithm
 [MCMC Algorithm]: /glossary/m.md#markov-chain-monte-carlo-mcmc-algorithm
 [MCMC]: /glossary/m.md#markov-chain-monte-carlo-mcmc-algorithm
 [Markov Chain Stationary Distribution]: /glossary/m.md#markov-chain-stationary-distribution
 [Markov Decision Process (MDP)]: /glossary/m.md#markov-decision-process-mdp
+[Markov Decision Process]: /glossary/m.md#markov-decision-process-mdp
 [MDP]: /glossary/m.md#markov-decision-process-mdp
 [Markov Random Field]: /glossary/m.md#markov-random-field
 [Masked Language Modeling (MLM)]: /glossary/m.md#masked-language-modeling-mlm
+[Masked Language Modeling]: /glossary/m.md#masked-language-modeling-mlm
 [MLM]: /glossary/m.md#masked-language-modeling-mlm
 [Masked Self-Attention]: /glossary/m.md#masked-self-attention
 [Masked Vision Modeling (MVM)]: /glossary/m.md#masked-vision-modeling-mvm
+[Masked Vision Modeling]: /glossary/m.md#masked-vision-modeling-mvm
 [MVM]: /glossary/m.md#masked-vision-modeling-mvm
 [Massive Multitask Language Understanding (MMLU) Benchmark]: /glossary/m.md#massive-multitask-language-understanding-mmlu-benchmark
 [Massive Multitask Language Understanding (MMLU)]: /glossary/m.md#massive-multitask-language-understanding-mmlu-benchmark
@@ -110,6 +114,7 @@
 [Mistral-8x7B Model]: /glossary/m.md#mistral-model
 [Mistral-8x7B]: /glossary/m.md#mistral-model
 [Mixed Reality (MR)]: /glossary/m.md#mixed-reality-mr
+[Mixed Reality]: /glossary/m.md#mixed-reality-mr
 [MR]: /glossary/m.md#mixed-reality-mr
 [Mixtral Model]: /glossary/m.md#mixtral-model
 [Mixtral Models]: /glossary/m.md#mixtral-model

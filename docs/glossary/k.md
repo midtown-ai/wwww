@@ -283,7 +283,7 @@
 
  ![](img/k/kolmogorov_arnold_network.gif ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2404.19756v1.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2404.19756v1" %}
 
  More at:
 

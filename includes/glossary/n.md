@@ -74,21 +74,26 @@
 [Neural Network Interpretability]: /glossary/n.md#neural-network-interpretability
 [Neural Ordinary Differential Equation (ODE)]: /glossary/n.md#neural-ordinary-differential-equation-ode
 [Neural Ordinary Differential Equations (ODEs)]: /glossary/n.md#neural-ordinary-differential-equation-ode
+[Neural Ordinary Differential Equation]: /glossary/n.md#neural-ordinary-differential-equation-ode
 [Neural ODE]: /glossary/n.md#neural-ordinary-differential-equation-ode
 [Neural ODEs]: /glossary/n.md#neural-ordinary-differential-equation-ode
 [Neural Radiance Field (NeRF)]: /glossary/n.md#neural-radiance-field-nerf
+[Neural Radiance Field]: /glossary/n.md#neural-radiance-field-nerf
 [NeRF]: /glossary/n.md#neural-radiance-field-nerf
 [Neural Retriever]: /glossary/n.md#neural-retriever
 [Neural Scaling Law]: /glossary/n.md#neural-scaling-law
 [Neural Scaling Laws]: /glossary/n.md#neural-scaling-law
 [Neural Style Transfer (NST)]: /glossary/n.md#neural-style-transfer-nst
+[Neural Style Transfer]: /glossary/n.md#neural-style-transfer-nst
 [NST]: /glossary/n.md#neural-style-transfer-nst
 [Neural Topic Modeling (NTM)]: /glossary/n.md#neural-topic-modeling-ntm
+[Neural Topic Modeling]: /glossary/n.md#neural-topic-modeling-ntm
 [NTM]: /glossary/n.md#neural-topic-modeling-ntm
 [Neural Winter]: /glossary/n.md#neural-winter
 [Neuralink Company]: /glossary/n.md#neuralink-company
 [Neuralink]: /glossary/n.md#neuralink-company
 [Next Sentence Prediction (NSP)]: /glossary/n.md#next-sentence-prediction-nsp
+[Next Sentence Prediction]: /glossary/n.md#next-sentence-prediction-nsp
 [NSP]: /glossary/n.md#next-sentence-prediction-nsp
 [Next Word Prediction]: /glossary/n.md#next-word-prediction
 [Node]: /glossary/n.md#node

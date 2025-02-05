@@ -4,13 +4,15 @@
 
  Galactica is “a [large language model] that can store, combine and reason about scientific knowledge,” according to a paper published by [Meta] AI. It is a transformer model that has been trained on a carefully curated dataset of 48 million papers, textbooks and lecture notes, millions of compounds and proteins, scientific websites, encyclopedias, and more. Galactica was supposed to help scientists navigate the ton of published scientific information. Its developers presented it as being able to find citations, summarize academic literature, solve math problems, and perform other tasks that help scientists in research and writing papers.
 
- {% pdf "img/g/galactica_model_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2211.09085" %}
 
  More at:
 
-  * what happened to galactica? - [https://www.louisbouchard.ai/galactica/](https://www.louisbouchard.ai/galactica/)
-  * take aways - [https://bdtechtalks.com/2022/11/21/meta-ai-galactica](https://bdtechtalks.com/2022/11/21/meta-ai-galactica)
   * site - [http://galactica.org](http://galactica.org)
+  * paper - https://arxiv.org/abs/2211.09085
+  * articles
+    * what happened to galactica? - [https://www.louisbouchard.ai/galactica/](https://www.louisbouchard.ai/galactica/)
+    * take-aways - [https://bdtechtalks.com/2022/11/21/meta-ai-galactica](https://bdtechtalks.com/2022/11/21/meta-ai-galactica)
 
  See also [G], ...
 
@@ -58,7 +60,7 @@
 
  At scale this could mean AI will be able to create games on the fly, personalized to each player
 
- {% pdf "https://arxiv.org/pdf/2408.14837.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2408.14837" %}
 
  More at:
 
@@ -98,14 +100,15 @@
 
  ![](img/g/gato_model.png ){: width="100%"}
 
- {% pdf "img/g/gato_model_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2205.06175" %}
 
  {% youtube "https://www.youtube.com/watch?v=wSQJZHfAg18" %}
 
  More at:
 
-  * [https://www.deepmind.com/publications/a-generalist-agent](https://www.deepmind.com/publications/a-generalist-agent)
-  * [https://www.deepmind.com/blog/a-generalist-agent](https://www.deepmind.com/blog/a-generalist-agent)
+  * site - [https://www.deepmind.com/publications/a-generalist-agent](https://www.deepmind.com/publications/a-generalist-agent)
+  * paper - https://arxiv.org/abs/2205.06175
+  * blog - [https://www.deepmind.com/blog/a-generalist-agent](https://www.deepmind.com/blog/a-generalist-agent)
 
  See also [G], ...
 
@@ -133,7 +136,7 @@ output = m(input)
 
  ![](img/g/gaussian_error_linear_unit_activation_function.png ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/1606.08415v5.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1606.08415v5" %}
 
  More at:
 
@@ -214,12 +217,12 @@ output = m(input)
 
  {% youtube "https://www.youtube.com/watch?v=trXPfpV5iRQ" %}
 
- {% pdf "img/g/gen2_model_paper.pdf" %}
+ {% pdf "https://arxiv.org/abs/2302.03011" %}
 
  More at:
 
-  * [https://research.runwayml.com/gen2](https://research.runwayml.com/gen2)
-  * [https://arxiv.org/abs/2302.03011](https://arxiv.org/abs/2302.03011)
+  * site - [https://research.runwayml.com/gen2](https://research.runwayml.com/gen2)
+  * paper - [https://arxiv.org/abs/2302.03011](https://arxiv.org/abs/2302.03011)
 
  See also [G], ...
 
@@ -259,7 +262,7 @@ output = m(input)
  Answer: 34689
 ```
   
- {% pdf "https://arxiv.org/pdf/2311.12983.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2311.12983" %}
 
  More at:
 
@@ -281,11 +284,12 @@ output = m(input)
 
  The format of the GLUE benchmark is model-agnostic, so any system capable of processing sentence and sentence pairs and producing corresponding predictions is eligible to participate. The benchmark tasks are selected so as to favor models that share information across tasks using parameter sharing or other transfer learning techniques. The ultimate goal of GLUE is to drive research in the development of general and robust natural language understanding systems.
 
- {% pdf "img/g/glue_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1804.07461" %}
 
  More at:
 
-  * [https://gluebenchmark.com/](https://gluebenchmark.com/)
+  * site - [https://gluebenchmark.com/](https://gluebenchmark.com/)
+  * paper - https://arxiv.org/abs/1804.07461
 
  See also [G], [Benchmark], [SuperGLUE Benchmark]
 
@@ -344,12 +348,15 @@ output = m(input)
 
  {% youtube "https://www.youtube.com/watch?v=3z8VSpBL6Vg" %}
 
- {% pdf "img/g/generative_adversarial_networks_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1406.2661" %}
 
  More at:
 
-  * [http://hunterheidenreich.com/blog/what-is-a-gan/](http://hunterheidenreich.com/blog/what-is-a-gan/)
-  * GAN with Keras - [https://python.plainenglish.io/exploring-generative-adversarial-networks-gans-in-two-dimensional-space-922ee342b253](https://python.plainenglish.io/exploring-generative-adversarial-networks-gans-in-two-dimensional-space-922ee342b253)
+  * paper - https://arxiv.org/abs/1406.2661
+  * articles
+    * [http://hunterheidenreich.com/blog/what-is-a-gan/](http://hunterheidenreich.com/blog/what-is-a-gan/)
+  * code
+    * GAN with Keras - [https://python.plainenglish.io/exploring-generative-adversarial-networks-gans-in-two-dimensional-space-922ee342b253](https://python.plainenglish.io/exploring-generative-adversarial-networks-gans-in-two-dimensional-space-922ee342b253)
 
  See also [G], [AR-CNN], [Convolutional Neural Network], [Conditional GAN], [Cycle GAN], [DeepComposer], [Discriminator], [Generative Model], [Generator]
 
@@ -442,7 +449,7 @@ output = m(input)
 
  Here is the paper about GPT-3 in 2020
 
- {% pdf "https://arxiv.org/pdf/2005.14165v4.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2005.14165v4" %}
 
  GPT4 released on Tuesday 03/14/2023
 
@@ -466,7 +473,7 @@ output = m(input)
 
  Impact on the workforce and companies
 
- {% pdf "https://arxiv.org/pdf/2303.10130.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2303.10130" %}
 
  {% pdf "https://wp.technologyreview.com/wp-content/uploads/2023/10/MITTR-GenAI-Report-V15_10-6-23.pdf" %}
 
@@ -580,15 +587,17 @@ output = m(input)
 
  {% youtube "https://www.youtube.com/watch?v=lvv4N2nf-HU" %}
 
- {% pdf "img/g/glide_model_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2112.10741" %}
 
  More at :
 
-  * how does DALL-E work? - [https://www.assemblyai.com/blog/how-dall-e-2-actually-works/](https://www.assemblyai.com/blog/how-dall-e-2-actually-works/)
   * blog - [https://syncedreview.com/2021/12/24/deepmind-podracer-tpu-based-rl-frameworks-deliver-exceptional-performance-at-low-cost-173/](https://syncedreview.com/2021/12/24/deepmind-podracer-tpu-based-rl-frameworks-deliver-exceptional-performance-at-low-cost-173/)
   * paper - [https://arxiv.org/abs/2112.10741](https://arxiv.org/abs/2112.10741)
-  * code - [https://github.com/openai/glide-text2im](https://github.com/openai/glide-text2im)
-  * colab notebooks - [https://github.com/openai/glide-text2im/tree/main/notebooks](https://github.com/openai/glide-text2im/tree/main/notebooks)
+  * code 
+    * github - [https://github.com/openai/glide-text2im](https://github.com/openai/glide-text2im)
+    * notebooks - [https://github.com/openai/glide-text2im/tree/main/notebooks](https://github.com/openai/glide-text2im/tree/main/notebooks)
+  * articles
+    * how does DALL-E work? - [https://www.assemblyai.com/blog/how-dall-e-2-actually-works/](https://www.assemblyai.com/blog/how-dall-e-2-actually-works/)
 
  See also [G], [DALL-E Model]
 
@@ -760,7 +769,7 @@ print("ga_output: ", ga_output)
 
  We present GPQA, a challenging dataset of 448 multiple-choice questions written by domain experts in biology, physics, and chemistry. We ensure that the questions are high-quality and extremely difficult: experts who have or are pursuing PhDs in the corresponding domains reach 65% accuracy (74% when discounting clear mistakes the experts identified in retrospect), while highly skilled non-expert validators only reach 34% accuracy, despite spending on average over 30 minutes with unrestricted access to the web (i.e., the questions are "Google-proof"). The questions are also difficult for state-of-the-art AI systems, with our strongest GPT-4 based baseline achieving 39% accuracy. If we are to use future AI systems to help us answer very hard questions, for example, when developing new scientific knowledge, we need to develop scalable oversight methods that enable humans to supervise their outputs, which may be difficult even if the supervisors are themselves skilled and knowledgeable. The difficulty of GPQA both for skilled non-experts and frontier AI systems should enable realistic scalable oversight experiments, which we hope can help devise ways for human experts to reliably get truthful information from AI systems that surpass human capabilities.
 
- {% pdf "https://arxiv.org/pdf/2311.12022.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2311.12022" %}
 
  More at:
 
@@ -798,11 +807,12 @@ print("ga_output: ", ga_output)
 
  {% youtube "https://www.youtube.com/watch?v=nO653U-Pb5c" %}
 
- {% pdf "img/g/gopher_model_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2112.11446" %}
 
  More at :
 
-  * [https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval)
+  * blog - [https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval)
+  * paper - https://arxiv.org/abs/2112.11446
 
  See also [G], ...
 
@@ -837,7 +847,7 @@ print("ga_output: ", ga_output)
 
  GSM8K is a dataset of 8.5K high quality linguistically diverse grade school math word problems created by human problem writers and financed by [OpenAI]. The dataset is segmented into 7.5K training problems and 1K test problems. These problems take between 2 and 8 steps to solve, and solutions primarily involve performing a sequence of elementary calculations using basic arithmetic operations (+ − ×÷) to reach the final answer. A bright middle school student should be able to solve every problem. It can be used for multi-step mathematical reasoning.
 
- {% pdf "https://arxiv.org/pdf/2110.14168.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2110.14168" %}
 
  More at
 
@@ -1272,7 +1282,7 @@ print("ga_output: ", ga_output)
 
  {% youtube "https://www.youtube.com/watch?v=f6pUqDeMiG0" %}
 
- {% pdf "https://arxiv.org/pdf/2404.16130.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2404.16130" %}
 
  More at:
 
@@ -1358,7 +1368,7 @@ Grok is still a very early beta product – the best we could do with 2 months o
 
  ![](img/g/grokking.png ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2201.02177.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2201.02177" %}
 
  More at:
 

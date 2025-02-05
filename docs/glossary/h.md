@@ -176,7 +176,7 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
 
  ![](img/h/hierarchical_navigable_small_world_function.webp ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/1603.09320.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1603.09320" %}
 
  More at:
 
@@ -210,7 +210,7 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
 
  ~ a precursor of the [S4 Model]
 
- {% pdf "https://arxiv.org/pdf/2008.07669.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2008.07669" %}
 
  More at:
 
@@ -320,7 +320,7 @@ Listen to your gut, but don’t rely on it. Think through major problems methodi
 
  HourVideo is a specialized dataset designed for assessing video-language understanding, comprising 500 egocentric videos ranging from 20 to 120 minutes, along with nearly 13,000 multiple-choice questions. The dataset includes tasks such as summarization, perception, visual reasoning, and navigation, each testing different aspects of how AI can comprehend and interact with video content. Initial evaluations reveal that current leading models like GPT-4 and Gemini Pro 1.5 perform significantly below human experts, indicating a pressing need for advancements in AI capabilities regarding long-context video understanding.
 
- {% pdf "https://arxiv.org/pdf/2411.04998.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2411.04998" %}
 
  More at:
 

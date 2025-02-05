@@ -126,7 +126,7 @@ f(x,y) = P(X = x, Y = y)
 
  Generative model for music built by [OpenAI]
 
- {% pdf "https://arxiv.org/pdf/2005.00341.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2005.00341" %}
 
  More at:
 

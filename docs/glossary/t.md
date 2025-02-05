@@ -69,7 +69,7 @@
 
  TabPFN happens to be a single transformer.
 
- {% pdf "https://arxiv.org/pdf/2207.01848.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2207.01848" %}
 
  More at:
 
@@ -370,9 +370,9 @@ info = response.choices[0].message.content
  Models capable of text generation include those trained using deep learning techniques, specifically in the domain of Natural Language Processing (NLP). Examples include:
 
   * [GPT models]
-  * [T5 model]
+  * mT5 and [T5 models]
   * [Bert variants]
-  * mT5 and XLM-R
+  * XLM-R
 
  See also [T], ...
 
@@ -415,9 +415,9 @@ info = response.choices[0].message.content
  See also [T], [Sequence To Sequence Model]
 
 
-## Text-To-Text Transfer Transformer (T5) Model
+## Text-To-Text Transfer Transformer (T5) Model Family
 
- A sequence-to-sequence model built by [Google]
+ A sequence-to-sequence model built at [Google]
 
  The T5 model, pre-trained on C4, achieves state-of-the-art results on many NLP benchmarks while being flexible enough to be fine-tuned to a variety of important downstream tasks.
 
@@ -426,9 +426,21 @@ info = response.choices[0].message.content
    * adding a causal decoder to the bidirectional architecture.
    * replacing the fill-in-the-blank cloze task with a mix of alternative pre-training tasks.
 
- T5 claims the state of the art on more than twenty established NLP tasks. It’s extremely rare for a single method to yield consistent progress across so many tasks. That list includes most of the tasks in the GLUE and SuperGLUE benchmarks, which have caught on as one of the main measures of progress for applied language understanding work of this kind (and which my group helped to create). On many of these task datasets, T5 is doing as well as human crowdworkers, which suggests that it may be reaching the upper bound on how well it is possible to do on our metrics.
+ T5 claims the state of the art on more than twenty established NLP tasks. It’s extremely rare for a single method to yield consistent progress across so many tasks. That list includes most of the tasks in the [GLUE] and [SuperGLUE] benchmarks, which have caught on as one of the main measures of progress for applied language understanding work of this kind (and which my group helped to create). On many of these task datasets, T5 is doing as well as human crowdworkers, which suggests that it may be reaching the upper bound on how well it is possible to do on our metrics.
 
  ![](img/t/t5_model.jpeg ){: width="100%"}
+
+ In the same model family are:
+
+  * T5 (Original, 2020) – The first version introduced in the paper "Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer." It used a text-to-text framework for various NLP tasks.
+  * mT5 (Multilingual T5, 2021) – A version trained on 101 languages using the [multilingual Common Crawl dataset].
+  * T5.1.1 – An improved version of the original T5 with modifications to training techniques, layer normalization, and the removal of dropout.
+  * T5+ (T5 XXL & T5 Ultimate, 2022) – Larger-scale versions of T5, including T5-XXL, which has 11 billion parameters.
+  * UL2 (Unified Language Learning, 2022) – A more advanced model inspired by T5, improving pretraining techniques.
+  * Flan-T5 (Fine-tuned LAnguage Net, 2022-2023) – A version fine-tuned using instruction-based learning, making it much better at following human prompts.
+  * Flan-UL2 (2023) – A combination of UL2 and instruction tuning, making it even more generalizable.
+
+ Each iteration has brought improvements in performance, scalability, and adaptability.
 
  More at:
 
@@ -448,7 +460,7 @@ info = response.choices[0].message.content
 
  ![](img/t/textual_inversion.jpeg ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2208.01618v1.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2208.01618v1" %}
 
  More at: 
 
@@ -476,9 +488,9 @@ info = response.choices[0].message.content
 
  ![](img/t/theory_of_mind.webp ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2302.02083.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2302.02083" %}
 
- {% pdf "https://arxiv.org/pdf/2402.06044.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2402.06044" %}
 
  More at:
 
@@ -812,11 +824,11 @@ Desired Output --> |     Training     | --> Model
    * self-attention (link pronouns, subject to verbs, adjectives to nouns, adverbs)
    * cross-attention (positioning of words between languages, i.e. input and output)
  
- {% pdf "img/t/transformer_paper.pdf" %}
- 
  ![](img/t/transformer_model_architecture.png ){: width="100%"}
 
  ![](img/t/transformer_model_architecture_overview.png ){: width="100%"}
+ 
+ {% pdf "https://arxiv.org/abs/1706.03762" %}
  
  The transformer is a current-state of the art NLP model. It relies almost entirely on self-attention to model the relationship between tokens in a sentence rather than relying on recursion like RNNs and LSTMs do.
  
@@ -831,11 +843,12 @@ Desired Output --> |     Training     | --> Model
 
  {% youtube "https://www.youtube.com/watch?v=g2BRIuln4uc" %}
 
- {% pdf "https://arxiv.org/pdf/2302.07730.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2302.07730" %}
 
  More at:
 
   * paper - 
+    * original (2017) - https://arxiv.org/abs/1706.03762
     * transformer catalog - [https://arxiv.org/abs/2302.07730](https://arxiv.org/abs/2302.07730)
   * code explanation - [https://nlp.seas.harvard.edu/annotated-transformer/](https://nlp.seas.harvard.edu/annotated-transformer/)
   * transformer in pytorch - [https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch](https://www.datacamp.com/tutorial/building-a-transformer-with-py-torch)
@@ -866,7 +879,7 @@ Desired Output --> |     Training     | --> Model
 
  Architecture based on transformer and diffusion
 
- {% pdf "https://www.arxiv.org/pdf/2408.11039.pdf" %}
+ {% pdf "https://www.arxiv.org/pdf/2408.11039" %}
 
  More at:
 
@@ -965,7 +978,7 @@ Agreed. Based on the sequence of events and the details provided, the area aroun
 
  {% youtube "https://www.youtube.com/watch?v=2lnW1PSB2_g" %}
 
- {% pdf "https://arxiv.org/pdf/2305.10601.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2305.10601" %}
 
  More at:
 
@@ -1084,7 +1097,7 @@ TPR = -------  =  ---------------------------------
 
  {% youtube "https://www.youtube.com/watch?v=KjWF8VIMGiY" %}
 
- {% pdf "https://arxiv.org/pdf/1502.05477v5.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1502.05477v5" %}
 
  More at:
 
@@ -1119,7 +1132,7 @@ TPR = -------  =  ---------------------------------
 
  {% youtube "https://www.youtube.com/watch?v=AkLkZgsaKp4" %}
 
- {% pdf "https://arxiv.org/pdf/2109.07958.pdf" %} 
+ {% pdf "https://arxiv.org/pdf/2109.07958" %} 
 
  More at:
 

@@ -160,7 +160,7 @@ Loss = converged_Q-Value - optimum_Q-value          <== but do we know converged
 
  {% youtube "https://www.youtube.com/watch?v=C33SwN3Ynp4" %}
 
- {% pdf "https://arxiv.org/pdf/2305.14314.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2305.14314" %}
 
  More at:
 
@@ -291,11 +291,12 @@ answer = ask_question({
  A QA LLM NLP used to generate a graph which is then merged with a Knowledge Graph.... to finally answer the question. 
  :warning: LLM is one of the best method to extract entities from text.
 
- {% pdf "img/q/qagnn_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2104.06378" %}
 
  More at:
 
   * [https://ai.stanford.edu/blog/qagnn/](https://ai.stanford.edu/blog/qagnn/)
+  * paper - https://arxiv.org/abs/2104.06378
 
  See also [Q], [Entity Extraction], [Graph Neural Network], [Knowledge Graph], [Machine Reasoning], [Question Answering]
 

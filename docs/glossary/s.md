@@ -306,7 +306,7 @@ StandardScaler()
 
  {% youtube "https://www.youtube.com/watch?v=cgq2d_HkfnM" %}
 
- {% pdf "https://arxiv.org/pdf/2105.15203.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2105.15203" %}
 
  More at:
 
@@ -399,7 +399,7 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
  Computing for the final answer involves a few steps (check out the paper for the details) but for the sake of simplicity, we can see that there is already a majority answer emerging so that would essentially become the final answer.
 
- {% pdf "https://arxiv.org/pdf/2203.11171.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2203.11171" %}
 
  More at:
 
@@ -446,7 +446,7 @@ When I was 6 my sister was half my age, so she was 3. Now I am 70, so she is 70/
 
  This dataset was created to be used to train the [Alpaca model]
 
- {% pdf "https://arxiv.org/pdf/2212.10560.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2212.10560" %}
 
  More at:
 
@@ -883,7 +883,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 
  SHAP has a strong mathematical foundation based on Shapley values in game theory where each player in the cooperation is rewarded based on how important they are to cooperation.
 
- {% pdf "https://arxiv.org/pdf/1705.07874.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1705.07874" %}
  
  More at:
 
@@ -1248,7 +1248,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
  {% youtube "https://www.youtube.com/watch?v=5Zj_zstLLP4" %}
 
- {% pdf "https://arxiv.org/pdf/2307.07924.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2307.07924" %}
 
  More at:
 
@@ -1318,7 +1318,7 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
  ![](img/s/socratic_method_prompting.png ){: width="100%}
 
- {% pdf "https://arxiv.org/pdf/2303.08769.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2303.08769" %}
 
  More at:
 
@@ -1339,9 +1339,9 @@ Social robots also work as concierges in hotels and other settings like malls, w
 
  {% youtube "https://www.youtube.com/watch?v=pg-lKy7JIRk" %}
 
- {% pdf "https://arxiv.org/pdf/1801.01290v2.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1801.01290v2" %}
 
- {% pdf "https://arxiv.org/pdf/1812.05905.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1812.05905" %}
 
  More at:
 
@@ -1653,7 +1653,7 @@ P(Pos) = [P(D) * Sensitivity] + [P(~D) * (1-Specificity))]
 
  In their empirical study, the team compared SpeechX to the baseline expert models on various tasks, e.g. noise suppression, target speaker extraction, zero-shot TTS, clean speech editing, speech removal and etc. SpeechX achieves comparable and even superior performance to baseline models across various tasks. The team believes their work is an important step toward unified generative speech models.
 
- {% pdf "https://arxiv.org/pdf/2308.06873.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2308.06873" %}
 
  More at:
 
@@ -2037,7 +2037,7 @@ Completely different from [artificial neural networks][Artificial Neural Network
 
  ![](img/s/step_back_prompting.png ){: width="100%}
 
- {% pdf "https://arxiv.org/pdf/2310.06117.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2310.06117" %}
 
  More at:
 
@@ -2149,7 +2149,7 @@ Completely different from [artificial neural networks][Artificial Neural Network
 
  {% youtube "https://www.youtube.com/watch?v=luCBXCErkCs" %}
 
- {% pdf "https://arxiv.org/pdf/2111.00396.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2111.00396" %}
 
  More at:
 
@@ -2245,11 +2245,12 @@ Completely different from [artificial neural networks][Artificial Neural Network
 
  We take into account the lessons learnt from original GLUE benchmark and present SuperGLUE, a new benchmark styled after GLUE with a new set of more difficult language understanding tasks, improved resources, and a new public leaderboard.
 
- {% pdf "img/s/superglue_paper.pdf %}
+ {% pdf "https://arxiv.org/pdf/1905.00537" %}
 
  More at:
 
-  * [https://super.gluebenchmark.com/](https://super.gluebenchmark.com/)
+  * site - https://super.gluebenchmark.com/
+  * paper - https://arxiv.org/abs/1905.00537
 
  See also [S], [Benchmark], [GLUE Benchmark]
 
@@ -2374,7 +2375,7 @@ Completely different from [artificial neural networks][Artificial Neural Network
  More at:
 
   * [https://analyticsindiamag.com/a-deep-dive-into-switch-transformer-architecture/](https://analyticsindiamag.com/a-deep-dive-into-switch-transformer-architecture/)
-  * paper - [https://arxiv.org/pdf/2101.03961.pdf](https://arxiv.org/pdf/2101.03961.pdf)
+  * paper - https://arxiv.org/abs/2101.03961
 
  See also [S], [Mixture Of Local Expect], [Sparse Activation], [T5 Model]
 

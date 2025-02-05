@@ -175,7 +175,7 @@ model.summary()
 
  A method for [Joint-Embedding Predictive Architecture (JEPA)] based on image
 
- {% pdf "https://arxiv.org/pdf/2301.08243.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2301.08243" %}
 
  More at:
 
@@ -275,12 +275,14 @@ model.summary()
 
  {% youtube "https://www.youtube.com/watch?v=qhtYPhPWCsI" %}
 
- {% pdf "img/i/imagen_model_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2205.11487" %}
 
  More at:
 
-   * [https://imagen.research.google/](https://imagen.research.google/)
-   * [https://www.louisbouchard.ai/google-brain-imagen/](https://www.louisbouchard.ai/google-brain-imagen/)
+   * site - [https://imagen.research.google/](https://imagen.research.google/)
+   * paper - https://arxiv.org/abs/2205.11487
+   * articles
+     * [https://www.louisbouchard.ai/google-brain-imagen/](https://www.louisbouchard.ai/google-brain-imagen/)
 
  See also [I], [Latent Diffusion Model]
 
@@ -289,11 +291,12 @@ model.summary()
 
  Imagen Video, a text-conditional video generation system based on a cascade of video diffusion models. Given a text prompt, Imagen Video generates high definition videos using a base video generation model and a sequence of interleaved spatial and temporal video super-resolution models. 
 
- {% pdf "img/i/imagen_video_model_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2210.02303" %}
 
  More at:
 
-  * [https://imagen.research.google/video/](https://imagen.research.google/video/)
+  * site - [https://imagen.research.google/video/](https://imagen.research.google/video/)
+  * paper - https://arxiv.org/abs/2210.02303
 
  See also [I], ...
 
@@ -317,11 +320,11 @@ model.summary()
 
  The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) is a benchmark in object category classification and detection on hundreds of object categories and millions of images. The challenge has been run annually from 2010 to present, attracting participation from more than fifty institutions.
 
- {% pdf "img/i/imagenet_large_scale_visual_recognition_challenge_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1409.0575" %}
 
  More at:
 
-  * [https://arxiv.org/abs/1409.0575](https://arxiv.org/abs/1409.0575)
+  * paper - [https://arxiv.org/abs/1409.0575](https://arxiv.org/abs/1409.0575)
 
  See also [I], [AlexNet Model] 
 
@@ -573,7 +576,7 @@ Data < Information < Knowledge < Use knowledge < Mastery
 
  A model that is a pre-trained GPT model and is fine tuned using reinforcement learning based on human feedback. A precursor of the [ChatGPT model]. [Large language models] like GPT-3 are often used to follow instructions to execute user’s tasks. However, quite often, these models generate toxic or untruthful outputs that are not related to the input instructions. This is mostly due to the fact that models like GPT-3 are trained to predict the next word in a sentence rather than to execute a specific task. This is precisesly the problem OpenAI tried to address with InstructGPT, a language model that builds upon GPT-3 language capabilities but improves it its ability to follow instructions.
 
- {% pdf "https://arxiv.org/pdf/2203.02155.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2203.02155" %}
 
  The InstructGPT is build in three steps.
 
@@ -606,6 +609,9 @@ Data < Information < Knowledge < Use knowledge < Mastery
 ## Instruction Tuned (IT) Model
 
  These versions of the model are trained with human language interactions and can respond to conversational input, similar to a chat bot.
+
+ * Flan-T5, a [T5 model]
+ * InstructGPT, a [GPT model]
 
  See also [I], [Pretrained Model]
 
@@ -769,13 +775,14 @@ IDF(t) = log_e(Total number of documents / Number of documents with term t in it
 
 ## IQ-Learn Model
 
- {% pdf "img/i/iqlearn_model_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2106.12142" %}
 
  More at:
 
-  * blog - [https://ai.stanford.edu/blog/learning-to-imitate/](https://ai.stanford.edu/blog/learning-to-imitate/)
   * site - [https://div99.github.io/IQ-Learn/](https://div99.github.io/IQ-Learn/)
+  * paper - https://arxiv.org/abs/2106.12142
   * code - [https://github.com/Div99/IQ-Learn](https://github.com/Div99/IQ-Learn)
+  * blog - [https://ai.stanford.edu/blog/learning-to-imitate/](https://ai.stanford.edu/blog/learning-to-imitate/)
 
  See also [I], [Imitation Learning], [Inverse Q-Learning]
 

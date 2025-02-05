@@ -233,7 +233,7 @@ print(llm_chain.run(question))
 
  {% youtube "https://www.youtube.com/watch?v=uYvniQlSvyQ" %}
 
- {% pdf "https://arxiv.org/pdf/1908.11512.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1908.11512" %}
 
  More at:
 
@@ -576,7 +576,7 @@ Xnorm = ---------------
 
  Convolutional networks
 
- {% pdf "https://arxiv.org/pdf/1311.2901.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1311.2901" %}
 
  More at:
 
@@ -679,7 +679,7 @@ cheese =>
 
  ![](img/f/few_shot_learning_accuracy.png ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2005.14165.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2005.14165" %}
 
  More at:
 
@@ -745,7 +745,7 @@ cheese =>
 
  A model developed by the [AI Finance Foundation]
 
- {% pdf "https://arxiv.org/pdf/2306.06031.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2306.06031" %}
 
  {% youtube "https://www.youtube.com/watch?v=CH3BdIvWxrA" %}
 
@@ -762,9 +762,11 @@ cheese =>
 
 ## FLAN-T5 Model
 
- Fist strategically aligned LLM
+ Fist strategically aligned LLM , a [T5 model]
 
  ![](img/f/flan_t5_model.png ){: width="100%}
+
+ See also [F], ...
 
 
 ## Flamingo Model
@@ -773,7 +775,11 @@ cheese =>
 
  {% youtube "https://www.youtube.com/watch?v=yM9S3fLp5Gc" %}
 
- {% pdf "img/f/flamingo_model_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2204.14198" %}
+
+ More at:
+  
+  * paper - https://arxiv.org/abs/2204.14198
 
  See also [F], [IDEFICS Model]
 
@@ -790,9 +796,9 @@ cheese =>
 
  {% youtube "https://www.youtube.com/watch?v=IoMSGuiwV3g" %}
 
- {% pdf "https://arxiv.org/pdf/2205.14135.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2205.14135" %}
 
- {% pdf "https://arxiv.org/pdf/2307.08691.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2307.08691" %}
 
  More at:
 
@@ -914,7 +920,7 @@ if __name__ == '__main__':
 
  ![](img/f/for_stress_testing_machine_theory_of_mind_benchmark.webp ){: width="100%}
 
- {% pdf "https://arxiv.org/pdf/2310.15421.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2310.15421" %}
 
  More at:
 

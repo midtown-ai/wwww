@@ -64,7 +64,7 @@
 
  {% youtube "https://www.youtube.com/watch?v=ooqYC781HGE" %}
 
- {% pdf "https://arxiv.org/pdf/2303.10130.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2303.10130" %}
 
  More at:
 
@@ -411,7 +411,7 @@ completion = llm(prompt)
 
  {% youtube "https://www.youtube.com/watch?v=StLtMcsbQes" %}
 
- {% pdf "https://arxiv.org/pdf/2303.18223.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2303.18223" %}
 
  More at:
 
@@ -438,15 +438,31 @@ completion = llm(prompt)
 
 ## Large Language Model Meta AI (LLaMA) Model Family
 
- Using the scaling method described in [Chinchilla][Chinchilla Model]
+ Using the scaling method described in [Chinchilla]
  65 Billion parameters.
+
+ The model family includes:
+  * LLaMA 1 (February 2023)
+    * Came in four sizes: 7B, 13B, 33B, and 65B parameters.
+    * Designed to be more efficient than GPT-3, using fewer resources while achieving strong performance.
+    * Not publicly available as an API but accessible to researchers.
+  * LLaMA 2 (July 2023)
+    * Released as an open-source model, unlike LLaMA 1.
+    * Included three sizes: 7B, 13B, and 70B parameters.
+    * More training data and fine-tuning improvements over LLaMA 1.
+    * Came with LLaMA 2-Chat, optimized for conversational tasks.
+  * LLaMA 3 (Expected in 2024)
+    * Meta has announced that LLaMA 3 will be released in 2024.
+    * Expected to include larger models (possibly over 100B parameters).
+    * Improved fine-tuning for safety, instruction-following, and efficiency.
 
  {% youtube "https://www.youtube.com/watch?v=E5OnoYF2oAk" %}
 
- {% pdf "img/l/llama_model_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2302.13971" %}
 
  More at:
 
+  * LLaMa 3
   * LLaMa 2 
     * UI - [https://labs.perplexity.ai/](https://labs.perplexity.ai/)
     * download - [https://ollama.ai/](https://ollama.ai/)
@@ -539,7 +555,7 @@ completion = llm(prompt)
 
  ![](img/l/large_language_model_self_correction_reasoning.png ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2308.03188.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2308.03188" %}
 
  More at:
 
@@ -622,12 +638,13 @@ completion = llm(prompt)
   * Finally, you reconstruct the image using a decoder which you can see as the reverse step of your initial encoder. Taking this modified and de-noised input in the latent space to construct a final high-resolution image, basically upsampling your result.
  And voilà! This is how you can use diffusion models for a wide variety of tasks like super-resolution, inpainting, and even text-to-image with the recent stable diffusion open-sourced model through the conditioning process while being much more efficient and allowing you to run them on your GPUs instead of requiring hundreds of them. 
 
- {% pdf "img/l/latent_diffusion_model_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2112.10752" %}
 
  {% youtube "https://www.youtube.com/watch?v=RGBNdD3Wn-g" %}
 
  More at:
 
+  * paper - https://arxiv.org/abs/2112.10752
   * [https://pub.towardsai.net/latent-diffusion-models-the-architecture-behind-stable-diffusion-434ba7d91108](https://pub.towardsai.net/latent-diffusion-models-the-architecture-behind-stable-diffusion-434ba7d91108)
   * [https://www.louisbouchard.ai/latent-diffusion-models/](https://www.louisbouchard.ai/latent-diffusion-models/)
   * [code - https://github.com/CompVis/latent-diffusion](https://github.com/CompVis/latent-diffusion)
@@ -1085,7 +1102,7 @@ print regr.score(X_test, y_test)
   * Data Analysis
   * Instruction Following (IF)
 
- {% pdf "https://arxiv.org/pdf/2406.19314.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2406.19314" %}
 
  More at:
 
@@ -1109,9 +1126,9 @@ print regr.score(X_test, y_test)
 
 ## LLaMA-Adapter Model
 
- We present LLaMA-Adapter, a lightweight adaption method to efficiently fine-tune [LLaMA][LLaMA Model] into an instruction-following model. Using 52K self-instruct demonstrations, LLaMA-Adapter only introduces 1.2M learnable parameters upon the frozen LLaMA 7B model, and costs less than one hour for fine-tuning on 8 A100 GPUs. Specifically, we adopt a set of learnable adaption prompts, and prepend them to the input text tokens at higher transformer layers. Then, a zero-init attention mechanism with zero gating is proposed, which adaptively injects the new instructional cues into LLaMA, while effectively preserves its pre-trained knowledge. With efficient training, LLaMA-Adapter generates high-quality responses, comparable to Alpaca with fully fine-tuned 7B parameters. Furthermore, our approach can be simply extended to multi-modal input, e.g., images, for image-conditioned [LLaMa], which achieves superior reasoning capacity on [ScienceQA][ScienceQA Dataset].
+ We present LLaMA-Adapter, a lightweight adaption method to efficiently fine-tune [LLaMA] into an instruction-following model. Using 52K self-instruct demonstrations, LLaMA-Adapter only introduces 1.2M learnable parameters upon the frozen LLaMA 7B model, and costs less than one hour for fine-tuning on 8 A100 GPUs. Specifically, we adopt a set of learnable adaption prompts, and prepend them to the input text tokens at higher transformer layers. Then, a zero-init attention mechanism with zero gating is proposed, which adaptively injects the new instructional cues into LLaMA, while effectively preserves its pre-trained knowledge. With efficient training, LLaMA-Adapter generates high-quality responses, comparable to Alpaca with fully fine-tuned 7B parameters. Furthermore, our approach can be simply extended to multi-modal input, e.g., images, for image-conditioned [LLaMa], which achieves superior reasoning capacity on [ScienceQA][ScienceQA Dataset].
 
- {% pdf "https://arxiv.org/pdf/2303.16199.pdf" %} 
+ {% pdf "https://arxiv.org/pdf/2303.16199" %} 
 
  More at:
 
@@ -1317,7 +1334,9 @@ class Model(nn.Module):
 
  {% youtube "https://www.youtube.com/watch?v=WCUNPb-5EYI" %}
 
- {% pdf "img/l/long_short_term_memory_paper.pdf" %}
+ {% pdf "../pdf/l/long_short_term_memory_paper.pdf" %}
+
+ {% pdf "https://arxiv.org/pdf/1402.1128" %}
 
 /// warning
   LSTM Are now deprecated by attention-based models, such as transformersD
@@ -1326,6 +1345,9 @@ class Model(nn.Module):
  More at
 
   * [https://en.wikipedia.org/wiki/Long_short-term_memory](https://en.wikipedia.org/wiki/Long_short-term_memory)
+  * papers
+    * original - 
+    * LSTM for speech recognition - https://arxiv.org/pdf/1402.1128
   * LSTM code
     * pytorch - [https://closeheat.com/blog/pytorch-lstm-text-generation-tutorial](https://closeheat.com/blog/pytorch-lstm-text-generation-tutorial)
     * keras - [https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5](https://towardsdatascience.com/how-to-generate-music-using-a-lstm-neural-network-in-keras-68786834d4c5)
@@ -1342,7 +1364,7 @@ class Model(nn.Module):
 
  Transformer-based models are unable to process long sequences due to their self-attention operation, which scales quadratically with the sequence length. To address this limitation, we introduce the Longformer with an attention mechanism that scales linearly with sequence length, making it easy to process documents of thousands of tokens or longer. Longformer's attention mechanism is a drop-in replacement for the standard self-attention and combines a local windowed attention with a task motivated global attention. Following prior work on long-sequence transformers, we evaluate Longformer on character-level language modeling and achieve state-of-the-art results on text8 and enwik8. In contrast to most prior work, we also pretrain Longformer and finetune it on a variety of downstream tasks. Our pretrained Longformer consistently outperforms RoBERTa on long document tasks and sets new state-of-the-art results on WikiHop and TriviaQA. We finally introduce the [Longformer-Encoder-Decoder (LED)], a Longformer variant for supporting long document generative sequence-to-sequence tasks, and demonstrate its effectiveness on the arXiv summarization dataset.
 
- {% pdf "https://arxiv.org/pdf/2004.05150v2.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2004.05150v2" %}
 
  More at:
 
@@ -1451,7 +1473,7 @@ Ask a LLLM, how many character will your next response have?
 
  {% youtube "https://www.youtube.com/watch?v=t509sv5MT0w" %}
 
- {% pdf "https://arxiv.org/pdf/2106.09685.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2106.09685" %}
 
  More at:
 

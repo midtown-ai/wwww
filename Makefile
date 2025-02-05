@@ -1,5 +1,7 @@
 SITE_NAME?= wwww.midtown.ai
 
+MKDOCS_CONFIG_FILE?= mkdocs.yml
+
 #
 # Individual plugins are enabled by default
 # To enable one, just comment out the environment variable
@@ -23,20 +25,22 @@ MKDOCS_ENVIRONMENT+= RSS_CACHE_DIR=.cache/plugins/rss
 MKDOCS_ENVIRONMENT+= SOCIAL_CACHE_DIR=.cache/plugins/social
 
 MKDOCS_ENVIRONMENT+= PYTHONPATH=.
+
 MKDOCS_BIN?= mkdocs
 MKDOCS?= $(MKDOCS_ENVIRONMENT) $(MKDOCS_BIN) $(__MKDOCS_OPTIONS)
 
+__CONFIG_FILE?= $(if $(MKDOCS_CONFIG_FILE),--config-file $(MKDOCS_CONFIG_FILE))
 # Dirty reload accelerate development by processing only the currently browsed page
 # <!> This prevents the blog pages to update to show newly created blog posts!
 __DIRTYRELOAD?= --dirtyreload
 
 # Run the builtin development server.
 serve:
-	$(MKDOCS) serve $(__DIRTYRELOAD)
+	$(MKDOCS) serve $(__CONFIG_FILE) $(__DIRTYRELOAD)
 
 # Build the mkdocs documentation
 build_site:
-	$(MKDOCS) build
+	$(MKDOCS) build $(__CONFIG_FILE)
 
 distclean: delete_site delete_cache
 delete_cache:

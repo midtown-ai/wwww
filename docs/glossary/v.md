@@ -249,8 +249,6 @@
 
  {% youtube "https://www.youtube.com/watch?v=dN0lsF2cvm4" %}
 
- {% pdf "https://arxiv.org/pdf/2401.09350" %}
-
  More at:
 
   * vector retrieval paper - [https://arxiv.org/abs/2401.09350](https://arxiv.org/abs/2401.09350)
@@ -323,9 +321,11 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
  * [Multi-Vector Retrieval]
  * [Parent Document Retrieval]
 
+ {% pdf "https://arxiv.org/pdf/2401.09350" %}
+
  More at:
 
-  * [https://arxiv.org/abs/2401.09350](https://arxiv.org/abs/2401.09350)
+  * paper - https://arxiv.org/abs/2401.09350
 
  See also [V], ...
 
@@ -398,7 +398,7 @@ z_q(x)=\text{argmin}_i ||z_e(x)-e_i||_2
 
   * [https://www.viam.com/](https://www.viam.com/)
 
- See also [V}, ...
+ See also [V], ...
 
 
 ## Vicuna Model

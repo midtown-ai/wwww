@@ -15,6 +15,7 @@
 [EWC]: /glossary/e.md#elastic-weight-consolidation-ewc
 [ElevenLabs AI Company]: /glossary/e.md#elevenlabs-ai-company
 [ElevenLabs AI]: /glossary/e.md#elevenlabs-ai-company
+[ElevenLabs]: /glossary/e.md#elevenlabs-ai-company
 [Eliza Chatbot]: /glossary/e.md#eliza-chatbot
 [Eliza]: /glossary/e.md#eliza-chatbot
 [Elo Rating System]: /glossary/e.md#elo-rating-system

@@ -36,6 +36,21 @@
  See also [C], ...
 
 
+## Carbon emission
+
+ * Electricity ~consumption: Servers and drives need electricity to operate. It is as easy as checking the electricitiy bill.
+ * Power Usage Effectiveness (PUE): Energy is also needed to run the overall data center facility -- e.g. lighting, cooling, and support functions. This overhead consumption is a multiplier termed PUE!
+ * Grid Efficiency Factor (GEF): The GEF also called Carbon Intensity, measures the amount of carbon emissions per unit of electricity generated.
+
+ ![](img/c/carbon_emission.png ){:width="100%"}
+
+ More at:
+
+  * ...
+
+ See also [C], ...
+
+
 ## Carnegie Mellon University (CMU)
 
  {% youtube "https://www.youtube.com/watch?v=krGtcHHGmpk" %}
@@ -173,7 +188,7 @@
 
 ## Chain-Of-Table
 
- {% pdf "https://arxiv.org/pdf/2401.04398.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2401.04398" %}
 
  More at:
 
@@ -197,7 +212,7 @@
 
  ![](img/c/chain_of_thought_prompting.png ){:width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2201.11903.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2201.11903" %}
 
  More at:
 
@@ -374,7 +389,7 @@ set       <search space>               set
 
  {% youtube "https://www.youtube.com/watch?v=PZXN7jm9IC0" %}
 
- {% pdf "https://arxiv.org/pdf/2203.15556.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2203.15556" %}
 
  More at:
 
@@ -1287,7 +1302,7 @@ conda env export pytorch > pytorch_env.yml
 
  {% youtube "https://www.youtube.com/watch?v=KB5r9xmrQBY" %}
 
- {% pdf "https://arxiv.org/pdf/2212.08073.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2212.08073" %}
 
  More at:
 
@@ -1329,7 +1344,7 @@ conda env export pytorch > pytorch_env.yml
 
  An [Reinforcement Learning (RL)][RL] problem is an instance of CRL if the best agents never stop learning. :warning: In the case of RL the learning stops because it has converged?
 
- {% pdf "https://arxiv.org/pdf/2307.11046.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2307.11046" %}
 
  More at:
 
@@ -1378,7 +1393,7 @@ conda env export pytorch > pytorch_env.yml
 
  ![](img/c/clip_model.png ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2103.00020.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2103.00020" %}
 
  More at:
 
@@ -1433,7 +1448,7 @@ conda env export pytorch > pytorch_env.yml
 
  {% youtube "https://www.youtube.com/watch?v=fhIGt7QGg4w" %}
 
- {% pdf "https://arxiv.org/pdf/2302.05543.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2302.05543" %}
 
  More at:
 
@@ -1643,7 +1658,7 @@ train()
 
  When using a [CNN], ... [ResNet Model]
 
- {% pdf "/img/c/convolutional_neural_network_feature_extractor_paper.pdf" %}
+ {% pdf "../pdf/c/convolutional_neural_network_feature_extractor_paper.pdf" %}
 
  More at:
 
@@ -1753,7 +1768,7 @@ train()
 
  ![](img/c/corrective_retrieval_augmented_generation.png ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2401.15884.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2401.15884" %}
 
  More at:
 
@@ -1841,7 +1856,7 @@ pyplot.show()
 
  The biggest cost out of any data center or cloud provider is the energy that they pay for running the equipment and cooling the system. DishBrain is a system that consumes hardly any energy and outputs very little heat. The unit economics completely flips on its head, especially if you can start training it to do AI tasks.
 
- {% pdf "/img/+/c/cortical_labs_neuron_paper.pdf" %}
+ {% pdf "../pdf/c/cortical_labs_neuron_paper.pdf" %}
 
  More at:
 

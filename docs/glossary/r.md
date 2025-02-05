@@ -199,7 +199,7 @@ R-square = R^2 = -------------------------------------
 
  ![](img/r/reason_act_prompting.webp ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2210.03629.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2210.03629" %}
 
  Alternative:
 
@@ -355,7 +355,7 @@ Recall = % of positively identified
 
  {% youtube "https://www.youtube.com/watch?v=I-HMKky7Qsw" %}
 
- {% pdf "https://arxiv.org/pdf/2305.13048.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2305.13048" %}
 
  More at:
 
@@ -482,7 +482,7 @@ Recall = % of positively identified
 
  ![](img/r/red_teaming_prompt.png ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2209.07858.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2209.07858" %}
 
  More at:
 
@@ -826,7 +826,7 @@ Recall = % of positively identified
 
  It is expensive to collect accurate labels to implement traditional [RLHF] model, RLAIF uses another off-the-shelf model (AI) to evaluate the results of your primary model. Using AI for evaluation saves time, is more efficient, and gives comparable performance to [RLHF] in many use cases.
 
- {% pdf "https://arxiv.org/pdf/2212.08073.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2212.08073" %}
 
  More at:
 
@@ -842,9 +842,9 @@ Recall = % of positively identified
 
  Reinforcement learning process using human feedback as a reward model. RLHF is use in InstructGPT model, a precursor to ChatGPT model. A way to prevent or make [Red Teaming] language models more difficult?
 
- {% pdf "https://arxiv.org/pdf/2203.02155.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2203.02155" %}
 
- {% pdf "https://arxiv.org/pdf/1706.03741.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1706.03741" %}
 
  More at:
 
@@ -906,7 +906,7 @@ So you can fix mistakes right away, making sure the tower stands strong!
 
  Data mining using [GNN] to learn embedding without [feature engineering]
 
- {% pdf "https://arxiv.org/pdf/2312.04615.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2312.04615" %}
 
  More at:
 
@@ -1114,10 +1114,11 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
 
  ResNET, short for Residual Networks is a classic neural network used as a backbone for many computer vision tasks = `a CNN image model` This model was the winner of ImageNET challenge in 2015. The fundamental breakthrough with ResNET was it allowed us to train extremely deep neural networks with 150+layers successfully. Prior to ResNET training very deep neural networks was difficult due to the [problem of vanishing gradients][Vanishing Gradient Problem].
 
- {% pdf "img/r/residual_network_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1512.03385" %}
 
  More at:
 
+  * paper - https://arxiv.org/abs/1512.03385
   * [https://www.geeksforgeeks.org/residual-networks-resnet-deep-learning/](https://www.geeksforgeeks.org/residual-networks-resnet-deep-learning/)
 
  See also [R], [Convoluted Neural Network], [Computer Vision], [Rectified Linear Unit Activation Function], [Residual Block], [Vanishing Gradient Problem]
@@ -1181,7 +1182,7 @@ F(x) := H(x) - x which gives H(x) := F(x) + x.
 
  {% pdf "https://assets.ctfassets.net/3nanhbfkr0pc/acoo1Fj5uungnGNPJ3QWy/3a1dafd64f22efcf8f27380aafae9789/2021_RAI_Report-v3.pdf" %}
 
- {% pdf "img/r/responsible_ai_by_us_dod.pdf" %}
+ {% pdf "../pdf/r/responsible_ai_by_us_dod.pdf" %}
 
  More at:
 
@@ -1338,7 +1339,7 @@ Therefore, based on the observations and the details of m2, m6; our RBM recommen
 
  {% youtube "https://www.youtube.com/watch?v=ypzmPwLH_Q4" %}
 
- {% pdf "https://arxiv.org/pdf/2312.10997.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2312.10997" %}
 
  More at:
 
@@ -1530,7 +1531,7 @@ def reward_function(params):
 
  {% youtube "https://www.youtube.com/watch?v=GdTBqBnqhaQ" %}
 
- {% pdf "https://arxiv.org/pdf/1803.03453.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1803.03453" %}
 
  More at:
 
@@ -1690,7 +1691,7 @@ def reward_function(params):
 
  {% youtube "https://www.youtube.com/watch?v=-MCYbmU9kfg" %}
 
- {% pdf "https://arxiv.org/pdf/1907.11692.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1907.11692" %}
 
  More at:
 

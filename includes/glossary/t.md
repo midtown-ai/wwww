@@ -47,8 +47,11 @@
 [TTS Model]: /glossary/t.md#text-to-speech-tts-model
 [TTS Models]: /glossary/t.md#text-to-speech-tts-model
 [TTS]: /glossary/t.md#text-to-speech-tts-model
-[Text-To-Text Transfer Transformer Model]: /glossary/t.md#text-to-text-transfer-transformer-t5-model
-[T5 Model]: /glossary/t.md#text-to-text-transfer-transformer-t5-model
+[Text-To-Text Transfer Transformer (T5) Model Family]: /glossary/t.md#text-to-text-transfer-transformer-t5-model-family
+[Text-To-Text Transfer Transformer (T5)]: /glossary/t.md#text-to-text-transfer-transformer-t5-model-family
+[Text-To-Text Transfer Transformer Model Family]: /glossary/t.md#text-to-text-transfer-transformer-t5-model-family
+[T5 Model]: /glossary/t.md#text-to-text-transfer-transformer-t5-model-family
+[T5 Models]: /glossary/t.md#text-to-text-transfer-transformer-t5-model-family
 [Textual Inversion]: /glossary/t.md#textual-inversion
 [Theano]: /glossary/t.md#theano
 [Theory Of Mind (TOM)]: /glossary/t.md#theory-of-mind-tom

@@ -3,6 +3,7 @@
 [Caffe Framework]: /glossary/c.md#caffe-framework
 [Caffe]: /glossary/c.md#caffe-framework
 [Capcha]: /glossary/c.md#capcha
+[Carbon Emission]: /glossary/c.md#carbon_emission
 [Carnegie Mellon University (CMU)]: /glossary/c.md#carnegie-mellon-university-cmu
 [CMU]: /glossary/c.md#carnegie-mellon-university-cmu
 [Case-Based Reasoning (CBR)]: /glossary/c.md#case-based-reasoning-cbr
@@ -25,12 +26,14 @@
 [Chain-Of-Table]: /glossary/c.md#chain-of-table
 [Chain-Of-Thought (COT) Prompting]: /glossary/c.md#chain-of-thought-cot-prompting
 [Chain-Of-Thought (COT)]: /glossary/c.md#chain-of-thought-cot-prompting
+[Chain-Of-Thought]: /glossary/c.md#chain-of-thought-cot-prompting
 [COT Prompting]: /glossary/c.md#chain-of-thought-cot-prompting
 [COT]: /glossary/c.md#chain-of-thought-cot-prompting
 [Chained Model]: /glossary/c.md#chained-model
 [Character AI Company]: /glossary/c.md#character-ai-company
 [Character AI]: /glossary/c.md#character-ai-company
 [Characteristic Stability Index (CSI)]: /glossary/c.md#characteristic-stability-index-csi
+[Characteristic Stability Index]: /glossary/c.md#characteristic-stability-index-csi
 [CSI]: /glossary/c.md#characteristic-stability-index-csi
 [Chatbot]: /glossary/c.md#chatbot
 [Chatbots]: /glossary/c.md#chatbot
@@ -76,6 +79,7 @@
 [Cohere AI]: /glossary/c.md#cohere-ai-company
 [Collaborative Filtering]: /glossary/c.md#collaborative-filtering
 [Colossal Clean Crawled Corpus (C4)]: /glossary/c.md#colossal-clean-crawled-corpus-c4
+[Colossal Clean Crawled Corpus]: /glossary/c.md#colossal-clean-crawled-corpus-c4
 [C4]: /glossary/c.md#colossal-clean-crawled-corpus-c4
 [Common Crawl Corpus]: /glossary/c.md#common-crawl-corpus
 [Common Crawl]: /glossary/c.md#common-crawl-corpus
@@ -88,6 +92,7 @@
 [Compound AI Systems]: /glossary/c.md#compound-ai-system
 [Compute Efficient Frontier]: /glossary/c.md#compute-efficient-frontier
 [Computer Vision (CV)]: /glossary/c.md#computer-vision-cv
+[Computer Vision]: /glossary/c.md#computer-vision-cv
 [CV]: /glossary/c.md#computer-vision-cv
 [Computer Vision and Pattern Recognition (CVPR) Conference]: /glossary/c.md#computer-vision-and-pattern-recognition-cvpr-conference
 [CVPR Conference]: /glossary/c.md#computer-vision-and-pattern-recognition-cvpr-conference
@@ -97,6 +102,7 @@
 [Conda]: /glossary/c.md#conda-cli
 [Conditioning]: /glossary/c.md#conditioning
 [Conditioning GAN (CGAN)]: /glossary/c.md#conditioning-gan-cgan
+[Conditioning GAN]: /glossary/c.md#conditioning-gan-cgan
 [CGAN]: /glossary/c.md#conditioning-gan-cgan
 [Conditional Random Fields]: /glossary/c.md#conditional-random-fields
 [Confidence Interval]: /glossary/c.md#confidence-interval
@@ -105,15 +111,20 @@
 [Constitutional AI]: /glossary/c.md#constitutional-ai
 [Constraint Satisfaction Problem]: /glossary/c.md#constraint-satisfaction-problem
 [Consumer Electric Show (CES)]: /glossary/c.md#consumer-electronic-show-ces
+[Consumer Electric Show]: /glossary/c.md#consumer-electronic-show-ces
 [CES]: /glossary/c.md#consumer-electronic-show-ces
 [Context Window]: /glossary/c.md#context-window
 [Context]: /glossary/c.md#context-window
 [Continual Reinforcement Learning (CRL)]: /glossary/c.md#continual-reinforcement-learning-crl
+[Continual Reinforcement Learning]: /glossary/c.md#continual-reinforcement-learning-crl
 [CRL]: /glossary/c.md#continual-reinforcement-learning-crl
 [Continuous Action Space]: /glossary/c.md#continuous-action-space
 [Continuous Convolution]: /glossary/c.md#continuous-convolution
 [Continuous Variable]: /glossary/c.md#continuous-variable
 [Contrastive Language Image Pre-training (CLIP) Model]: /glossary/c.md#contrastive-language-image-pre-training-clip-model
+[Contrastive Language Image Pre-training (CLIP)]: /glossary/c.md#contrastive-language-image-pre-training-clip-model
+[Contrastive Language Image Pre-training Model]: /glossary/c.md#contrastive-language-image-pre-training-clip-model
+[Contrastive Language Image Pre-training]: /glossary/c.md#contrastive-language-image-pre-training-clip-model
 [CLIP Model]: /glossary/c.md#contrastive-language-image-pre-training-clip-model
 [CLIP]: /glossary/c.md#contrastive-language-image-pre-training-clip-model
 [Contrastive Learning]: /glossary/c.md#contrastive-learning
@@ -129,9 +140,12 @@
 [Convolutional Layers]: /glossary/c.md#convolutional-layer
 [Convolutional Neural Network (CNN)]: /glossary/c.md#convolutional-neural-network-cnn
 [Convolutional Neural Networks (CNNs)]: /glossary/c.md#convolutional-neural-network-cnn
+[Convolutional Neural Network]: /glossary/c.md#convolutional-neural-network-cnn
+[Convolutional Neural Networks]: /glossary/c.md#convolutional-neural-network-cnn
 [CNN]: /glossary/c.md#convolutional-neural-network-cnn
 [CNNs]: /glossary/c.md#convolutional-neural-network-cnn
 [Convolutional Neural Network (CNN) Feature Extractor]: /glossary/c.md#convolutional-neural-network-cnn-feature-extractor
+[Convolutional Neural Network Feature Extractor]: /glossary/c.md#convolutional-neural-network-cnn-feature-extractor
 [CNN Feature Extractor]: /glossary/c.md#convolutional-neural-network-cnn-feature-extractor
 [Coral Hardware]: /glossary/c.md#coral-hardware
 [Coreference]: /glossary/c.md#coreference
@@ -140,6 +154,7 @@
 [CoreML Tool]: /glossary/c.md#coreml-tool
 [Corpus]: /glossary/c.md#corpus
 [Corrective Retrieval Augmented Generation (CRAG) System]: /glossary/c.md#corrective-retrieval-augmented-generation-crag-system
+[Corrective Retrieval Augmented Generation (CRAG)]: /glossary/c.md#corrective-retrieval-augmented-generation-crag-system
 [Corrective RAG]: /glossary/c.md#corrective-retrieval-augmented-generation-crag-system
 [CRAG]: /glossary/c.md#corrective-retrieval-augmented-generation-crag-system
 [Cortical Labs Company]: /glossary/c.md#cortical-labs-company

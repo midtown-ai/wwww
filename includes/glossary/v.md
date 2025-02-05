@@ -57,15 +57,20 @@
 [Virtual Assistant]: /glossary/v.md#virtual-assistant
 [Virtual Continuum]: /glossary/v.md#virtual-continuum
 [Virtual Reality (VR)]: /glossary/v.md#virtual-reality-vr
+[Virtual Reality]: /glossary/v.md#virtual-reality-vr
 [VR]: /glossary/v.md#virtual-reality-vr
 [Vision Arena]: /glossary/v.md#vision-arena
 [Vision-Language Model (VLM)]: /glossary/v.md#vision-language-model-vlm
 [Vision-Language Models (VLMs)]: /glossary/v.md#vision-language-model-vlm
+[Vision-Language Model]: /glossary/v.md#vision-language-model-vlm
+[Vision-Language Models]: /glossary/v.md#vision-language-model-vlm
 [VLM]: /glossary/v.md#vision-language-model-vlm
 [VLMs]: /glossary/v.md#vision-language-model-vlm
 [Vision-Language Pre-Training (VLP)]: /glossary/v.md#vision-language-pre-training-vlp
+[Vision-Language Pre-Training]: /glossary/v.md#vision-language-pre-training-vlp
 [VLP]: /glossary/v.md#vision-language-pre-training-vlp
 [Vision Transformer (ViT) Model]: /glossary/v.md#vision-transformer-vit-model
+[Vision Transformer]: /glossary/v.md#vision-transformer-vit-model
 [ViT]: /glossary/v.md#vision-transformer-vit-model
 [Visual Geometry Group (VGG) Model Family]: /glossary/v.md#visual-geometry-group-vgg-model-family
 [VGG Model]: /glossary/v.md#visual-geometry-group-vgg-model-family
@@ -74,6 +79,7 @@
 [VGG-16]: /glossary/v.md#visual-geometry-group-vgg-model-family
 [VGG-19]: /glossary/v.md#visual-geometry-group-vgg-model-family
 [Visual Grounding]: /glossary/v.md#visual-grounding
+[Visual Language Model (VLM)]: /glossary/v.md#visual-language-model-vlm
 [Visual Language Model]: /glossary/v.md#visual-language-model-vlm
 [VLM]: /glossary/v.md#visual-language-model-vlm
 [Visual Simultaneous Localization And Mapping (VSLAM) Algorithm]: /glossary/v.md#visual-simultaneous-localization-and-mapping-vslam-algorithm

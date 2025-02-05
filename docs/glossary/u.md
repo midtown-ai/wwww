@@ -21,7 +21,7 @@
 
  ![](img/u/unet_architecture.png ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/1505.04597.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1505.04597" %}
 
  {% youtube "https://www.youtube.com/watch?v=oLvmLJkmXuc" %}
 
@@ -145,7 +145,7 @@
 
  {% youtube "https://www.youtube.com/watch?v=jth4kEvJ3P8" %}
 
- {% pdf "https://arxiv.org/pdf/1802.03426.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1802.03426" %}
 
  More at:
 
@@ -163,8 +163,11 @@
 
  * formed inside [NIST]
  * this institute aim to establish guidles, tools,and best practices to identify and mitigate AI risk.
+ * first workshop in 2023/11/20
 
- {% pdf "img/u/united_states_ai_safety_institute_workshop_slides_20231120.pdf" %}
+ {% pdf "../pdf/u/united_states_ai_safety_institute_workshop_slides_20231120.pdf" %}
+
+ {% pdf "https://www.nist.gov/system/files/documents/noindex/2023/11/20/USAISI-workshop-slides%20%28combined%20final%29.pdf" %}
 
  More at:
   
@@ -254,7 +257,7 @@
 
  {% youtube "https://www.youtube.com/watch?v=mQX96CT8kkA" %}
 
- {% pdf "https://arxiv.org/pdf/1704.01444.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1704.01444" %}
 
  More at:
 

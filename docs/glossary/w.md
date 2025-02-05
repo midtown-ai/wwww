@@ -17,7 +17,7 @@
 
  {% youtube "https://www.youtube.com/watch?v=B5A1bMi4dJI" %}
 
- {% pdf "https://arxiv.org/pdf/1904.05862.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1904.05862" %}
 
  More at:
 
@@ -112,7 +112,7 @@
 
 ## WebGPT Model
 
- {% pdf "https://arxiv.org/pdf/2112.09332.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2112.09332" %}
 
  More at:
 

@@ -1454,9 +1454,12 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
  {% youtube "https://www.youtube.com/watch?v=t3Yh56efKGI" %}
 
+ {% pdf "https://arxiv.org/pdf/2203.07814" %}
+
  More at:
 
-  * [https://www.deepmind.com/blog/competitive-programming-with-alphacode](https://www.deepmind.com/blog/competitive-programming-with-alphacode)
+  * blog - [https://www.deepmind.com/blog/competitive-programming-with-alphacode](https://www.deepmind.com/blog/competitive-programming-with-alphacode)
+  * paper - https://arxiv.org/abs/2203.07814
 
  See also [A], [Codex Model]
 
@@ -1489,17 +1492,18 @@ Q_new = (1 - alpha) * Q_old + alpha * Q_learned
 
  This model is at the foundation of the [Isomorphic Labs Company]
 
- {% pdf "img/a/alphafold_model_paper.pdf" %}
-
  {% youtube "https://www.youtube.com/watch?v=B9PL__gVxLI" %}
+
+ {% pdf "../pdf/a/alphafold_nature_paper.pdf" %}
 
  More at:
 
+  * site - [https://alphafold.com/](https://alphafold.com/)
   * nature paper - [https://www.nature.com/articles/s41586-021-03819-2](https://www.nature.com/articles/s41586-021-03819-2)
-  * [https://en.wikipedia.org/wiki/AlphaFold](https://en.wikipedia.org/wiki/AlphaFold)
-  * [https://alphafold.com/](https://alphafold.com/)
+  * wikipedia - [https://en.wikipedia.org/wiki/AlphaFold](https://en.wikipedia.org/wiki/AlphaFold)
   * online database - [https://alphafold.ebi.ac.uk/faq](https://alphafold.ebi.ac.uk/faq)
-  * colab - [https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb](https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb)
+  * code
+    * colab - [https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb](https://colab.research.google.com/github/deepmind/alphafold/blob/main/notebooks/AlphaFold.ipynb)
   * articles
     * blog - [https://deepmind.google/discover/blog/putting-the-power-of-alphafold-into-the-worlds-hands/](https://deepmind.google/discover/blog/putting-the-power-of-alphafold-into-the-worlds-hands/)
 
@@ -2356,7 +2360,11 @@ First, we believe the clearest framing of general intelligence is a system that 
   * [Masked Self-Attention]
   * [Multi-head Attention]
 
- {% pdf "img/a/attention_mechanism.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1706.03762" %}
+
+ More at:
+
+  * paper - https://arxiv.org/abs/1706.03762
 
  See also [A], [Attention Score], [Encoder-Decoder Attention]
 

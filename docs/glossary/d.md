@@ -191,7 +191,7 @@
 
  The rapid proliferation of data centers in the US - driven partly by the adoption of artificial intelligence - has set off alarm bells about the industry's environmental impact. We compiled detailed information on 2,132 US data centers operating between September 2023 and August 2024 and determined their electricity consumption, electricity sources, and attributable CO2e emissions. Our findings reveal that data centers accounted for more than 4% of total US electricity consumption - with 56% derived from fossil fuels - generating more than 105 million tons of CO2e (2.18% of US emissions in 2023). Data centers' carbon intensity - the amount of CO2e emitted per unit of electricity consumed - exceeded the US average by 48%. Our data pipeline and visualization tools can be used to assess current and future environmental impacts of data centers.
 
- {% pdf "https://arxiv.org/pdf/2411.09786v1.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2411.09786v1" %}
 
  More at:
 
@@ -526,12 +526,15 @@
 
  Data-centric AI is the discipline of systematically engineering the data used to build an AI system. The opposite of [model-centric AI]
 
+ ![](img/d/data_centric_ai.png ){: width="100%"}
+
  {% youtube "https://www.youtube.com/watch?v=SjzruCZudJw" %}
 
  {% youtube "https://www.youtube.com/watch?v=ayzOzZGHZy4" %}
 
 /// details | How to find errors automatically?
     type:question
+
 ///
 
  More at:
@@ -549,7 +552,7 @@
 
  A General Framework for Self-supervised Learning in Speech, Vision and Language. While the general idea of self-supervised learning is identical across modalities, the actual algorithms and objectives differ widely because they were developed with a single modality in mind. To get us closer to general self-supervised learning, we present data2vec, a framework that uses the same learning method for either speech, NLP or computer vision. The core idea is to predict latent representations of the full input data based on a masked view of the input in a self-distillation setup using a standard Transformer architecture. Instead of predicting modality-specific targets such as words, visual tokens or units of human speech which are local in nature, data2vec predicts contextualized latent representations that contain information from the entire input. Experiments on the major benchmarks of speech recognition, image classification, and natural language understanding demonstrate a new state of the art or competitive performance to predominant approaches.
 
- {% pdf "img/d/data2vec_paper.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2202.03555" %}
 
  More at:
 
@@ -852,7 +855,7 @@
 
  {% youtube "https://www.youtube.com/watch?v=pg-lKy7JIRk" %}
 
- {% pdf "https://arxiv.org/pdf/1509.02971v6.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1509.02971v6" %}
 
  More at:
 
@@ -950,7 +953,7 @@
 
  {% youtube "https://www.youtube.com/watch?v=0bt0SjbS3xc" %}
 
- {% pdf "https://arxiv.org/pdf/1312.5602.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1312.5602" %}
 
  More at:
 
@@ -1118,7 +1121,7 @@
 
  {% youtube "https://www.youtube.com/watch?v=-uJL_ANy1jc" %}
 
- {% pdf "https://arxiv.org/pdf/1403.6652.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1403.6652" %}
 
  See also [D], [FastRP], [Node2Vec]
 
@@ -1270,7 +1273,7 @@ We need to do this for
 
  We investigate the challenge of task planning for multi-task embodied agents in open-world environments. Two main difficulties are identified: 1) executing plans in an open-world environment (e.g., Minecraft) necessitates accurate and multi-step reasoning due to the long-term nature of tasks, and 2) as vanilla planners do not consider how easy the current agent can achieve a given sub-task when ordering parallel sub-goals within a complicated plan, the resulting plan could be inefficient or even infeasible. To this end, we propose "D⎯⎯⎯escribe, E⎯⎯⎯xplain, P⎯⎯⎯lan and S⎯⎯elect" (DEPS), an interactive planning approach based on Large Language Models (LLMs). DEPS facilitates better error correction on initial LLM-generated plan by integrating description of the plan execution process and providing self-explanation of feedback when encountering failures during the extended planning phases. Furthermore, it includes a goal selector, which is a trainable module that ranks parallel candidate sub-goals based on the estimated steps of completion, consequently refining the initial plan. Our experiments mark the milestone of the first zero-shot multi-task agent that can robustly accomplish 70+ Minecraft tasks and nearly double the overall performances. Further testing reveals our method's general effectiveness in popularly adopted non-open-ended domains as well (i.e., ALFWorld and tabletop manipulation). The ablation and exploratory studies detail how our design beats the counterparts and provide a promising update on the 𝙾𝚋𝚝𝚊𝚒𝚗𝙳𝚒𝚊𝚖𝚘𝚗𝚍 grand challenge with our approach.
 
- {% pdf "https://arxiv.org/pdf/2302.01560.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2302.01560" %}
 
  More at:
 
@@ -1373,7 +1376,7 @@ We need to do this for
   * output perturbation (works for all cases since treat the model as a black box?)
   * gradient perturbation (works for neural network only)
 
- {% pdf "https://arxiv.org/pdf/1607.00133.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1607.00133" %}
 
  More at:
 
@@ -1553,7 +1556,7 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
 
  {% youtube "https://www.youtube.com/watch?v=HCFTXTn1PHA" %}
 
- {% pdf "https://arxiv.org/pdf/2305.18290.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2305.18290" %}
 
  More at:
 
@@ -1647,7 +1650,7 @@ https://doi.org/10.1016/j.jpsychires.2017.11.014
 
  Variational autoencoder where weights in the latent space are meaningful, e.g. rotation of the head in a portrait representation.
 
- {% pdf "img/d/disentangled_variational_autoencoder_paper.pdf" %}
+ {% pdf "../pdf/d/disentangled_variational_autoencoder_paper.pdf" %}
 
  Beware:
   * Beta too small - variables are disentangled, but maybe overfitting training set?
@@ -1794,7 +1797,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
  {% youtube "https://www.youtube.com/watch?v=dVjMiJsuR5o" %}
 
- {% pdf "https://arxiv.org/pdf/2208.12242.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2208.12242" %}
 
  More at:
 
@@ -1811,7 +1814,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
  An alternative to [Point-E Model] built by [OpenAI]
 
- {% pdf "https://arxiv.org/pdf/2209.14988.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2209.14988" %}
 
  More at:
 
@@ -1832,7 +1835,7 @@ a.b = |a|.|b|. cos (θ)          # Where abs(a) = sqrt(a1^2 + a2^2 + a3^3) and t
 
  {% youtube "https://www.youtube.com/watch?v=i5sO-BOFVoo" %}
 
- {% pdf "https://arxiv.org/pdf/2302.01329.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2302.01329" %}
 
  More at:
 

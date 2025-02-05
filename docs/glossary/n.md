@@ -158,7 +158,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
  ![](img/n/national_institute_of_standards_and_technology_artificial_intelligence_risk_management_framework.png){: width="100%" }
 
- {% pdf "{{site.assets}}/n/national_institute_of_standards_and_technology_artificial_intelligence_risk_management_framework.pdf" %}
+ {% pdf "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf" %}
 
  More at:
 
@@ -268,7 +268,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
  ![](img/n/natural_language_reinforcement_learning.png ){: width="100%"}
 
- {% pdf "https://arxiv.org/pdf/2411.14251v1.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2411.14251v1" %}
 
  More:
 
@@ -351,7 +351,7 @@ p(X1,X2, ..., Xn) = p(X1) * p(X2) * ... * p(Xn)
 
  {% youtube "https://www.youtube.com/watch?v=KwRRuiCCdmc" %}
 
- {% pdf "https://arxiv.org/pdf/2307.03172.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2307.03172" %}
 
  More at:
 
@@ -555,7 +555,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 
  {% youtube "https://www.youtube.com/watch?v=MX1RJELWONc" %}
 
- {% pdf "https://arxiv.org/pdf/1806.07366.pdf" %}
+ {% pdf "https://arxiv.org/pdf/1806.07366" %}
 
  More at:
 
@@ -579,7 +579,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 
  {% youtube "https://www.youtube.com/watch?v=CRlN-cYFxTk" %}
 
- {% pdf "https://arxiv.org/pdf/2003.08934.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2003.08934" %}
 
  More at:
 
@@ -590,7 +590,7 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 
 ## Neural Retriever
 
- {% pdf "https://arxiv.org/pdf/2205.16005.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2205.16005" %}
 
  More at:
 
@@ -635,13 +635,13 @@ There are various kinds of neocognitron. For example, some types of neocognitron
 
  We study empirical scaling laws for language model performance on the [cross-entropy loss]. The loss scales as a power-law with model size, dataset size, and the amount of compute used for training, with some trends spanning more than seven orders of magnitude. Other architectural details such as network width or depth have minimal effects within a wide range. Simple equations govern the dependence of overfitting on model/dataset size and the dependence of training speed on model size. These relationships allow us to determine the optimal allocation of a fixed compute budget. Larger models are significantly more [sample-efficient][Sample Efficiency], such that optimally compute-efficient training involves training very large models on a relatively modest amount of data and stopping significantly before convergence.
 
- {% pdf "https://arxiv.org/pdf/2001.08361.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2001.08361" %}
 
- {% pdf "https://arxiv.org/pdf/2010.14701.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2010.14701" %}
 
  We investigate the optimal model size and number of tokens for training a transformer language model under a given compute budget. We find that current large language models are significantly undertrained, a consequence of the recent focus on scaling language models whilst keeping the amount of training data constant. By training over 400 language models ranging from 70 million to over 16 billion parameters on 5 to 500 billion tokens, we find that for compute-optimal training, the model size and the number of training tokens should be scaled equally: for every doubling of model size the number of training tokens should also be doubled. We test this hypothesis by training a predicted compute-optimal model, Chinchilla, that uses the same compute budget as Gopher but with 70B parameters and 4× more more data. Chinchilla uniformly and significantly outperforms Gopher (280B), GPT-3 (175B), Jurassic-1 (178B), and Megatron-Turing NLG (530B) on a large range of downstream evaluation tasks. This also means that Chinchilla uses substantially less compute for fine-tuning and inference, greatly facilitating downstream usage. As a highlight, Chinchilla reaches a state-of-the-art average accuracy of 67.5% on the MMLU benchmark, greater than a 7% improvement over Gopher.
 
- {% pdf "https://arxiv.org/pdf/2203.15556.pdf" %}
+ {% pdf "https://arxiv.org/pdf/2203.15556" %}
 
 
  More at:
