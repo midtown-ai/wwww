@@ -1,4 +1,5 @@
 SITE_NAME?= wwww.midtown.ai
+SOCIAL_CACHE_DIR=.cache/plugins/social
 
 MKDOCS_CONFIG_FILE?= mkdocs.yml
 
@@ -22,7 +23,7 @@ MKDOCS_ENVIRONMENT+= GITCOMMITTERS_APIKEY=$(GITCOMMITTERS_APIKEY)
 
 MKDOCS_ENVIRONMENT+= GITCOMMITTERS_CACHE_DIR=.cache/plugins/git-committers
 MKDOCS_ENVIRONMENT+= RSS_CACHE_DIR=.cache/plugins/rss
-MKDOCS_ENVIRONMENT+= SOCIAL_CACHE_DIR=.cache/plugins/social
+MKDOCS_ENVIRONMENT+= SOCIAL_CACHE_DIR=$(SOCIAL_CACHE_DIR)
 
 MKDOCS_ENVIRONMENT+= PYTHONPATH=.
 
@@ -68,3 +69,11 @@ install_deps:
 
 dig_site:
 	dig $(SITE_NAME) +nostats +nocomments +nocmd
+
+brew_me:
+	brew install cairo freetype libffi libjpeg libpng zlib
+	brew install pngquant
+
+ls_cards:
+	mkdir -v $(SOCIAL_CACHE_DIR)
+	ls -al $(SOCIAL_CACHE_DIR)

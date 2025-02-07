@@ -42,6 +42,8 @@
 [Human-In-The-Loop AI]: /glossary/h.md#human-in-the-loop-ai
 [Humane Company]: /glossary/h.md#humane-company
 [Humane]: /glossary/h.md#humane-company
+[Humanity Last Exam Benchmark]: /glossary/h.md#humanity-last-exam-benchmark
+[Humanity Last Exam]: /glossary/h.md#humanity-last-exam-benchmark
 [Humanoid Robot]: /glossary/h.md#humanoid-robot
 [Humanoid Robots]: /glossary/h.md#humanoid-robot
 [Humanoid]: /glossary/h.md#humanoid-robot

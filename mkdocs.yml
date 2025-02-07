@@ -10,8 +10,12 @@ site_description: >-
 
 site_dir: site                # directory where generated HTML files are created and assets are copied
 site_name: Midtown AI
+#
+# Site URL is used by the social plugins
+# Site URL is used by the RSS plugin to build item.ling
+#
 # site_url: https://www.midtown.ai/
-site_url: https://midtown-ai.github.io/wwww/ # used by the RSS plugin to build item.link
+site_url: https://midtown-ai.github.io/wwww/
 
 #
 # For the 'mkdocs gh-deploy' command
@@ -51,8 +55,6 @@ watch:                        # files and directories other than docs to watch
 theme:
   language: en                # default language is English
   name: material              # pip install mkdocs-material
-  # name: mkdocs              # default theme
-  # name: readthedocs
   custom_dir: overrides
   # highlightjs: True
   # hljs_languages: [yaml, ]
@@ -105,7 +107,7 @@ theme:
   # Icon
   #
   icon:
-    logo: fontawesome/solid/m # logo at the top-left of the header
+    logo: fontawesome/solid/m # logo at the top-left of the header + in cards
     favicon: img/favicon.ico  # icon for browser tab
     edit: material/pencil     # icon for content.action.edit button
     view: material/eye        # icon for content.action.view button
@@ -162,7 +164,7 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default         # color scheme
       accent: purple          # color of interactive elements, e.g. hovered links, buttons, scrollbars
-      primary: teal           # color of top bar, the sidebar, text links and other components
+      primary: teal           # color of top bar, the sidebar, text links, card background, and other components
       toggle:                 # toggle button for light/dark mode
         # icon: material/weather-night
         icon: material/toggle-switch
@@ -254,39 +256,39 @@ markdown_extensions:
 #
 nav:
   - Home: index.md
-  - Tracks:
-    - All Tracks: tracks/index.md
-    - Engineering: tracks/engineering.md
-    - Business/Leadership: tracks/business.md
-    - Research: tracks/research.md
-    - Math Circle: tracks/math_circle.md
-    - DeepRacer: tracks/deepracer.md
-    - All Tracks: tracks/index.md
-  - Forms:
-    - All Forms: forms/index.md
-    - Membership: forms/membership.md
-    - Financial Assistance: forms/financial_assistance.md
-    - Community Service: forms/community_service.md
-    - Mentorship: forms/mentorship.md
-    - Donation: https://donate.stripe.com/00gbL46JP50K0YE9AD
+  # - Tracks:
+  #   - All Tracks: tracks/index.md
+  #   - Engineering: tracks/engineering.md
+  #   - Business/Leadership: tracks/business.md
+  #   - Research: tracks/research.md
+  #   - Math Circle: tracks/math_circle.md
+  #   - DeepRacer: tracks/deepracer.md
+  #   - All Tracks: tracks/index.md
+  # - Forms:
+  #   - All Forms: forms/index.md
+  #   - Membership: forms/membership.md
+  #   - Financial Assistance: forms/financial_assistance.md
+  #   - Community Service: forms/community_service.md
+  #   - Mentorship: forms/mentorship.md
+  #   - Donation: https://donate.stripe.com/00gbL46JP50K0YE9AD
   - Blog:
     - blog/index.md
-  - Projects:
-    - projects/index.md
-    - DeepRacer:
-      - DeepRacer: projects/deepracer/index.md
-      - Approaching DeepRacer: projects/deepracer/approaching-aws-deepracer.md
-      - DeepRacer on The Spot: projects/deepracer/aws-deepracer-on-the-spot.md
-      - Getting Started with Log Guru: projects/deepracer/getting-started-with-log-guru.md
-      - Track Analysis: projects/deepracer/track-analysis.md
-      - Optimal Action Space: projects/deepracer/optimal-action-space.md
-      - Hyperparameter Tuning: projects/deepracer/hyperparameter-tuning.md
-      - Crafting a Reward Function: projects/deepracer/crafting-a-reward-function.md
-      - Tips For DeepRacer: projects/deepracer/tips-for-deepracer.md
-      - Physical Car: projects/deepracer/physical-car.md
-      - Physical Races and Sin2REal: projects/deepracer/physical-races-and-sim2real.md
-      - DeepRacer Student League: projects/deepracer/deepracer-student-league.md
-    - Pytorch: projects/pytorch/index.md
+  # - Projects:
+  #   - projects/index.md
+  #   - DeepRacer:
+  #     - DeepRacer: projects/deepracer/index.md
+  #     - Approaching DeepRacer: projects/deepracer/approaching-aws-deepracer.md
+  #     - DeepRacer on The Spot: projects/deepracer/aws-deepracer-on-the-spot.md
+  #     - Getting Started with Log Guru: projects/deepracer/getting-started-with-log-guru.md
+  #     - Track Analysis: projects/deepracer/track-analysis.md
+  #     - Optimal Action Space: projects/deepracer/optimal-action-space.md
+  #     - Hyperparameter Tuning: projects/deepracer/hyperparameter-tuning.md
+  #     - Crafting a Reward Function: projects/deepracer/crafting-a-reward-function.md
+  #     - Tips For DeepRacer: projects/deepracer/tips-for-deepracer.md
+  #     - Physical Car: projects/deepracer/physical-car.md
+  #     - Physical Races and Sin2REal: projects/deepracer/physical-races-and-sim2real.md
+  #     - DeepRacer Student League: projects/deepracer/deepracer-student-league.md
+  #   - Pytorch: projects/pytorch/index.md
   - Glossary:
     - Glossary: glossary/index.md
     - 0-9: glossary/0-9.md
@@ -317,20 +319,6 @@ nav:
     - Y: glossary/y.md
     - Z: glossary/z.md
   - About: about.md
-  - Tests:
-    - Tests: tests/index.md
-    - Basics: tests/basics.md
-    - Blocks: tests/blocks.md
-    - CSS: tests/css.md
-    - Custom Fences: tests/custom_fences.md
-    - Images: tests/images.md
-    - Tables: tests/tables.md
-    - Widgets: tests/widgets.md
-    - PDF Docs: tests/pdf_docs.md
-    - YouTube Videos: tests/youtube_videos.md
-    - Google Slides: tests/google_slides.md
-    - Megaphone Podcasts: tests/megaphone_podcasts.md
-    - Substack Newsletter: tests/substack_newsletter.md
 
 #
 # Remove warnings for the following pages if not in the navigation
@@ -346,14 +334,8 @@ not_in_nav: |
 # /!\ If priorities are not explicitly set, their order is important!
 #
 hooks:
-  # - hooks/create_zip_archive.py
   - hooks/embed_pdf_file.py
   - hooks/embed_youtube_video.py
-  # - hooks/mkdocs_advanced_example.py       # log when URL are using non-HTTPS links
-  # - hooks/mkdocs_simple_example.py
-  # - hooks/share_on_social_media.py
-  # - hooks/shortcode.py
-  # - hooks/translations.py
 
 
 # ---
@@ -441,13 +423,23 @@ plugins:
   # - privacy                 # all external asset URLs are rewritten to point to local copies
   # - projects                # split very large sites into smaller ones for faster rebuild and parallel development
   - search                    # add search bar to header and enable search
-  # - social:                   # used to build social card for post on WhatsApp, etc
-  #     enabled: !ENV [SOCIAL_PLUGIN_ENABLED, true]
-  #     # concurrency: 1        # (SO) number of CPU cores to use to generate the cards
-  #     # cache: false          # (SO) bypass the cache and regenerate the enter set of cards
-  #     cache_dir: !ENV [SOCIAL_CACHE_DIR, .cache/plugins/social]
-  #     cards: true
-  #     # log: true             # (SO) log errors when generating social cards
+  - social:                   # used to build social card for post on WhatsApp, etc
+      enabled: !ENV [SOCIAL_PLUGIN_ENABLED, true]
+      # concurrency: 1        # (SO) number of CPU cores to use to generate the cards
+      # cache: false          # (SO) bypass the cache and regenerate the enter set of cards
+      cache_dir: !ENV [SOCIAL_CACHE_DIR, .cache/plugins/social] # Where the generated cards are locally saved
+      # cards: true
+      cards_layout: custom    # name of the default layout in the layout_dir to use
+      cards_layout_dir: layouts # directory where the card layouts are stored
+      cards_layout_options:
+        background_color: teal
+        # background_images: layouts/stairs.jpg
+        color: "#ffffff"
+        font_family: Roboto   # Default fonts to use to build the card
+      # debug: true
+      # debug_color: yellow
+      # log: true             # (SO) log errors when generating social cards
+      # logo:
       
   # - tags                    # add support for categorization /!\ require tags in front matters of pages
   # - typeset                 # enrich titles and headlines in navigation and table-of-contents
@@ -485,27 +477,12 @@ plugins:
       enable_creation_date: true
       fallback_to_build_date: true
       locale: en
-  # Include other files in a markdown file
-  # @ https://github.com/mondeja/mkdocs-include-markdown-plugin
-  # pip install mkdocs-include-markdown-plugin
-  # /!\ deprecated by pymdownx.snippets
-  # - include-markdown
   # Support for mermaid diagrams
   # @ https://github.com/fralau/mkdocs-mermaid2-plugin
   # pip install mkdocs-mermaid2-plugin
   # /!\ With material theme, use pymdownx.superfences
   - mermaid2:
       enabled: !ENV [MERMAID2_PLUGIN_ENABLED, true]
-  # Support for embedded PDFs (replaced by PDF hook)
-  # @ https://github.com/ThomasTNO/mkdocs-pdf
-  # pip install mkdocs-pdf
-  # - mkdocs-pdf
-  # Support for embedded videos (replaced by youtube hook)
-  # @ https://github.com/soulless-viewer/mkdocs-video
-  # pip install mkdocs-video
-  # - mkdocs-video:
-  #     is_video: False         # Use <video/> instead of <iframe/>
-
   # Compress downloaded files to minimize latency
   # @ https://github.com/byrnereese/mkdocs-minify-plugin
   # pip install mkdocs-minify-plugin
@@ -600,7 +577,6 @@ extra_css:
   - stylesheets/custom_tables.css
   - stylesheets/custom_text.css
   - stylesheets/custom_theme.css
-  # - stylesheets/custom.7c86dd97.min.css      # included in override/main.html Not needed here?
 
 #
 # Extra JavaScript
