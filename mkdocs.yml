@@ -428,7 +428,7 @@ plugins:
       # concurrency: 1        # (SO) number of CPU cores to use to generate the cards
       # cache: false          # (SO) bypass the cache and regenerate the enter set of cards
       cache_dir: !ENV [SOCIAL_CACHE_DIR, .cache/plugins/social] # Where the generated cards are locally saved
-      # cards: true
+      cards: true             # build cards for entire site
       cards_layout: custom    # name of the default layout in the layout_dir to use
       cards_layout_dir: layouts # directory where the card layouts are stored
       cards_layout_options:
